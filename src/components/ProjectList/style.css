@@ -1,0 +1,32 @@
+.rowlist{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    animation: slide-left 0.25s linear;
+    animation-play-state:running;
+    animation-duration: 3s;
+}
+
+.projectitem{
+    padding:  4em;
+    padding-top: 2em;
+    width: 10em;
+    height: 8em;
+    margin-left: 3em;
+    /* margin-bottom: 1em; */
+    background-repeat: repeat-x;
+    background-color: aquamarine;
+    border: solid 1px black;
+
+    
+}
+@keyframes slide-left {
+    from {
+        transform: translateX(1000%);
+        
+      }
+      to {
+        transform: translateX(-10%);
+        /* animation-play-state: paused; */
+      }
+}

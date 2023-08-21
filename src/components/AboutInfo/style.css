@@ -1,0 +1,50 @@
+.fade-about-info-items {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 3000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background: rgb(173, 173, 173);
+    margin: auto;
+    max-width: 30em;
+    text-align: center;
+    min-height: 6cqb;
+  }
+
+  .fade-about-info-items-2 {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 3000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background: rgb(173, 173, 173);
+    margin: auto;
+    max-width: 30em;
+    text-align: center;
+    min-height: 6em;
+    
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  .grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    /* border:2em; */
+    padding: 2em;
+    /* grid-co */
+  }
+
+  .me{
+    padding: 1em;
+    height: 200px;
+    text-align: center;
+  }
