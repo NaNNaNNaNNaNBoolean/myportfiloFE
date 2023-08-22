@@ -8,6 +8,7 @@ const AboutInfo = () => {
                 </div>
                 <div className='me'>
                     image
+                    <img src=''></img>
                 </div>
                 <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
                 <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p>
