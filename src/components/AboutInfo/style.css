@@ -10,7 +10,17 @@
     text-align: center;
     min-height: 6cqb;
   }
-
+  .me{
+    background-image: url('Nicole_French.png');
+    width: 15em;
+    background-size: cover;
+    /* height: 20em; */
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em solid rgb(19, 19, 19);
+    box-shadow: -1px -1px 1em rgb(213, 114, 255);
+  }
   .fade-about-info-items-2 {
     opacity: 0;
     animation-name: fadein;
@@ -36,7 +46,7 @@
   }
   .grid-container{
     display: grid;
-    gap: 10px;
+    gap: 15em;
     grid-template-columns: auto auto auto;
     /* border:2em; */
     padding: 2em;
