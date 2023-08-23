@@ -64,7 +64,7 @@
     height: 10em; 
     animation: slide-right-click 0.25s linear;
     animation-play-state:paused;
-    animation-duration: 2s;
+    animation-duration: 3s;
     /* background-repeat: repeat-x; */
     /* color: black; */
     /* background-color: rgb(101, 101, 101); */
@@ -76,7 +76,7 @@
         transform: translateX(-10%);    
       }
       to {
-        transform: translateX(-300%);
+        transform: translateX(-700%);
         animation-fill-mode:forwards;
        }
        /* 100% {
@@ -89,7 +89,7 @@
       }
       to {
         transform: translateX(300%);
-        animation-fill-mode:forwards;
+        animation-fill-mode:backwards;
        }
        /* 100% {
         background-position: -8px 0%, -8px 50%;

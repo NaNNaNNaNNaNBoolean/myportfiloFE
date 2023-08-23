@@ -11,6 +11,7 @@ const ProjectList = (props) => {
         const response = await fetch("https://nmfportfilobe.onrender.com/projects");
         const data = await response.json();
         setProjects(data);
+        setLoading(false);
     };
     
     loadProjects();
