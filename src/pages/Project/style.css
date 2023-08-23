@@ -61,9 +61,9 @@
     margin-left: 44em;
     margin-right: 44em;
     /* grid-column: start; */
-
-    background-color: rgb(159, 159, 159);
+    margin-bottom: 10em; 
 }
+
 .projectsub{
     display: block;
     margin: 1em;
