@@ -1,6 +1,6 @@
 #root{
   /* background-color: rgb(85, 85, 85); */
-  background-image: url('homebg.png');
+  background-image: url('./imgs/homebg.png');
   background-size: cover;
 }
 
