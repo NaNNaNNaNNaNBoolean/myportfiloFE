@@ -54,6 +54,8 @@ const Project = () => {
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
                     <p className='projectinfo'><span>{project.description}</span></p>
+                    <div className='projimg'style={{ backgroundImage: `url("${project.img}")`}}></div>
+                    <p>*images coming soon*</p>
                     <div className='likesection'>
                         <button className='likebtn' onClick={() => like(id, 1)}></button>
                         <span className="likes-counter"> {project.likes} </span>
