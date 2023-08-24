@@ -43,8 +43,21 @@ const Project = () => {
         loadProject();
 
     }, [])
-
-
+    if(project.img === undefined){
+        return null
+    }
+    const img = project.img
+    // console.log(img)
+    const myStyle={
+        backgroundImage:`url(${img})`,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 'auto',
+        width: '20em',
+        height: '11em',
+        backgroundSize: 'cover'
+    };
     function displayProject() {
         return (
             <div className="project-container">
@@ -53,8 +66,12 @@ const Project = () => {
                 </div>
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
+                   
                     <p className='projectinfo'><span>{project.description}</span></p>
-                    <div className='projimg'style={{ backgroundImage: `url("${project.img}")`}}></div>
+                     {/* <img src={project.img}></img> */}
+                     
+                   
+                    <div className='projimg' style={myStyle}></div>
                     <p>*images coming soon*</p>
                     <div className='likesection'>
                         <button className='likebtn' onClick={() => like(id, 1)}></button>

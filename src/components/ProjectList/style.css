@@ -8,11 +8,12 @@
 }
 
 .projectitem{
-    padding:  4em;
-    padding-top: 2em;
+    padding:  5em;
+    padding-top: 1.5em;
     width: 10em;
     height: 8em;
     margin-left: 3em;
+
     /* margin-bottom: 1em; */
     background-repeat: repeat-x;
     background-color: aquamarine;

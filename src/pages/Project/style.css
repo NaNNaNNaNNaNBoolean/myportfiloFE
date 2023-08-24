@@ -6,6 +6,7 @@
     justify-content: center; */
     /* margin: auto; */
     text-align: center;
+    
 }
 
 .project-title {
@@ -63,7 +64,6 @@
     /* grid-column: start; */
     margin-bottom: 10em; 
 }
-
 .projectsub{
     display: block;
     margin: 1em;
