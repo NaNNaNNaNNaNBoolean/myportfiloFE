@@ -40,9 +40,8 @@ const Projects = () => {
       <div>
         <div className='topbot'>
           <div className='logoproj'>
-            <button onClick={handleLogoclick}>logo</button>
+            <button onClick={handleLogoclick}>back</button>
           </div>
-          <p>*This page is still under development*</p>
           <div className='leval'>
             <div className='movementarea'></div>
           </div> 
@@ -59,7 +58,7 @@ const Projects = () => {
           <div className='Controls'>
             <button onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
             <button onClick={handleNext}><span className="material-symbols-outlined">arrow_forward_ios</span></button>
-            <p>*This page is still under development*</p>
+            <p className='notice'>*This page is still under development*</p>
           </div>
         </div>
       </div>

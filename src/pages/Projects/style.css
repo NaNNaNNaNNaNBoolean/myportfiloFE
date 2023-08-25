@@ -94,3 +94,10 @@
         background-position: -8px 0%, -8px 50%;
       }*/
 }  
+
+.notice{
+    background-color: rgb(174, 174, 174);
+    /* margin: auto; */
+    margin-left: 35em;
+    margin-right: 35em;
+}
