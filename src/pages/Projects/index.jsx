@@ -7,6 +7,7 @@ const Projects = () => {
   // const [onClickActive, setClickActive] = useState(false);
   const [loading, setLoading] = useState(false);
   const [style, setStyle] = useState(false)
+  const [LeftRight, setLeftRight] = useState(false)
   const nav = useNavigate()
 
   const handleLogoclick = () => {
@@ -16,12 +17,23 @@ const Projects = () => {
   const handleNext = () => {
     if (style === !true){
       setStyle(true)
+      setLeftRight(false)
     }else {
       setStyle(false)
     }
   }
   const handleBack = () => {
-    setStyle(true)
+    if(LeftRight === false){
+      setLeftRight(true)
+      setStyle(true)
+    }else {
+      setStyle(false)
+    }
+
+  }
+  const myStyle = {
+    animationPlayState: style ? 'running' : '', 
+    animation: LeftRight ? 'slide-left-click 1s linear forwards' : ''
   }
   function displayProjects() {
     return (
@@ -36,7 +48,7 @@ const Projects = () => {
           </div> 
         </div>
         <div className='convayabelt'>
-          <div className='list' style ={{animationPlayState: style ? 'running' : ''}}>
+          <div className='list' style ={myStyle}>
             <ProjectList  setLoading = {loading}/>
           </div>
         <div className='CB-contianer'>

@@ -57,9 +57,7 @@
 }
 
 .list {
-    /* display: flex; */
     position: relative;
-    /* margin: auto; */
     margin-top: 8em;
     
     width: 5em;
@@ -67,10 +65,7 @@
     animation: slide-right-click 0.25s linear forwards;
     animation-play-state:paused;
     animation-duration: 3s;
-    /* background-repeat: repeat-x; */
-    /* color: black; */
-    /* background-color: rgb(101, 101, 101); */
-
+    /* animation: slide-left-click 0.25s linear backwards; */
 }
 
 @keyframes slide-right-click {
@@ -79,8 +74,8 @@
       }
       to {
         transform: translateX(-700%);
-        /* animation-fill-mode:forwards;
-        animation-play-state:paused; */
+        /* animation-fill-mode:forwards;*/
+        animation-play-state:paused; 
        }
        /* 100% {
         background-position: -8px 0%, -8px 50%;
@@ -88,11 +83,12 @@
 }  
 @keyframes slide-left-click {
     from {
-        transform: translateX(-10%);    
+        transform: translateX(-700%);    
       }
-      to {
-        transform: translateX(300%);
-        animation-fill-mode:backwards;
+    to {
+        transform: translateX(-10%);
+        animation-play-state:paused; 
+        /* animation-fill-mode:backwards; */
        }
        /* 100% {
         background-position: -8px 0%, -8px 50%;
