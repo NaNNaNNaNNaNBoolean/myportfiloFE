@@ -5,14 +5,19 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     background: rgb(173, 173, 173);
+    display: flex;
+    align-items: center;
     margin: auto;
-    max-width: 30em;
+    width: 30%;
+    min-height: 6em;
+
+    padding: 1em;
     text-align: center;
-    min-height: 6cqb;
   }
   .me{
     background-image: url('../../imgs/Nicole_French.png');
     width: 15em;
+    height: 14rem;
     background-size: cover;
     /* height: 20em; */
     border-radius: 2em;
@@ -28,12 +33,20 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     background: rgb(173, 173, 173);
+
+    height: 10rem;
+    width: 30%;
+    display: flex;
+    align-items: center;
     margin: auto;
-    max-width: 30em;
+    padding: 2rem;
     text-align: center;
-    min-height: 6em;
     
   }
+ .paragintro{
+  /* padding: 4rem; */
+  text-align: center;
+ }
   
   @keyframes fadein {
     0% {

@@ -11,9 +11,11 @@ const AboutInfo = () => {
                     <img src=''></img> */}
                 </div>
                 <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
-                <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p>
-                <p>*Please note this website is still a WIP many features are still to be added :) *</p>
-                <p>*Also please be patience, the API is run on a free render host so takes a few minutes to start up*</p>
+                <div className='paragintro'>
+                    <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p>
+                    <p>*Please note this website is still a WIP many features are still to be added :) *</p>
+                    <p>*Also please be patience, the API is run on a free render host so takes a few minutes to start up*</p>
+                </div>
                 </div>
             </div>
         )
