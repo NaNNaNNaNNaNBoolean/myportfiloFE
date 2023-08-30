@@ -29,9 +29,9 @@
     animation: pulsate 0.11s ease-in-out infinite alternate;    
 }
 .item3{
-    display: flex;
+    display: grid;
     margin: auto;
-    padding: 5em;
+    padding: 3em;
     max-width: 50em;
     background: rgb(87, 87, 87);
 }
@@ -46,7 +46,22 @@
     border-radius: 1.5em;
     cursor: pointer;
 }
-
+.contactme{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.connectwithme{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
 .backheader{
     background-color: rgb(104, 104, 104);
     margin-top: 0;
@@ -55,7 +70,7 @@
     /* max-width: 40em; */
     max-height: 5em;
     padding: 2em;
-    width: 100%;
+    width: 90%;
     border-radius: 0 0 0.8em 0.8em;
     box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); 
     
