@@ -7,8 +7,6 @@ const AboutInfo = () => {
                     <p>Hello, I'm Nicole. I have a MEng in Electronic Engineering and a love of programming!</p>
                 </div>
                 <div className='me'>
-                    {/* image
-                    <img src=''></img> */}
                 </div>
                 <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
                 <div className='paragintro'>
