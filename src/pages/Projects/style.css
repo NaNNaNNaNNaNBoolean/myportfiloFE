@@ -134,13 +134,14 @@
 }
 
 .Controlsback{
-    width: 10%;
+    /* width: 10%; */
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin: 2em;
-    padding: 2em;
-    border: 0;
+    margin: 4em;
+    /* padding: 0em; */
+    border: none;
+    background-color: #ffffff00;
     /* text-align: center; */
     /* z-index: 1; */
     /* position: absolute; */
@@ -151,17 +152,18 @@
 
 }
 .Controlsforward{
-    width: 10%;
-    padding: 2em;
-    margin: 2em;
+    /* width: 10%;
+    padding: 2em; */
+    margin: 4em;
+    background-color: #ffffff00;
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin: auto;
-    border: 0;
+    /* margin: auto; */
+    border: none;
     cursor: pointer;
 }
 .material-symbols-outlined{
-    font-size: xx-large;
+    font-size: xxx-large;
 
 }
