@@ -56,9 +56,9 @@ const Projects = () => {
         </div>
         <div className='Controllerback'>
           <div className='Controls'>
-            <button onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
-            <button onClick={handleNext}><span className="material-symbols-outlined">arrow_forward_ios</span></button>
-            <p className='notice'>*This page is still under development*</p>
+            <button className='Controlsback' onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
+            <button className='Controlsforward'onClick={handleNext}><span className="material-symbols-outlined">arrow_forward_ios</span></button>
+            {/* <p className='notice'>*This page is still under development*</p> */}
           </div>
         </div>
       </div>

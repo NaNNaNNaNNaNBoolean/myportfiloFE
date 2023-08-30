@@ -84,7 +84,7 @@
     top: -15%;
     left: 20%;
     right: 20%;
-
+    justify-content: space-around;
 }
 
 .list {
@@ -131,4 +131,37 @@
     /* margin: auto; */
     margin-left: 35em;
     margin-right: 35em;
+}
+
+.Controlsback{
+    width: 10%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    padding: 2em;
+    border: 0;
+    /* text-align: center; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* top: -15%;
+    left: 20%;
+    right: 20%; */
+    cursor: pointer;
+
+}
+.Controlsforward{
+    width: 10%;
+    padding: 2em;
+    margin: 2em;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 0;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    font-size: xx-large;
+
 }
