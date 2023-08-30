@@ -40,7 +40,7 @@ const Projects = () => {
       <div>
         <div className='topbot'>
           <div className='logoproj'>
-            <button onClick={handleLogoclick}>back</button>
+            <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
           </div>
           <div className='leval'>
             <div className='movementarea'></div>
