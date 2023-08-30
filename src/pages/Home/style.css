@@ -71,6 +71,7 @@
     min-width: 2em;
     /* width: 30%; */
     height: 30%;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
     cursor: pointer;
 }
 .githubbtn{
@@ -80,6 +81,7 @@
     min-height: 2em;
     min-width: 2em;
     margin: 0.5em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
     /* margin: auto; */
     /* width: 30%; */
     height: 30%;
