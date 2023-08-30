@@ -23,8 +23,8 @@ const Home = () => {
         {/* <NavBar /> */}
         <h3 className='contactme'>Contact Me</h3>
         <div className='connectwithme'> 
-          <button onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}>LinkedIn</button>
-          <button onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}>GitHub</button>
+          <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
+          <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
         </div>
       </div>
       

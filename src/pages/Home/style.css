@@ -62,6 +62,29 @@
     justify-content: center;
     align-items: center;
 }
+.linkedinbtn{
+    background-image: url('../../imgs/linkedinlogo.png');
+    background-size: cover;
+    background-size: contain;
+    margin: 0.5em;
+    min-height: 2em;
+    min-width: 2em;
+    /* width: 30%; */
+    height: 30%;
+    cursor: pointer;
+}
+.githubbtn{
+    background-image: url('../../imgs/githublogo.png');
+    background-size: cover;
+    background-size: contain;
+    min-height: 2em;
+    min-width: 2em;
+    margin: 0.5em;
+    /* margin: auto; */
+    /* width: 30%; */
+    height: 30%;
+    cursor: pointer;
+}
 .backheader{
     background-color: rgb(104, 104, 104);
     margin-top: 0;
