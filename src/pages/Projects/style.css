@@ -129,7 +129,7 @@
         transform: translateX(-10%);    
       }
       to {
-        transform: translateX(-700%);
+        transform: translateX(-1100%);
         /* animation-fill-mode:forwards;*/
         animation-play-state:paused; 
        }
@@ -139,7 +139,7 @@
 }  
 @keyframes slide-left-click {
     from {
-        transform: translateX(-700%);    
+        transform: translateX(-1100%);    
       }
     to {
         transform: translateX(-10%);

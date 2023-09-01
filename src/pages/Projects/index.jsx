@@ -36,7 +36,7 @@ const Projects = () => {
   }
   const myStyle = {
     animationPlayState: style ? 'running' : '', 
-    animation: LeftRight ? 'slide-left-click 1s linear forwards' : ''
+    animation: LeftRight ? 'slide-left-click 3s linear forwards' : ''
   }
   const messagemove = () => {
     if(clickedbtn === false){
