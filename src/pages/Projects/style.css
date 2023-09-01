@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
 .topbot{
     background-color: rgb(104, 104, 104);
     margin-top: 0;
@@ -43,24 +45,45 @@
 }
 
 .leval{
-    padding: 0em;
+    /* padding: 0em; */
     background-color: rgb(133, 133, 133);
     max-width: 25em;  
     margin-top: 1em;
     height: 4em;
     border-radius:1em;
     position: relative;
+    left:70%;
 }
 
 .movementarea{
     margin: auto;
     background-color: rgb(47, 47, 47);
     width: 23em;  
-    height: 1.6em;
+    height: 2em;
     border-radius:0.8em;
     position: absolute;
     top: 26%;   
     left: 4%;
+}
+
+.movementarea p{
+    height: 100%;
+    width: 100%;
+    font-family:'Orbitron'; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #fff;
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 2px #fff,
+      0 0 4px rgb(179, 0, 255),
+      0 0 8px rgb(179, 0, 255),
+      0 0 9px rgb(179, 0, 255),
+      0 0 10px rgb(179, 0, 255),
+      0 0 15px rgb(179, 0, 255);
 }
 
 .Controllerback{

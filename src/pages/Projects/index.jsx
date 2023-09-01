@@ -8,6 +8,7 @@ const Projects = () => {
   const [loading, setLoading] = useState(false);
   const [style, setStyle] = useState(false)
   const [LeftRight, setLeftRight] = useState(false)
+  const [clickedbtn, setClickbtn] = useState(false)
   const nav = useNavigate()
 
   const handleLogoclick = () => {
@@ -18,6 +19,7 @@ const Projects = () => {
     if (style === !true){
       setStyle(true)
       setLeftRight(false)
+      setClickbtn(true)
     }else {
       setStyle(false)
     }
@@ -26,6 +28,7 @@ const Projects = () => {
     if(LeftRight === false){
       setLeftRight(true)
       setStyle(true)
+      setClickbtn(true)
     }else {
       setStyle(false)
     }
@@ -35,6 +38,16 @@ const Projects = () => {
     animationPlayState: style ? 'running' : '', 
     animation: LeftRight ? 'slide-left-click 1s linear forwards' : ''
   }
+  const messagemove = () => {
+    if(clickedbtn === false){
+      return (<p>HI THERE</p>)
+    }else{
+      if(LeftRight === false){
+        return (<p>FORWARDS</p>)
+      }else{return (<p>BACKWARDS</p>)}
+    }
+
+  }
   function displayProjects() {
     return (
       <div>
@@ -43,7 +56,7 @@ const Projects = () => {
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
           </div>
           <div className='leval'>
-            <div className='movementarea'></div>
+            <div className='movementarea' >{messagemove()}</div>
           </div> 
         </div>
         <div className='convayabelt'>

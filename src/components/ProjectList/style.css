@@ -1,3 +1,20 @@
+.subheadingdetails{
+  background-color: rgb(232, 232, 232);
+  text-align: center;
+  border-radius:0.5em;
+  padding: 0.2rem;
+  margin-top: 0.5em;
+  width: 10em;
+}
+.clickproject{
+  margin-top: 1em;
+  text-align: center;
+  padding: 0.3rem;
+  background-color: rgb(98, 98, 98);
+  border-radius:0.5em;
+  
+}
+
 .rowlist{
     display: flex;
     position: relative;
@@ -8,22 +25,21 @@
 }
 
 .projectitem{
-    padding:  5em;
+    padding:  2.5em;
     padding-top: 1.5em;
-    width: 10em;
-    height: 8em;
+    /* width: 10em; */
+    height: 10em;
     margin-left: 3em;
 
-    /* margin-bottom: 1em; */
-    /* background-color: aqua; */
-    /* background-repeat: repeat-x; */
     background-image: url('../../imgs/box.png');
     background-size: cover;
+    background-size:100% 100%;
     /* border: solid 1px black; */
-    box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); 
+    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79);  */
 
     
 }
+
 @keyframes slide-left {
     from {
         transform: translateX(1000%);
