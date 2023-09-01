@@ -60,6 +60,7 @@
   text-align: center;
   border-radius: 1em;
   font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1em 1em 1em rgb(67, 67, 67);
 }
 .fade-about-info-items:after {
     content: '';
@@ -93,6 +94,7 @@
   margin: auto;
   padding: 1rem;
   text-align: center;
+  box-shadow: 1em 1em 1em rgb(67, 67, 67);
   
 }
 .fade-about-info-items-2:after {
