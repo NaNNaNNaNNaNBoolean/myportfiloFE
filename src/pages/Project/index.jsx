@@ -58,7 +58,7 @@ const Project = () => {
         // maxHeight: '20em',
         minHeight: '20em',
         backgroundSize: '100% 100%',
-        backgroundSize: 'cover'
+        // backgroundSize: 'cover'
      
     };
     const imgOrVid= () => {
