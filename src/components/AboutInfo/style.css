@@ -5,7 +5,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     background: rgb(173, 173, 173);
-    display: flex;
+    /* display: flex; */
     align-items: center;
     margin: auto;
     width: 60%;
