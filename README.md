@@ -1,7 +1,6 @@
 # myportfiloFE
 
-## Deployed on 
-- [https://nicolesportfolio.onrender.com/Projects]
+## Deployed on [https://nicolesportfolio.onrender.com/Projects]
 
 ### TO DO LIST (FOR NOW)
 1. import images
