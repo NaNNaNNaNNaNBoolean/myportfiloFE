@@ -6,7 +6,7 @@ import {ConvayBelt, ProjectList} from '../../components'
 const Projects = () => {
   // const [onClickActive, setClickActive] = useState(false);
   const [loading, setLoading] = useState(false);
-  // const [style, setStyle] = useState(false)
+  const [style, setStyle] = useState(false)
   const [LeftRight, setLeftRight] = useState(false)
   const [clickedbtn, setClickbtn] = useState(false)
   const nav = useNavigate()
@@ -14,30 +14,28 @@ const Projects = () => {
   const handleLogoclick = () => {
     nav('/')
   }
+  // let transformStart = '-10%'
   const handleNext = () => {
     if (style === !true){
-      // setStyle(true)
+      setStyle(true)
       setLeftRight(false)
       setClickbtn(true)
     }else {
-      setLeftRight(true)
       // setStyle(false)
     }
   }
   const handleBack = () => {
     if(LeftRight === false){
       setLeftRight(true)
-      // setStyle(true)
+      setStyle(true)
       setClickbtn(true)
     }else {
-      setLeftRight(false)
-      // setStyle(false)
+      setStyle(false)
     }
-    
+
   }
-  console.log(LeftRight)
   const myStyle = {
-    // animationPlayState: style ? 'running' : '', 
+    animationPlayState: style ? 'running' : '', 
     animation: LeftRight ? 'slide-left-click 3s linear forwards' : ''
   }
   const messagemove = () => {
