@@ -15,7 +15,7 @@ const Projects = () => {
     nav('/')
   }
   const handleNext = () => {
-    if (LeftRight === true){
+    if (style === !true){
       // setStyle(true)
       setLeftRight(false)
       setClickbtn(true)

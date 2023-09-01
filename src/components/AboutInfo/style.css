@@ -1,19 +1,4 @@
-.fade-about-info-items {
-    opacity: 0;
-    animation-name: fadein;
-    animation-duration: 3000ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    background: rgb(173, 173, 173);
-    /* display: flex; */
-    align-items: center;
-    margin: auto;
-    width: 60%;
-    min-height: 6em;
-    padding: 1em;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+
   .me{
     background-image: url('../../imgs/Nicole_French.png');
     width: 15em;
@@ -26,23 +11,7 @@
     border: 0.2em solid rgb(19, 19, 19);
     box-shadow: -1px -1px 1em rgb(213, 114, 255);
   }
-  .fade-about-info-items-2 {
-    opacity: 0;
-    animation-name: fadein;
-    animation-duration: 3000ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    background: rgb(173, 173, 173);
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 6rem;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 1rem;
-    text-align: center;
-    
-  }
+
  .paragintro{
   /* padding: 1rem;
   margin: 1rem; */
@@ -72,3 +41,70 @@
     height: 200px;
     text-align: center;
   }
+
+
+.fade-about-info-items {
+  position: relative;
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 3000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background: rgb(173, 173, 173);
+  /* display: flex; */
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  min-height: 6em;
+  padding: 1em;
+  text-align: center;
+  border-radius: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fade-about-info-items:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent rgb(173, 173, 173);
+    border-width: 1em 0 3em 2em;
+    
+    top: 50%;
+    right: -2em;
+    margin-top: -2em;
+}
+
+.fade-about-info-items-2 {
+  position: relative;
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 3000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background: rgb(173, 173, 173);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 6rem;
+  border-radius: 1em;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  
+}
+.fade-about-info-items-2:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: transparent rgb(173, 173, 173);
+  border-width: 1em 2em 2em 0;
+  top: 50%;
+  left: -2em;
+  margin-top: -2em;
+}
