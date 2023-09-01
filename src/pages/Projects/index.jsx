@@ -43,8 +43,8 @@ const Projects = () => {
       return (<p>HI THERE</p>)
     }else{
       if(LeftRight === false){
-        return (<p>FORWARD</p>)
-      }else{return (<p>BACKWARD</p>)}
+        return (<p> FORWARD </p>)
+      }else{return (<p> BACKWARD </p>)}
     }
 
   }

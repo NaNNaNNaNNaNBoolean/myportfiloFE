@@ -5,6 +5,7 @@ import './style.css'
 const ProjectList = (props) => {
 //  console.log( props)
   const [projects, setProjects] = useState([]);
+  const [loading,setLoading] = useState(true)
 
   useEffect(() => {
     async function loadProjects() {
@@ -13,9 +14,8 @@ const ProjectList = (props) => {
         setProjects(data);
         setLoading(false);
     };
-    
     loadProjects();
-}, [])
+  }, [])
 
 const arr = Array.from(projects)
   return (
@@ -24,7 +24,7 @@ const arr = Array.from(projects)
           projects.map((p,idx) => { 
             return(
               <div className='projectitem' key = {idx}>
-                <h3 className='clickproject'><Link to={`/projects/${p.id}`} >{p.name}</Link></h3>
+                <h3 className='clickproject'><span><Link to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
                 <p className="subheadingdetails">{p.subhead}</p>
             </div>
            )
