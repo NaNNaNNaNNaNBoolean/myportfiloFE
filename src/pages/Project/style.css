@@ -6,7 +6,6 @@
     justify-content: center; */
     /* margin: auto; */
     text-align: center;
-    
 }
 
 .project-title {
@@ -59,8 +58,10 @@
     background-color: gray;
     border-radius: 1.2em;
     padding: 1em;
-    margin-left: 44em;
-    margin-right: 44em;
+    padding-right: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
     /* grid-column: start; */
     margin-bottom: 10em; 
 }
@@ -77,22 +78,22 @@
 }
 .likebtn{
     /* grid-column: end; */
+    margin-top: 2em;
     background: none;
     border: 0;
     padding: 1em;
     display: inline-block;
-    width: 0.5em;
+    width: 0.3em;
     /* aspect-ratio: 1; */
     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
-
 }
 
 .infocontainer{
     background-color: gray;
     border-radius: 2em;
     padding: 1em;
-    margin: 5em;
+    margin: 4em;
 }
 
 .neontitleback{

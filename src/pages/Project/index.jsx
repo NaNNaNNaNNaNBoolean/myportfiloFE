@@ -46,18 +46,27 @@ const Project = () => {
     if(project.img === undefined){
         return null
     }
-    const img = project.img
-    // console.log(img)
+
     const myStyle={
-        backgroundImage:`url(${img})`,
+        backgroundImage:`url('${project.img}')`,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         margin: 'auto',
-        width: '20em',
-        height: '11em',
+        // width: '20em',
+        width: '40%',
+        // maxHeight: '20em',
+        minHeight: '20em',
+        backgroundSize: '100% 100%',
         backgroundSize: 'cover'
+     
     };
+    const imgOrVid= () => {
+        if(project.img === null){
+        return  <video className='projvid' controls autostart autoPlay src={project.video} type="video/mp4"></video>
+    }else{ return <div className='projimg' style={myStyle}></div>}
+    }
+    
     function displayProject() {
         return (
             <div className="project-container">
@@ -68,11 +77,7 @@ const Project = () => {
                 <div className='infocontainer'>
                    
                     <p className='projectinfo'><span>{project.description}</span></p>
-                     {/* <img src={project.img}></img> */}
-                     
-                   
-                    <div className='projimg' style={myStyle}></div>
-                    <p>*images coming soon*</p>
+                    {imgOrVid()}
                     <div className='likesection'>
                         <button className='likebtn' onClick={() => like(id, 1)}></button>
                         <span className="likes-counter"> {project.likes} </span>
@@ -84,7 +89,7 @@ const Project = () => {
         ) 
     }
 
-    return loading ? <h2><em>loading...</em></h2> : displayProject();
+    return loading ? <h2><em>Loading...</em></h2> : displayProject();
 }
 
 export default Project
