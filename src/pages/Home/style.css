@@ -29,6 +29,9 @@
 .item3{
     display: grid;
     margin: auto;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
     padding: 3em;
     max-width: 50em;
     background: rgb(87, 87, 87);

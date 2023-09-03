@@ -4,7 +4,7 @@ import Techstack from '../Techstack'
 
 const AboutInfo = () => {
         return (
-            <div className='grid-container'>
+            <div className='grid-container-about'>
                 <div className='fade-about-info-items'>
                     <p>Hello, I'm Nicole. I have a MEng in Electronic Engineering and a love of programming!</p>
                     {/* <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p> */}
