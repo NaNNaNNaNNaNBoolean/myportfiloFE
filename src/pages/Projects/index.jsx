@@ -34,7 +34,7 @@ const Projects = () => {
       setClickbtn(true)
     }else {
       setStyle(false)
-      setLeftRight(false)
+      setLeftRight(true)
       setClickbtn(false)
     }
 
