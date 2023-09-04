@@ -26,16 +26,17 @@ import Gdscript from '../../imgs/code/gdscript.png'
 const Techstack = () => {
   return (
     <>
-        <h2> Tech stack</h2>
+        <h2 style = {{marginBottom: '0.5em'}}> <u>Tech stack</u></h2>
         
-        <h3> Langugues </h3>
+        <h3 style = {{marginBottom: '0.5em'}}> Langugues </h3>
         <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
        
-        <h3> Backend </h3>
+        <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
+        <break></break>
         <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Flask} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%' , marginLeft: '0.2em'}}></img>
@@ -46,7 +47,7 @@ const Techstack = () => {
         <img src = {Jest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Pytest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
         
-        <h3> Frontend </h3>
+        <h3 style = {{marginBottom: '0.5em'}}> Frontend </h3>
         <img src = {Html} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {Css} style = {{height: '2.5em', width: '2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {reactImg} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
@@ -54,10 +55,10 @@ const Techstack = () => {
         <img src = {Dnd} style = {{height: '2.5em', width: '2.7em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         <img src = {vitest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
         
-        <h3>Design/Deployment</h3>
-        <img src = {Figma} style = {{height: '2.5em', width: '4em', backgroundSize: '100% 100%' }}></img>
-        <img src = {Render} style = {{height: '2.5em', width: '4em', backgroundSize: '100% 100%' }}></img>
-        <img src = {Github} style = {{height: '2.5em', width: '4em', backgroundSize: '100% 100%' }}></img>
+        <h3 style = {{marginBottom: '0.5em'}}>Design/Deployment</h3>
+        <img src = {Figma} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+        <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
+        <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
     </>
     
   )
