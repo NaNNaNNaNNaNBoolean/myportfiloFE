@@ -8,7 +8,7 @@ const AboutInfo = () => {
                 <div className='fade-about-info-items'>
                     <p>Hello, I'm Nicole. I have a MEng in Electronic Engineering and a love of programming!</p>
                     {/* <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p> */}
-                    <p><b>*Please note this website is still a WIP many features are still to be added :) *</b></p>
+                    <p><b>*Please note this website is still a WIP many features/verisons are still to be added :) *</b></p>
                 </div>
                 <div className='me'>
                 </div>
