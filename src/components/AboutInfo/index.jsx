@@ -6,7 +6,8 @@ const AboutInfo = () => {
         return (
             <div className='grid-container-about'>
                 <div className='fade-about-info-items'>
-                    <p>Hello, I'm Nicole. I have a MEng in Electronic Engineering and a love of programming! I'm all about continuous improvement and I'm currently teaching myself GoLang.  I'll be slowly adding my projects here as I develop this page further.</p>
+                    <p>Hello, I'm Nicole. I have a MEng in Electronic Engineering and a love of programming! I love trying out new things in my work and I'm all about continuous improvement and I'm currently teaching myself GoLang. I'll also be slowly adding my projects here as I develop this page further.</p>
+                    <p>Apart from coding, I love to draw, binge movies, play boardgames and as well as playing video games, I'm also developing my own! </p>
                     {/* <p>Coding Langugues I know are C++, C#, JavaScript and Python. I'm always eager to learn more and improve!</p> */}
                     <p><b>Notice: </b> Development on this  has been paused for this current week due to me being on hoilday :) </p>
                     <p><b>*Please note this website is still a WIP many features/verisons are still to be added :) Currently only suitable for desktops/laptops*</b></p>
