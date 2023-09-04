@@ -16,12 +16,15 @@ const Projects = () => {
   }
   // let transformStart = '-10%'
   const handleNext = () => {
-    if (style === !true){
+    if (LeftRight === false){
       setStyle(true)
       setLeftRight(false)
       setClickbtn(true)
-    }else {
-      // setStyle(false)
+    }
+    else {
+      setStyle(false)
+      setLeftRight(false)
+      setClickbtn(false)
     }
   }
   const handleBack = () => {
@@ -31,6 +34,8 @@ const Projects = () => {
       setClickbtn(true)
     }else {
       setStyle(false)
+      setLeftRight(false)
+      setClickbtn(false)
     }
 
   }

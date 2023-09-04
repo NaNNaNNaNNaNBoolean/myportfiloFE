@@ -111,7 +111,6 @@
 .list {
     position: relative;
     margin-top: 8em;
-    
     width: 5em;
     height: 10em; 
     animation: slide-right-click 0.25s linear forwards;
@@ -124,13 +123,13 @@
         transform: translateX(-10%);    
       }
       to {
-        transform: translateX(-1100%);
+        transform: translateX(-1500%);
         animation-play-state:paused; 
        }
 }  
 @keyframes slide-left-click {
     from {
-        transform: translateX(-1100%);    
+        transform: translateX(-1500%);    
       }
     to {
         transform: translateX(-10%);
