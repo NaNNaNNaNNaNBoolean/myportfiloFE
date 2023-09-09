@@ -24,7 +24,7 @@ const arr = Array.from(projects)
           projects.map((p,idx) => { 
             return(
               <div className='projectitem' key = {idx}>
-                <h3 className='clickproject'><span><Link to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
+                <h3 className='clickproject'><span><Link style = {{color: '#fff'}} to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
                 <p className="subheadingdetails">{p.subhead}</p>
             </div>
            )
