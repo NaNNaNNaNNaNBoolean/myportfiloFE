@@ -1,0 +1,62 @@
+.subheadingdetails{
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    border-radius:0.5em;
+    padding: 0.2rem;
+    margin-top: 0.5em;
+    width: 10em;
+    box-shadow: 0 0 0.5em #161616;
+    font-family:'arial'; 
+  }
+  .clickproject{
+    margin-top: 1em;
+    padding: 0.3rem;
+    background-color: rgb(98, 98, 98);
+    border-radius:0.5em;
+    box-shadow: 0 0 0.5em #161616;
+  }
+  .clickproject span {
+    background-color: rgb(40, 40, 40);
+    /* padding: 0.2em; */
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius:0.5em;
+    font-family:'Orbitron'; 
+    display: flex;
+    box-shadow: inset 0 0 1em #161616;
+  }
+  
+  .rowlist{
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      animation: slide-left 0.25s linear;
+      animation-play-state:running;
+      animation-duration: 3s;
+  }
+
+  .projectitem{
+    padding:  2.5em;
+    padding-top: 1.5em;
+    /* width: 10em; */
+    height: 10em;
+    margin-left: 3em;
+    background-image: url('../../imgs/box.png');
+    background-size: cover;
+    background-size:100% 100%;
+
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(1000%);
+
+      }
+      to {
+        transform: translateX(-10%);
+        /* animation-play-state: paused; */
+      }
+}
