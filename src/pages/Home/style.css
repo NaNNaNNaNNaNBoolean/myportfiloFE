@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
 .grid-container{
-    gap: 10px;
+    gap: 50vh;
     grid-template-columns: auto auto auto;
     /* display: grid; */
     /* grid-column: 1/2; */
@@ -14,7 +14,7 @@
     margin:auto;
     align-self: center;
     font-size: xxx-large;
-    padding: 0em;
+    padding: 0;
     filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30));
     background-color: rgb(47, 47, 47);
     border: solid 0.1em rgb(121, 121, 121) ;
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     padding: 2em;
-    max-width: 100%;
+    max-width: 50%;
     background: rgb(87, 87, 87);
     border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
@@ -40,7 +40,7 @@
     /* max-width: 12em; */
     background-color: rgb(57, 57, 57) ;
     margin: auto;
-    font-size: large;
+    font-size: x-large;
     color: rgb(213, 213, 213);
     font-weight: 600;
     padding: 2em;
@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     /* color: rgb(80, 0, 145); */
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
 .connectwithme{
@@ -70,10 +71,10 @@
     background-size: cover;
     background-size: contain;
     margin: 0.5em;
-    min-height: 2em;
+    min-height: 2.5vh;
     min-width: 2em;
     /* width: 30%; */
-    height: 30%;
+    height: 40%;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     cursor: pointer;
 }

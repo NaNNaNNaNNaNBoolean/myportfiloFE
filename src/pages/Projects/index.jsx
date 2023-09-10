@@ -72,7 +72,7 @@ const Projects = () => {
           <ConvayBelt />
         </div>
         </div>
-        {/* <footer> */}
+        <div className='footer'>
           <footer className='Controllerarea'>
             <div className='Controls'>
               <button className='Controlsback' onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
@@ -83,7 +83,7 @@ const Projects = () => {
               {/* <p className='notice'>*This page is still under development*</p> */}
             </div>
           </footer>
-        {/* </footer> */}
+        </div>
 
       </div>
 

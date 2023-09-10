@@ -7,33 +7,50 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  
 } 
+#root{
+  min-height: 100vh;
+}
 html, 
 body{
     /* font-family: 'Proza Libre', sans-serif;
     font-weight: 400;
     font-size: 16px; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* display: flex; */
     /* flex-direction: column; */
     /* position: relative; */
+    /* height: 100%; */
     width: 100%;
     background-image: url('./imgs/homebg.png');
     background-size:100% 100%;
     -o-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     background-size: cover;
+    /* flex-grow: 1 */
 }
-footer{
-  position:absolute;
-  bottom: 0;
+/* footer{ */
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* position: absolute; */
+   /* bottom: 2vh; */
+  /*left:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* right: 2rem; */
   /* justify-content: center;
   align-items: center; */
    /* margin-top: auto 0; */
-}
+   /* position: absolute; */
+   /* bottom: 0; */
+   /* right: 2rem; */
+/* } */
 
 @media only screen and (max-width: 760px) {
 
