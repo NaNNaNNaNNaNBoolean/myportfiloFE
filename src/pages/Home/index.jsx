@@ -18,15 +18,17 @@ const Home = () => {
       <div className='item2'>
         <AboutInfo />
       </div>
-      <div className='item3'>
-        <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
-        {/* <NavBar /> */}
-        <h3 className='contactme'>Contact Me</h3>
-        <div className='connectwithme'> 
-          <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
-          <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
+      {/* <footer>
+        <div className='item3'>
+          <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
+          <h3 className='contactme'>Contact Me</h3>
+          <div className='connectwithme'> 
+            <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
+            <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
+          </div>
         </div>
-      </div>
+      </footer> */}
+      
       
     </div>
     

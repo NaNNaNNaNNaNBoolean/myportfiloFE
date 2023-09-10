@@ -1,8 +1,13 @@
 import React from 'react'
 import './style.css'
 import Techstack from '../Techstack'
+import { useNavigate } from 'react-router-dom'
 
 const AboutInfo = () => {
+    const nav = useNavigate()
+    const handleClick = () => {
+      nav('/Projects')
+    }
         return (
             <div className='grid-container-about'>
                 <div className='fade-about-info-items'>
@@ -13,7 +18,16 @@ const AboutInfo = () => {
                     {/* <p><b>Notice: </b> <u>Development on this  has been paused for this current week due to me being on hoilday :)</u> </p> */}
                     <p><b>*Please note this website is still a WIP many features/versions are still to be added :) Currently only suitable for desktops/laptops*</b></p>
                 </div>
-                <div className='me'>
+                <div className='imglinks'>
+                    <div className='me'></div>
+                    <div className='item3'>
+                    <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
+                    <h3 className='contactme'>Contact Me</h3>
+                        <div className='connectwithme'> 
+                            <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
+                            <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
+                        </div>
+                    </div>
                 </div>
                 <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
                 <div className='paragintro'>

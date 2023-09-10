@@ -60,9 +60,9 @@ const Projects = () => {
           <div className='logoproj'>
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
           </div>
-          <div className='leval'>
+          {/* <div className='leval'>
             <div className='movementarea' >{messagemove()}</div>
-          </div> 
+          </div>  */}
         </div>
         <div className='convayabelt'>
           <div className='list' style ={myStyle}>
@@ -72,13 +72,19 @@ const Projects = () => {
           <ConvayBelt />
         </div>
         </div>
-        <div className='Controllerback'>
-          <div className='Controls'>
-            <button className='Controlsback' onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
-            <button className='Controlsforward'onClick={handleNext}><span className="material-symbols-outlined">arrow_forward_ios</span></button>
-            {/* <p className='notice'>*This page is still under development*</p> */}
-          </div>
-        </div>
+        {/* <footer> */}
+          <footer className='Controllerarea'>
+            <div className='Controls'>
+              <button className='Controlsback' onClick={handleBack}><span className="material-symbols-outlined">arrow_back_ios</span></button>
+              <div className='messageboard'>
+                <div className='movedisplay'><p id='scrolltext'>{messagemove()}</p></div>
+              </div> 
+              <button className='Controlsforward'onClick={handleNext}><span className="material-symbols-outlined">arrow_forward_ios</span></button>
+              {/* <p className='notice'>*This page is still under development*</p> */}
+            </div>
+          </footer>
+        {/* </footer> */}
+
       </div>
 
     )

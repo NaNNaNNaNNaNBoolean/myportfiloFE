@@ -9,7 +9,6 @@
 .grid-container .item1{
     background: gray;
 }
-
 .item1{
     font-family:'Orbitron'; 
     margin:auto;
@@ -27,15 +26,15 @@
     animation: pulsate 0.11s ease-in-out infinite alternate;    
 }
 .item3{
+    position: relative;
     display: grid;
     margin: auto;
-    align-self: center;
     align-items: center;
     justify-content: center;
-    padding: 3em;
-    max-width: 50em;
+    padding: 2em;
+    max-width: 100%;
     background: rgb(87, 87, 87);
-    border-radius: 1.5em 1.5em 0 0;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
 .goToProjects{
     /* max-width: 12em; */
