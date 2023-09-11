@@ -17,7 +17,7 @@
   }
   .clickproject span {
     background-color: rgb(40, 40, 40);
-    /* padding: 0.2em; */
+    padding: 0.2em;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -38,6 +38,7 @@
     0 0 15px rgb(179, 0, 255);
     cursor: pointer;
   }
+
   .linkeffect:hover {
     color: rgb(255, 255, 255);
   }
