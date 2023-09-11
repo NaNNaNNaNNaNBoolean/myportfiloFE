@@ -32,8 +32,8 @@
     align-items: center;
     justify-content: center;
     padding: 2em;
-    max-width: 50%;
-    height: 30%;
+    max-width: 25vh;
+    height: 20vh;
     background: rgb(87, 87, 87);
     border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
@@ -44,7 +44,7 @@
     font-size: large;
     color: rgb(213, 213, 213);
     font-weight: 600;
-    padding: 2em;
+    padding: 4vh;
     border-radius: 1.5em;
     cursor: pointer;
 }
