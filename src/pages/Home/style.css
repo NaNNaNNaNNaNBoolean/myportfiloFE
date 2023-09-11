@@ -33,6 +33,7 @@
     justify-content: center;
     padding: 2em;
     max-width: 50%;
+    height: 30%;
     background: rgb(87, 87, 87);
     border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
@@ -40,7 +41,7 @@
     /* max-width: 12em; */
     background-color: rgb(57, 57, 57) ;
     margin: auto;
-    font-size: x-large;
+    font-size: large;
     color: rgb(213, 213, 213);
     font-weight: 600;
     padding: 2em;
@@ -51,7 +52,7 @@
     display: grid;
     width: 100%;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 1%;
     justify-content: center;
     align-items: center;
     /* color: rgb(80, 0, 145); */
@@ -71,7 +72,7 @@
     background-size: cover;
     background-size: contain;
     margin: 0.5em;
-    min-height: 2.5vh;
+    min-height: 2em;
     min-width: 2em;
     /* width: 30%; */
     height: 40%;
