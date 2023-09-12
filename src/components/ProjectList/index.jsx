@@ -18,22 +18,24 @@ const ProjectList = (props) => {
   }, [])
 
 const arr = Array.from(projects)
-  return (
-      <div className='rowlist' {...props.style} >
-        {
-          projects.map((p,idx) => { 
-            return(
-              <div className='projectitem' key = {idx}>
-                <h3 className='clickproject'><span><Link className='linkeffect'/*style = {{color: '#fff'}}*/ to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
-                <p className="subheadingdetails">{p.subhead}</p>
-            </div>
-           )
+  function displayProjectList() {
+    return (
+    <div className='rowlist' {...props.style} >
+      {
+        projects.map((p,idx) => { 
+          return(
+            <div className='projectitem' key = {idx}>
+              <h3 className='clickproject'><span><Link className='linkeffect'/*style = {{color: '#fff'}}*/ to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
+              <p className="subheadingdetails">{p.subhead}</p>
+          </div>
+          )
 
-          })
-        }
-      </div>
-
-  )
+        })
+      }
+    </div>
+    )
+  }
+  return loading ? <h2 className='loadingprojectlist'><em >loading...</em></h2> : displayProjectList();
 }
 
 export default ProjectList

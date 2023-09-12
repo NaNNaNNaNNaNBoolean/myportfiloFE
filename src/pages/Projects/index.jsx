@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState, useEffect} from 'react'
 import './style.css'
 import {useNavigate } from 'react-router-dom'
 import {ConvayBelt, ProjectList} from '../../components'
@@ -9,6 +9,7 @@ const Projects = () => {
   const [style, setStyle] = useState(false)
   const [LeftRight, setLeftRight] = useState(false)
   const [clickedbtn, setClickbtn] = useState(false)
+  const [count,setCount] = useState(0)
   const nav = useNavigate()
 
   const handleLogoclick = () => {
@@ -17,28 +18,46 @@ const Projects = () => {
   // let transformStart = '-10%'
   const handleNext = () => {
     if (LeftRight === false){
-      setStyle(true)
+     setStyle(true)
       setLeftRight(false)
       setClickbtn(true)
-    }
-    else {
-      setStyle(false)
-      setLeftRight(false)
-      setClickbtn(false)
-    }
+   }
+   else {
+     setStyle(false)
+     setLeftRight(false)
+     setClickbtn(false)
+   }
   }
   const handleBack = () => {
-    if(LeftRight === false){
+   if(LeftRight === false){
       setLeftRight(true)
-      setStyle(true)
+     setStyle(true)
       setClickbtn(true)
     }else {
-      setStyle(false)
-      setLeftRight(true)
-      setClickbtn(false)
+     setStyle(false)
+     setLeftRight(true)
+     setClickbtn(false)
     }
 
   }
+  // useEffect(()=> {
+  //   if(LeftRight === false && clickedbtn === true){
+  //      setStyle(true)
+  //      setLeftRight(false)
+  //     //  setClickbtn(false)
+  //    }
+  //    else if(LeftRight === true && clickedbtn === true){
+  //        setLeftRight(true)
+  //        setStyle(true)
+  //       //  setClickbtn(false)
+  //       //  setClickbtn(true)
+  //     }
+  //     //  else{
+  //     //    setStyle(false)
+  //     //    setLeftRight(false)
+  //     //    setClickbtn(false)
+  //     //  }
+  // })
   const myStyle = {
     animationPlayState: style ? 'running' : '', 
     animation: LeftRight ? 'slide-left-click 3s linear forwards' : ''

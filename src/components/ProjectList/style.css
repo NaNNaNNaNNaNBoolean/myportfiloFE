@@ -8,6 +8,19 @@
     box-shadow: 0 0 0.5em #161616;
     font-family:'arial'; 
   }
+
+  .loadingprojectlist{
+    display: flex;
+    margin: auto;
+    margin-left: 110vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: xx-large;
+    color: rgb(235, 198, 255);
+    font-family:'Orbitron'; 
+    
+  }
   .clickproject{
     margin-top: 1em;
     padding: 0.3rem;
