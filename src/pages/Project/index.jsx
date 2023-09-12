@@ -64,10 +64,19 @@ const Project = () => {
     
     const imgOrVid= () => {
         if(project.img === null){
-        return  <video className='projvid' controls autostart autoPlay src={project.video} type="video/mp4" width="750" height="500"></video>
+        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="750" height="500"></video>
     }else{ return <div className='projimg' style={myStyle}></div>}
     }
-    
+    const $this = project.description
+    const formatedText = project.description.replace(/<br\s*\\?>/g, '\r\n\.<br>')
+    const finishedText = formatedText.split(/[\r\n]+/).map(line => <div>{line}</div>)
+     //.html($this.text().replace(/\.\s/g, '.<br>'))
+    // var newText = document.getElementById('text')
+    // newText.html(newText.text().replace(/\.\s/g, '.<br>'));
+
+    //.replace(/<br\s*\\?>/g, "\r\n");
+
+    // $('span').html($('span').text().replace(/\.\s/g, '.<br>'))}
     function displayProject() {
         return (
             <div className="project-container">
@@ -77,7 +86,8 @@ const Project = () => {
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
                    
-                    <p className='projectinfo'><span>{project.description}</span></p>
+                    <p id = 'text'className='projectinfo' ><span>{finishedText}</span></p>
+                   
                     {imgOrVid()}
                     <div className='likesection'>
                         <button className='likebtn' onClick={() => like(id, 1)}></button>
