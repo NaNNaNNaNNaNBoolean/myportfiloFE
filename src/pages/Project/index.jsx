@@ -64,7 +64,7 @@ const Project = () => {
     
     const imgOrVid= () => {
         if(project.img === null){
-        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="750" height="500"></video>
+        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="100%" height="10%0"></video>
     }else{ return <div className='projimg' style={myStyle}></div>}
     }
     const $this = project.description
