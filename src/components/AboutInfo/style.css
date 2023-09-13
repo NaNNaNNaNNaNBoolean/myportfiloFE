@@ -1,11 +1,11 @@
 
   .me{
     background-image: url('../../imgs/Nicole_French.png');
-    max-width: 70%;
+    max-width: 40vh;
     /* min-width: 20vh; */
     /* min-height: 15vh; */
     /* max-height: 40%; */
-    min-height: 80%;
+    min-height: 40vh;
     /* min-height: 100%; */
     background-size: cover;
     /* height: 20em; */

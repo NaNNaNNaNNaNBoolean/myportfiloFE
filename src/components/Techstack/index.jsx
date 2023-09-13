@@ -32,16 +32,16 @@ const Techstack = () => {
         <div className='TechSection'> 
           <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>
           <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
         </div>
         <div className='TechSection'>
           <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
           {/* <br></br> */}
-          <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%' }}></img>
+          <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {Flask} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%' , marginLeft: '0.2em'}}></img>
           <img src = {Postgres} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
           <img src = {MongoDB} style = {{height: '2.5em', width: '3.1em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
@@ -53,12 +53,12 @@ const Techstack = () => {
         
         <div className='TechSection'>
           <h3 style = {{marginBottom: '0.5em'}}> Frontend </h3>
-          <img src = {Html} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Css} style = {{height: '2.5em', width: '2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {reactImg} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Boot} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
-          <img src = {Dnd} style = {{height: '2.5em', width: '2.7em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {vitest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Html} style = {{height: '6vh', width: '6vh', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
+          <img src = {Css} style = {{height: '6vh', width: '4.5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {reactImg} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Boot} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh'}}></img>
+          <img src = {Dnd} style = {{height: '5vh', width: '7vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {vitest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
         </div>
         <div className='TechSection'>
           <h3 style = {{marginBottom: '0.5em'}}>Design/Deployment</h3>
