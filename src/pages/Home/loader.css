@@ -28,7 +28,25 @@
     
     color: #fff;
     animation: pulsate 0.11s ease-in-out infinite alternate;   
+   
   }
+
+  @keyframes fadeOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+     }
+}
+
+#loader{
+   animation: fadeOutAnimation ease 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
   .backloader{
     width: 100%; 
     height: 100vh;
@@ -74,4 +92,15 @@
   #myloaderDiv {
     display: none;
     text-align: center;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

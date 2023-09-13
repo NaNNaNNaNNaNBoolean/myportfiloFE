@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { AboutInfo } from '../../components'
 import { NavBar } from '../../components'
 import { useNavigate } from 'react-router-dom'
@@ -6,22 +6,27 @@ import './style.css'
 import './loader.css'
 const Home = () => {
   const nav = useNavigate()
+  const [seen,setSeen] = useState(false)
   const handleClick = () => {
     nav('/Projects')
   }
   var myVar;
 
-  function myFunction() {
-    myVar = setTimeout(showPage, 2500);
-  }
+  useEffect(()=>{
+    if(seen === false){
+       myVar = setTimeout(showPage, 3000);
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myloaderDiv").style.display = "block";
+        setSeen(true)
+    }
+    }
+  })
 
-  function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myloaderDiv").style.display = "block";
-  }
+  
   return (
     <>
-      <body onLoad={myFunction()} style={{margin:"0"}}>
+      {/* <body onLoad={myFunction()} style={{margin:"0"}}> */}
 
       <div id="loader" className='hidden'>
         <div className ="backloader">
@@ -63,7 +68,7 @@ const Home = () => {
         </div>
       </div>
         
-      </body>
+      {/* </body> */}
     </>
 
     

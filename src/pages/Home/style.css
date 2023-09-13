@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
-/* .grid-container{ */
-    /* gap: 50vh; */
-    /* grid-template-columns: auto auto auto; */
-    /* display: grid; */
-    /* grid-column: 1/2; */
-/* } */
+
 .grid-container .item1{
     background: gray;
 }
