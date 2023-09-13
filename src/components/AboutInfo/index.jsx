@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './style.css'
 import Techstack from '../Techstack'
 import { useNavigate } from 'react-router-dom'
@@ -8,13 +8,22 @@ const AboutInfo = () => {
     const handleClick = () => {
       nav('/Projects')
     }
+
+    useEffect(() => {
+        async function loadProjects() {
+            const response = await fetch("https://nmfportfilobe.onrender.com/projects");
+            const data = await response.json();
+            // setProjects(data);
+            // setLoading(false);
+        };
+        loadProjects();
+    },[])
         return (
             <> 
                 <div className='grid-container-about'>
                     <div className='fade-about-info-items'>
                         <p>Hi! I'm Nicole.</p>
-                        <p>I have a MEng in Electronic Engineering and a passion for programming! I love trying out random ideas and experimenting with my code and I'm all about continuous improvement. I'm currently teaching myself GoLang. </p>
-                        <br></br>
+                        <p>I have a <b>MEng in Electronic Engineering</b> and a passion for programming! I love trying out random ideas and experimenting with my code and I'm all about continuous improvement. I'm currently teaching myself GoLang. </p>
                         <p>I also love to draw, binge movies, play boardgames and as well as playing video games, I'm also developing my own! </p>
                         <br></br>
                         <p>I will be slowly adding my projects here as I develop this page further.</p>
@@ -22,7 +31,7 @@ const AboutInfo = () => {
 
                         In all the group projects we did, we used Agile principles from planning to deployment, such as, brainstorming using Miro, creating our MVPs and backlog, creating our Figma designs, allocating tasks to team members, and having a daily stand up to see where we all were current at in our progress. This made every project successful!  One thing I personally did was create a to do list with the current tasks which I would post into the group chat in the mornings, which became an easier reference than switching to the Trello board all the time, as well as having us all on a group call, which made it very easy to ask for help and debug any issues as a team. I always worked as a Full Stack Developer in these projects as well as being the group debugger, finding the issues quickly :) I received positive feedback from my team about this way of working, I believe this may have played a part in me getting spotlighted at the end of the course for not only my coding skills but my humanity and how I always helped out anyone without judgement no matter their coding level. I always keep the mood up in all my teams, breaking the tension when it comes to working with new people, as well as making sure everyone got to contribute greatly to the project. */}
                         {/* <p><b>Notice: </b> <u>Development on this  has been paused for this current week due to me being on hoilday :)</u> </p> */}
-                        <br></br>
+                        {/* <br></br> */}
                         <p><b>*Please note this website is still a WIP many features/versions are still to be added :)*</b></p>
                         <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p>
                         <br></br>
