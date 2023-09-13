@@ -11,9 +11,18 @@ const Home = () => {
   return (
     <div className='grid.container'>
       <div className='backheader'>
-        <div className='item1'>
-          <h1 className='NeonBanner'>WELCOME!</h1>
+        <div></div>
+        <div className='item1'> 
+        
+          <h1 className='NeonBanner'>NICOLE FRENCH</h1>
         </div> 
+          {/* <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button> */}
+        {/* <h3 className='contactme'>Contact Me</h3> */}
+        <div className='connectwithme'> 
+              <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
+              <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
+          </div>
+         
       </div>
       <div className='item2'>
         <AboutInfo />

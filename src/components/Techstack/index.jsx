@@ -22,44 +22,59 @@ import Javascript from '../../imgs/code/JavaScript.png'
 import Cplusplus from '../../imgs/code/C++.png'
 import Csharp from '../../imgs/code/cSharp.png'
 import Gdscript from '../../imgs/code/gdscript.png'
+import './style.css'
 
 const Techstack = () => {
   return (
     <>
-        <h2 style = {{marginBottom: '0.5em'}}> <u>Tech stack</u></h2>
+      <h2 style = {{marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>Tech Stack</u></h2>
+      <div className='TeckStackList'>  
+        <div className='TechSection'> 
+          <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>
+          <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+        </div>
+        <div className='TechSection'>
+          <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
+          {/* <br></br> */}
+          <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Flask} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%' , marginLeft: '0.2em'}}></img>
+          <img src = {Postgres} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {MongoDB} style = {{height: '2.5em', width: '3.1em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Moogoose} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {NotNode} style = {{height: '2.5em', width: '3.2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Jest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Pytest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
+        </div>
         
-        <h3 style = {{marginBottom: '0.5em'}}> Langugues </h3>
-        <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-       
-        <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
-        <break></break>
-        <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Flask} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%' , marginLeft: '0.2em'}}></img>
-        <img src = {Postgres} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {MongoDB} style = {{height: '2.5em', width: '3.1em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Moogoose} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {NotNode} style = {{height: '2.5em', width: '3.2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Jest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Pytest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
-        
-        <h3 style = {{marginBottom: '0.5em'}}> Frontend </h3>
-        <img src = {Html} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Css} style = {{height: '2.5em', width: '2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {reactImg} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {Boot} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
-        <img src = {Dnd} style = {{height: '2.5em', width: '2.7em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        <img src = {vitest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-        
-        <h3 style = {{marginBottom: '0.5em'}}>Design/Deployment</h3>
-        <img src = {Figma} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
-        <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
-        <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+        <div className='TechSection'>
+          <h3 style = {{marginBottom: '0.5em'}}> Frontend </h3>
+          <img src = {Html} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Css} style = {{height: '2.5em', width: '2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {reactImg} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {Boot} style = {{height: '2.5em', width: '2.6em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
+          <img src = {Dnd} style = {{height: '2.5em', width: '2.7em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+          <img src = {vitest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
+        </div>
+        <div className='TechSection'>
+          <h3 style = {{marginBottom: '0.5em'}}>Design/Deployment</h3>
+          <img src = {Figma} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+          <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
+          <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+        </div>
+        {/* <div>
+        <h3 style = {{marginBottom: '0.5em'}}>Hardware</h3>
+          <img src = {Arudino} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+          <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
+          <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+        </div> */}
+    </div>
     </>
+    
     
   )
 }

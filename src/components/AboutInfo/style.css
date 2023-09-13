@@ -1,19 +1,20 @@
 
   .me{
     background-image: url('../../imgs/Nicole_French.png');
-    max-width: 30vh;
+    max-width: 80%;
     /* min-width: 20vh; */
     /* min-height: 15vh; */
-    max-height: 100%;
-    min-height: 40%;
+    /* max-height: 40%; */
+    min-height: 80%;
     /* min-height: 100%; */
     background-size: cover;
     /* height: 20em; */
     border-radius: 2em;
     display: flex;
     margin: auto;
-    margin-top: 8%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-right: 10vh;
+    /* margin-bottom: 5%; */
     justify-content: center;
     align-items: center;
     border: 0.1em solid rgb(19, 19, 19);
@@ -37,7 +38,8 @@
   }
   .grid-container-about{
     display: grid;
-    grid-template-columns: 36% 28% 36%;
+    grid-row: auto;
+    grid-template-columns: 70% 30%;
     gap: 1%;
     /* border:2em; */
     padding: 2%;
@@ -61,9 +63,9 @@
   margin-top: 4%;
   width: 80%;
   min-height: 50%;
-  padding: 5%;
+  padding: 4%;
   text-align: center;
-  border-radius: 1em;
+  border-radius: 10em;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 1em 1em 1em rgb(67, 67, 67);
@@ -76,7 +78,7 @@
     z-index: 1;
     border-style: solid;
     border-color: transparent rgb(173, 173, 173);
-    border-width: 1em 0 3em 2em;
+    border-width: 2em 0 7em 6em;
     
     top: 50%;
     right: -2em;
@@ -93,7 +95,7 @@
   background: rgb(173, 173, 173);
   align-items: center;
   margin: auto;
-  margin-top: 4%;
+  margin-top: 2%;
   width: 80%;
   min-height: 50%;
   padding: 1em;
@@ -106,7 +108,7 @@
   box-shadow: 1em 1em 1em rgb(67, 67, 67);
   
 }
-.fade-about-info-items-2:after {
+/* .fade-about-info-items-2:after {
   content: '';
   position: absolute;
   display: block;
@@ -118,4 +120,4 @@
   top: 30%;
   left: -2em;
   margin-top: -2em;
-}
+} */
