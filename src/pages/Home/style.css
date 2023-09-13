@@ -26,7 +26,7 @@
     /* margin: 0; */
     border-radius:0.4em;
     text-align: center;
-    animation: pulsate 0.11s ease-in-out infinite alternate;    
+    /* animation: pulsate 0.11s ease-in-out infinite alternate;     */
 }
 .item3{
     position: relative;
@@ -81,6 +81,7 @@
     align-items: center;
     margin: auto;
     margin-top:-3vh;
+    /* background-color: rgb(55, 55, 55); */
     /* display: flex;
     width: 100%;
     margin: auto;
@@ -140,6 +141,7 @@
     align-items: center;
     /* margin: auto; */
     color: #fff;
+    animation: pulsate 0.11s ease-in-out infinite alternate;    
     text-shadow:
       0 0 4px #fff,
       0 0 10px #fff,

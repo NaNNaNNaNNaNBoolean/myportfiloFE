@@ -1,0 +1,147 @@
+/* #loader { */
+    /* position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* z-index: 1; */
+    /* width: 120px;
+    height: 120px; */
+    /* margin: -76vh 0 0 -76vh; */
+   /* border: 16px solid #f3f3f3; 
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: pulsate 2s linear infinite; */
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* margin-top: 50%; */
+    /* font-size: xxx-large; */
+    /* width: 120vh;
+    height: 120vh; */
+    /* margin: auto;
+    margin-top: 40vh;
+    margin-left: 95vh; */
+    
+    /* z-index: 1; */
+    /* height: 100%;
+    width: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    /* margin: auto; */
+    
+    /* color: #fff;
+    animation: pulsate 0.11s ease-in-out infinite alternate;    */ 
+  /* } */
+  .welcomeloader{
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    z-index: 2;
+    /* width: 120px;
+    height: 120px; */
+    /* margin: -76vh 0 0 -76vh; */
+   /* border: 16px solid #f3f3f3; 
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: pulsate 2s linear infinite; */
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* margin-top: 50%; */
+    font-size: 20vh;
+    /* width: 120vh;
+    height: 120vh; */
+    margin: auto;
+    margin-top: 35vh;
+    margin-left: 53vh;
+    font-family:'Orbitron'; 
+    font-weight: 600;
+    /* z-index: 1; */
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin: auto; */
+    
+    color: #fff;
+    animation: pulsate 0.11s ease-in-out infinite alternate;   
+  }
+  .backloader{
+    width: 100%; 
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    margin: auto;
+    background: radial-gradient(#10011b, #9198e500);
+  }
+  /* @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  } */
+  /* .hidden {
+    visibility: visible;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  } */
+  
+  @keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(179, 0, 255),
+        0 0 80px rgb(179, 0, 255),
+        0 0 90px rgb(179, 0, 255),
+        0 0 100px rgb(179, 0, 255),
+        0 0 150px rgb(179, 0, 255);
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px rgb(179, 0, 255),
+      0 0 73px rgb(179, 0, 255),
+      0 0 80px rgb(179, 0, 255),
+      0 0 94px rgb(179, 0, 255),
+      0 0 140px rgb(179, 0, 255);
+  
+  }
+}
+  /* @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+  
+  /* Add animation to "page content" */
+  /* .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  } */
+  
+  #myloaderDiv {
+    display: none;
+    text-align: center;
+  }

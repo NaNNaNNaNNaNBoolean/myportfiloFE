@@ -35,7 +35,7 @@ const AboutInfo = () => {
                         <p><b>*Please note this website is still a WIP many features/versions are still to be added :)*</b></p>
                         <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p>
                         <br></br>
-                        <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
+                        <button  onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
                     </div>
                     <div className='imglinks'>
                         <div className='me'></div>
