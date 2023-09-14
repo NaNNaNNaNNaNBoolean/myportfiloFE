@@ -27,7 +27,7 @@ import './style.css'
 const Techstack = () => {
   return (
     <>
-      <h2 style = {{marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>Tech Stack</u></h2>
+      <h2 style = {{marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>TECH STACK</u></h2>
       <div className='TeckStackList'>  
         <div className='TechSection'> 
           <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>
@@ -40,15 +40,15 @@ const Techstack = () => {
         <div className='TechSection'>
           <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
           {/* <br></br> */}
-          <img src = {Node} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%' }}></img>
-          <img src = {Express} style = {{height: '2.5em', width: '3em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Flask} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%' , marginLeft: '0.2em'}}></img>
-          <img src = {Postgres} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {MongoDB} style = {{height: '2.5em', width: '3.1em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Moogoose} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {NotNode} style = {{height: '2.5em', width: '3.2em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Jest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Pytest} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em'}}></img>
+          <img src = {Node} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%' }}></img>
+          <img src = {Express} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Flask} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%' , marginLeft: '2vh'}}></img>
+          <img src = {Postgres} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {MongoDB} style = {{height: '5vh', width: '7vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Moogoose} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {NotNode} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Jest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <img src = {Pytest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh'}}></img>
         </div>
         
         <div className='TechSection'>

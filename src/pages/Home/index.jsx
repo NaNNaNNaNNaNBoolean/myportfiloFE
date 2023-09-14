@@ -38,8 +38,7 @@ const Home = () => {
         <div className='grid.container'>
         <div className='backheader'>
           <div></div>
-          <div className='item1'> 
-          
+          <div className='item1' id ='bouncein'> 
             <h1 className='NeonBanner'>NICOLE FRENCH</h1>
           </div> 
             {/* <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button> */}

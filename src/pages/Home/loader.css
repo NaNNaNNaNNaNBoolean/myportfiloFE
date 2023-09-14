@@ -92,7 +92,7 @@
   #myloaderDiv {
     display: none;
     text-align: center;
-    animation: fadeInAnimation ease 0.5s;
+    animation: fadeInAnimation ease 0.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }

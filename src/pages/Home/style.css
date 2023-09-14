@@ -36,7 +36,7 @@
     border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
 .goToProjects{
-    /* max-width: 12em; */
+    max-width: 12em;
     background-color: rgb(57, 57, 57) ;
     margin: auto;
     margin-top: 1%;
@@ -48,8 +48,10 @@
     font-weight: 600;
     padding: 4vh;
     border-radius: 1.5em;
-    cursor: pointer;
+    cursor: pointer; 
 }
+
+ 
 .contactme{
     /* display: grid;
     width: 100%;
@@ -149,6 +151,23 @@
       0 0 10px rgb(179, 0, 255),
       0 0 15px rgb(179, 0, 255);
   }
+#bouncein {
+    animation: bouncein 2s ease infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes bouncein{
+0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+}
+60% {
+    opacity: 1;
+    transform: translateY(-30px);
+}
+80% { transform: translateY(10px); }
+100% { transform: translateY(0); }
+}
 
   @keyframes pulsate {
     
