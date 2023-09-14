@@ -1,10 +1,10 @@
 
   .me{
     background-image: url('../../imgs/Nicole_French.png');
-    width: 40vh;
+    width: 45vh;
     min-width: 10vh;
     /* min-height: 15vh; */
-    height: 40vh;
+    height: 45vh;
     min-height: 10vh;
     /* min-height: 100%; */
     background-size: cover;
@@ -12,7 +12,7 @@
     border-radius: 2em;
     display: flex;
     margin: auto;
-    margin-top: 9vh;
+    margin-top: 14vh;
     margin-right: 24vh;
     /* margin-bottom: 5%; */
     justify-content: center;
@@ -78,11 +78,11 @@
 
   /* display: flex; */
   align-items: center;
-  margin: 0;
-  margin-top: 4%;
-  
+  margin: auto;
+  margin-top: 10%;
+  height: 60vh;
   width: 90%;
-  min-height: 50%;
+  /* min-height: 100%; */
   padding: 4%;
   padding-bottom: 1%;
   text-align: start;
@@ -105,7 +105,7 @@
   margin: auto;
   /* margin-top: 1%; */
   width: 80%;
-  min-height: 50%;
+  min-height: 70%;
   padding: 1em;
   text-align: center;
   border-radius: 1em;

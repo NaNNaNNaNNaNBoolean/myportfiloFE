@@ -27,7 +27,8 @@ import './style.css'
 const Techstack = () => {
   return (
     <>
-      <h2 style = {{marginTop: '1%',marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>TECH STACK</u></h2>
+    <div style={{minHeight:'50vh'}}>
+      <h2 style = {{marginTop: '1%', display: 'flex', justifyContent: 'center'}}> <u>TECH STACK</u></h2>
       <div className='TeckStackList'>  
         <div className='TechSection'> 
           <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>
@@ -72,6 +73,7 @@ const Techstack = () => {
           <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
           <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
         </div> */}
+      </div>
     </div>
     </>
     

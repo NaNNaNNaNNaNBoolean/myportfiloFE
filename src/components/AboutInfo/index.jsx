@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react'
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { useParallax } from 'react-scroll-parallax';
+import './scrollerArrows.css'
 import './style.css'
 import Techstack from '../Techstack'
 import { useNavigate } from 'react-router-dom'
@@ -8,20 +11,20 @@ const AboutInfo = () => {
     const handleClick = () => {
       nav('/Projects')
     }
+    const { ref } = useParallax({ speed: 10 });
 
     useEffect(() => {
         async function loadProjects() {
             await fetch("https://nmfportfilobe.onrender.com/projects");
-            // const data = await response.json();
-            // setProjects(data);
-            // setLoading(false);
         };
         loadProjects();
     },[])
+
+
         return (
             <> 
                 <div className='grid-container-about'>
-                    <section className='sectionabouteffect'>
+                    <section className='sectionabouteffect' ref={ref}>
                          <div className='fade-about-info-items'>
                             <p>Hi! I'm Nicole.</p>
                             <p>I have a <b>MEng in Electronic Engineering</b> and a passion for programming! I love trying out random ideas and experimenting with my code. I'm all about continuous improvement! I'm currently teaching myself GoLang. </p>
@@ -38,29 +41,26 @@ const AboutInfo = () => {
                             <br></br>
                             <button  onClick={handleClick} className='goToProjects'><span>See Projects</span></button>
                         </div>
-                        <div className='imglinks'>
+                        <div className='imglinks' >
                             <div className='me'></div>
                             {/* <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button> */}
-                            {/* <div className='item3'>
-                            {  }
-                            <h3 className='contactme'>Contact Me</h3>
-                                <div className='connectwithme'> 
-                                    <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nicole-french-a52840173/';}}></button>
-                                    <button className='githubbtn' onClick={(e) => {e.preventDefault(); window.location.href='https://github.com/NaNNaNNaNNaNBoolean';}}></button>
-                                </div>
-                            </div> */}
                         </div>
+                    <svg class="arrows">
+                        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                    </svg>
                     </section>
-                   
+                    <section className='projectpage link' ref={ref}></section>
                 
-                    <div className='techstacksection'>
+                    <div className='techstacksection' id='techsec' ref={ref}>
                         <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
                             <div className='paragintro'>
                                 <Techstack />
-                            {/* <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p> */}
                             </div>
                         </div>
                     </div>
+                    
                 </div> 
             </>
            
