@@ -78,7 +78,7 @@ const Projects = () => {
         <div className='topbot'>
           <div className='logoproj'>
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
-            <div className='projectpageheader'>
+            <div className='projectpageheader' id ='bouncein'>
               <h1 className='projectpageBanner'>PROJECTS</h1>
             </div> 
           </div>
