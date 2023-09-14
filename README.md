@@ -10,26 +10,29 @@
 - JaveScript
 - postgres/SQL
 
-### TO DO LIST IN ORDER OF IMPORTANTANCE (FOR NOW)
+## Development
+
+This was a fun project, and one to be constinulisy improved! What I really learnt during this project was less about what I had already knew but the CSS/animation skills I had developed to create a wonderful app.
+
+## TO DO LIST IN ORDER OF IMPORTANTANCE (FOR NOW)
 1. Moblie verison 
 2. Finish convaybelt
 3. Styling
-    - a bit cluttered, Developer portfolios need a clean and modern UI 
+    - a bit cluttered, clean and modern UI but keep the soul of it, neon factory vibesss
     - change favicon
     - fonts?
-    - Buttons Make the buttons cooler
+    - Make the buttons cooler
     - Glow effect?
 4. Content
-    - Front page - welcome and name
-    - add contact me to banner
     - fix bio and include relevant details about your journey into tech 
-    - Tech stack - all the logos should be uniform 
+    - Tech stack - logos should be uniform 
     - 
-5. Projects - I like the idea behind this, super unique but wish I could see more about your projects:
+5. Projects
     - link to your project, readme ( start it up, technical, wins and challenges)
-    - Tech stack for each project
-    - Images/Videos/Gifs of what your apps look like
-    - Brief description on each on what the project was, what you was responsible for doing on i, what users should be able to do when on it
     - Add other projects to project pages
 6. Add SR notes
 7. Other lil changes
+
+## Future Features 
+- Projects 
+    - Tech stack for each project
