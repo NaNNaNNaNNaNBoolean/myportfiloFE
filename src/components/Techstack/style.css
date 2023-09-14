@@ -1,10 +1,12 @@
 .TeckStackList{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin-top: 2%;
+  margin-bottom: 5.5%;
   /* border-left: 1em black solid; */
 }
 
 .TechSection{
-    border-left: 0.1vh black solid;
-    border-right: 0.1vh black solid;
+    border-left: 0.1vh rgb(220, 220, 220) solid;
+    border-right: 0.1vh rgb(220, 220, 220) solid;
 }

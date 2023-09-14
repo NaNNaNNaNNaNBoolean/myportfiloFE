@@ -27,7 +27,7 @@ import './style.css'
 const Techstack = () => {
   return (
     <>
-      <h2 style = {{marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>TECH STACK</u></h2>
+      <h2 style = {{marginTop: '1%',marginBottom: '0.5em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <u>TECH STACK</u></h2>
       <div className='TeckStackList'>  
         <div className='TechSection'> 
           <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>

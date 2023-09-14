@@ -11,8 +11,8 @@ const AboutInfo = () => {
 
     useEffect(() => {
         async function loadProjects() {
-            const response = await fetch("https://nmfportfilobe.onrender.com/projects");
-            const data = await response.json();
+            await fetch("https://nmfportfilobe.onrender.com/projects");
+            // const data = await response.json();
             // setProjects(data);
             // setLoading(false);
         };
@@ -24,7 +24,7 @@ const AboutInfo = () => {
                     <section className='sectionabouteffect'>
                          <div className='fade-about-info-items'>
                             <p>Hi! I'm Nicole.</p>
-                            <p>I have a <b>MEng in Electronic Engineering</b> and a passion for programming! I love trying out random ideas and experimenting with my code and I'm all about continuous improvement. I'm currently teaching myself GoLang. </p>
+                            <p>I have a <b>MEng in Electronic Engineering</b> and a passion for programming! I love trying out random ideas and experimenting with my code. I'm all about continuous improvement! I'm currently teaching myself GoLang. </p>
                             <p>I also love to draw, binge movies, play boardgames and as well as playing video games, I'm also developing my own! </p>
                             <br></br>
                             <p>I will be slowly adding my projects here as I develop this page further.</p>
@@ -52,13 +52,16 @@ const AboutInfo = () => {
                         </div>
                     </section>
                    
-                </div>
-                 <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
-                    <div className='paragintro'>
-                    <Techstack />
-                    {/* <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p> */}
+                
+                    <div className='techstacksection'>
+                        <div className='fade-about-info-items-2' style={{ animationDelay: `1500ms` }}>
+                            <div className='paragintro'>
+                                <Techstack />
+                            {/* <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p> */}
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </div> 
             </>
            
         )
