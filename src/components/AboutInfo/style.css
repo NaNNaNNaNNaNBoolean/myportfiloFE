@@ -26,6 +26,30 @@
   margin: 1rem; */
   text-align: center;
  }
+
+ .goToProjects {
+  --glow-color: hsl(282, 100%, 50%);
+
+  background: rgba(57, 57, 57, 0.604);
+
+  /* position: relative; */
+  color: var(--glow-color);
+  cursor: pointer;
+  /* padding: 0.35em 1em; */
+  border: 0.1em solid var(--glow-color);
+  border-radius: 0.1em;
+  background: none;
+  /* perspective: 2em; */
+  font-family: "Raleway", sans-serif;
+
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  animation: border-flicker 4s linear infinite;
+}
   
   @keyframes fadein {
     0% {
@@ -42,30 +66,38 @@
     /* grid-template-columns: 70% 30%; */
     /* gap: 1%; */
     /* border:2em; */
-    padding-top: 2%;
+    /* padding-top: 2%; */
     /* grid-co */
-    /* margin: 0; */
+    margin: 0;
   }
 
  .sectionabouteffect{
   display: grid;
   grid-row: auto;
+
   width: 100%;
   grid-template-columns: 70% 30%;
   gap: 1%;
-   /* margin: 0; */
-    background-image: linear-gradient(rgba(24, 1, 43, 0), rgba(0, 0, 0, 0.754));
+    /* background-image: linear-gradient(rgba(24, 1, 43, 0), rgba(0, 0, 0, 0.754)); */
     background-size:100% 100%;
-    background-size: cover;
+    background-size: contain;
  }
 
 .techstacksection{
   
   width: 100%;
-  background-image: linear-gradient(rgba(58, 0, 85, 0.754), rgba(235, 191, 255, 0.71), rgba(58, 0, 85, 0.754));
+  background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
   background-size:100% 100%;
   margin: 0;
   background-size: cover;
+}
+
+.projectpagelink{
+  margin: 0;
+  /* background-color: blue;
+  width: 100%;
+  height: 40%; */
+  /* min-height: 60vh; */
 }
 .fade-about-info-items {
   position: relative;
@@ -80,12 +112,13 @@
   align-items: center;
   margin: auto;
   margin-top: 10%;
-  height: 60vh;
+  /* height: 60vh; */
   width: 90%;
-  /* min-height: 100%; */
+  min-height: 70%;
   padding: 4%;
   padding-bottom: 1%;
   text-align: start;
+  margin-bottom: 10%;
   color: rgb(232, 163, 255);
   /* border-radius: 4em; */
   font-size: x-large;

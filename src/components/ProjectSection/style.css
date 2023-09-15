@@ -1,0 +1,18 @@
+.projecthighlighteditem{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-position: -500px 0; */
+    /* background-image: url('../../imgs/box.png'); */
+    filter: brightness(80%);
+    width: 16vh;
+    /* margin: auto; */
+    /* display: flex; */
+    transform: scale(0.98) translateZ(-20px);
+    padding:  2.5em;
+    height: 10rem;
+    background-image: url('../../imgs/box.png');
+    background-size: cover;
+    background-size:100% 100%;
+}

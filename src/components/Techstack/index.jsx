@@ -28,18 +28,18 @@ const Techstack = () => {
   return (
     <>
     <div style={{minHeight:'50vh'}}>
-      <h2 style = {{marginTop: '1%', display: 'flex', justifyContent: 'center'}}> <u>TECH STACK</u></h2>
+      <h2 className='techstacktitleback' style = {{marginTop: '1%', display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  
-        <div className='TechSection'> 
-          <h3 style = {{marginBottom: '0.5em'}}> Languages </h3>
+        <div className='TechSecLang'> 
+          <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Languages </h3>
           <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
           <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
         </div>
-        <div className='TechSection'>
-          <h3 style = {{marginBottom: '0.5em'}}> Backend </h3>
+        <div className='TechSecBE'>
+          <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Backend </h3>
           {/* <br></br> */}
           <img src = {Node} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%' }}></img>
           <img src = {Express} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
@@ -52,8 +52,8 @@ const Techstack = () => {
           <img src = {Pytest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh'}}></img>
         </div>
         
-        <div className='TechSection'>
-          <h3 style = {{marginBottom: '0.5em'}}> Frontend </h3>
+        <div className='TechSecFE'>
+          <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Frontend </h3>
           <img src = {Html} style = {{height: '6vh', width: '6vh', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
           <img src = {Css} style = {{height: '6vh', width: '4.5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {reactImg} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
@@ -61,8 +61,8 @@ const Techstack = () => {
           <img src = {Dnd} style = {{height: '5vh', width: '7vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
           <img src = {vitest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
         </div>
-        <div className='TechSection'>
-          <h3 style = {{marginBottom: '0.5em'}}>Design/Deployment</h3>
+        <div className='TechSecD'>
+          <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}>Design/Deployment</h3>
           <img src = {Figma} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
           <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
           <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>

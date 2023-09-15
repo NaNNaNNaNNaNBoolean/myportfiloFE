@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
+/* body{
+    background-size: contain;
+} */
 
 .grid-container .item1{
     background: gray;
@@ -36,17 +39,17 @@
     border-radius: 1.5em 1.5em 1.5em 1.5em;
 }
 .goToProjects{
-    max-width: 12em;
-    background-color: rgb(57, 57, 57) ;
+    /* max-width: 12em; */
+    /* background-color: rgb(57, 57, 57) ; */
     margin: auto;
     margin-top: 1%;
-    font-size: large;
+    /* font-size: large; */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(213, 213, 213);
-    font-weight: 600;
-    padding: 4vh;
+    /* color: rgb(213, 213, 213); */
+    /* font-weight: 600; */
+    padding: 3vh;
     border-radius: 1.5em;
     cursor: pointer; 
 }
