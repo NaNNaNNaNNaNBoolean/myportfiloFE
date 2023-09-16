@@ -15,20 +15,44 @@ const ProjectSection = (props) => {
     useEffect(()=>{
          if(inViewport){
          setAniStyle(true)
+        //  onanimationend()
         //  setVis(true)
         }else{setAniStyle(false)}
     })
    
-   
+    // const animated = document.querySelector(".projecthighlightefitem");
 
+    // animated.onanimationend = () => {
+    //   console.log("Animation ended");
+    // };
+    const [projectSec, setProjects] = useState([]);
+    const [loading,setLoading] = useState(true)
+  
+    useEffect(() => {
+      async function loadProjects() {
+          const response = await fetch("https://nmfportfilobe.onrender.com/projects/9");
+          const data = await response.json();
+          setProjects(data);
+        //   setLoading(false);
+      };
+      loadProjects();
+    }, [])
+    
   return (
     <div>
        <div className="viewport-block" ref={forwardedRef}>
+            <div></div>
             <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}></div>
-            <div className='projecthighlightedinfo'></div>
+            <div className='projecthighlightedinfo'>
+                <h2>{projectSec.name}</h2>
+                <h3>{ projectSec.subhead}</h3>
+                {/* <p>{ projectSec. description}</p> */}
+                <video controls autoPlay src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
+            </div>
+            <div></div>
        </div>
        <button  onClick={handleClick} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
-        <h2>section is under development</h2>
+       
     
     </div>
   )
@@ -38,7 +62,8 @@ const ProjectSection = (props) => {
     
   const Component = (props) => (
     <div>
-        <div style={{ height: '20vh' }}>
+        <div style={{ height: '10vh' }}>
+        <h2>!!!!section is under development!!!</h2>
             {/* <h2>Scroll down to make component in viewport</h2> */}
         </div>
         <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />

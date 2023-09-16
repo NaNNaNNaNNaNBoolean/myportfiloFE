@@ -1,24 +1,24 @@
 #bounceinbox {
-    animation: bounceinbox 5s ease infinite;
+    animation: bounceinbox 3s ease infinite;
     animation-iteration-count: 1;
     animation-delay: 2s;
     animation-play-state: paused;
     animation-fill-mode: forwards;
     /* display: none; */
-    /* opacity: 0; */
+    opacity: 0;
     
 }
 @keyframes bounceinbox{
 0% {
     opacity: 0;
-    transform: translateY(-1000px);
+    transform: translateY(-100em);
 }
-60% {
+/* 60% {
     opacity: 1;
-    transform: translateY(-30px);
-}
-80% { transform: translateY(10px); }
-100% { transform: translateY(0); }
+    transform: translateY(-30em);
+} */
+/* 80% { transform: translateY(-10em); } */
+100% { transform: translateY(0); opacity: 1;}
 }
 
 

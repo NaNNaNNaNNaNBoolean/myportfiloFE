@@ -3,6 +3,8 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    /* align-items: end; */
+    margin-bottom: 0;
     /* background-position: -500px 0; */
     /* background-image: url('../../imgs/box.png'); */
     filter: brightness(80%);
@@ -16,6 +18,16 @@
     background-size: cover;
     background-size:100% 100%;
 }
-/* .viewport-block{
-    /* display: none; 
-} */
+.viewport-block{
+   display: grid;
+   grid-template-columns: 20% 20% 40% 20%;
+   margin-bottom: 5%;
+}
+
+.projecthighlightedinfo{
+    font-family:'Orbitron'; 
+    background-color: gray;
+    font-size: larger;
+    min-height: 30vh;
+    padding: 2em;
+}
