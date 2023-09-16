@@ -13,6 +13,7 @@
     "locomotive": "^0.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-in-viewport": "^1.0.0-alpha.30",
     "react-router-dom": "^6.14.1",
     "react-scroll-parallax": "^3.4.2",
     "scroll": "^3.0.1",
