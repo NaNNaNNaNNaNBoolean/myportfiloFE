@@ -28,6 +28,7 @@ import './style.css'
 const Techstack = () => {
   return (
     <>
+    <h3>!!!Section is under development!!!</h3>
     <div style={{minHeight:'50vh', marginTop:'2%'}}>
       <h2 className='techstacktitleback' style = {{marginTop: '1%', display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  

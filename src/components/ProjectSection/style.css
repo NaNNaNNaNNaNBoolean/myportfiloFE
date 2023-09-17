@@ -1,26 +1,28 @@
 .projecthighlighteditem{
-    display: flex;
+    /* display: flex; */
     margin: auto;
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
     filter: brightness(80%);
     width: 16vh;
-    perspective: 1000px;
-    transition: .3s; 
-    transform: rotateY(40deg);
+    /* perspective: 1000px; */
+    /* transition: .3s;  */
+    /* transform: rotateY(40deg); */
     /* transform: scale(0.98) translateZ(-20px); */
     padding:  2.5em;
     height: 10rem;
-    margin-bottom: -1.2vh;
+    /* margin-bottom: -1.2vh; */
+    margin-right: 0;
     background-image: url('../../imgs/box.png');
     background-size: cover;
     background-size:100% 100%;
-    /* perspective: 600; */
+    transform: perspective(50em) rotateY(35deg);
 }
 .viewport-block{
    display: grid;
    grid-template-columns: 20% 20% 40% 20%;
+   gap: 0;
    /* margin-bottom: 5%; */
 }
 
@@ -30,8 +32,11 @@
     font-size: larger;
     min-height: 30vh;
     padding: 2em;
+    margin-left: 0;
     margin-bottom: 0;
-    perspective:600px;
+    border: solid purple 0.1rem;
+    border-radius: 2em;
+    transform: perspective(100rem) rotateY(-30deg);
 }
 
 .base{

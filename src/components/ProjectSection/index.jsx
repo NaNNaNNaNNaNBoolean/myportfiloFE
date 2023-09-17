@@ -40,12 +40,11 @@ const ProjectSection = (props) => {
     <div>
        <div className="viewport-block" ref={forwardedRef}>
             <div></div>
-            <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}>
+            <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> <h2>placeholder</h2>
             </div>
-            <div className='projecthighlightedinfo' id = 'glitchin'style ={myStyle}>
+            <div className='projecthighlightedinfo' id = 'glitchin' style ={myStyle}>
                 <h2>{projectSec.name}</h2>
                 <h3>{ projectSec.subhead}</h3>
-                {/* <p>{ projectSec. description}</p> */}
                 <video controls autoPlay src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
             </div>
             <div></div>
@@ -64,10 +63,10 @@ const ProjectSection = (props) => {
   const Component = (props) => (
     <div>
         <div style={{ height: '10vh' }}>
-        <h2>!!!!section is under development!!!</h2>
+        <h3>!!!!section is under development!!!</h3>
             {/* <h2>Scroll down to make component in viewport</h2> */}
         </div>
-        <ViewportBlock onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')} />
+        <ViewportBlock /*onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')*/ />
     </div>
 )
 
