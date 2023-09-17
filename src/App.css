@@ -53,9 +53,13 @@ body{
   main {
     margin: 0rem;
     margin-top: 1rem;
+    display: flex;
     flex-direction: column;
   }
-}
+  /* .TeckStackList{
+    grid-template-rows: auto auto auto;
+  }*/
+} 
 /*----home page scrolling-------------------------------------------------------*/
 
 /* section { */

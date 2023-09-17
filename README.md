@@ -21,11 +21,8 @@ This was a fun project, and one to be constinulisy improved! What I really learn
     - a bit cluttered, clean and modern UI but keep the soul of it, neon factory vibesss
     - change favicon
     - fonts?
-    - Make the buttons cooler
-    - Glow effect?
 4. Content
-    - fix bio and include relevant details about your journey into tech 
-    - Tech stack - logos should be uniform 
+    - fix bio and include relevant details about journey into tech 
     - 
 5. Projects
     - link to your project, readme ( start it up, technical, wins and challenges)

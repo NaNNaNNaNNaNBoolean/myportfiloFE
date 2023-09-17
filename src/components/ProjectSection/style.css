@@ -12,7 +12,7 @@
     /* transform: scale(0.98) translateZ(-20px); */
     padding:  2.5em;
     height: 10rem;
-    /* margin-bottom: -1.2vh; */
+    margin-bottom: -1.2vh;
     margin-right: 0;
     background-image: url('../../imgs/box.png');
     background-size: cover;
@@ -24,6 +24,7 @@
    grid-template-columns: 20% 20% 40% 20%;
    gap: 0;
    /* margin-bottom: 5%; */
+    box-shadow: 0em 2em 2.6em -1em black;
 }
 
 .projecthighlightedinfo{
@@ -33,7 +34,8 @@
     min-height: 30vh;
     padding: 2em;
     margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: -2vh;
+    /* margin-bottom: 0; */
     border: solid purple 0.1rem;
     border-radius: 2em;
     transform: perspective(100rem) rotateY(-30deg);
@@ -47,7 +49,8 @@
     margin-top: 0;
     width: 70%;
     height: 1vh;
-    background-color: aqua;
+    /* background-color: rgba(0, 0, 0, 0.812); */
+    /* box-shadow: 1em 1em 3em 2em black; */
     margin-bottom: 5%;
 }
 
