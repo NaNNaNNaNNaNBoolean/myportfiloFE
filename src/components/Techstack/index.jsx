@@ -22,50 +22,65 @@ import Javascript from '../../imgs/code/JavaScript.png'
 import Cplusplus from '../../imgs/code/C++.png'
 import Csharp from '../../imgs/code/cSharp.png'
 import Gdscript from '../../imgs/code/gdscript.png'
+import Arduino from '../../imgs/code/Arduino.png'
 import './style.css'
 
 const Techstack = () => {
   return (
     <>
-    <div style={{minHeight:'50vh'}}>
+    <div style={{minHeight:'50vh', marginTop:'2%'}}>
       <h2 className='techstacktitleback' style = {{marginTop: '1%', display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  
         <div className='TechSecLang'> 
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Languages </h3>
-          <img src = {Cplusplus} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '0.2em' }}></img>
-          <img src = {Csharp} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Javascript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Gdscript} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Py} style = {{height: '2.5em', width: '2.5em', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <div className='langgrid'>
+             <img src = {Cplusplus} style = {{height: '5em', width: '5em', backgroundSize: '100% 100%'/*, marginLeft: '0.2em'*/ }}></img>
+            <img src = {Csharp} style = {{height: '5em', width: '5em', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+            <img src = {Javascript} style = {{height: '5em', width: '5em', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+            <img src = {Gdscript} style = {{height: '5em', width: '5em', backgroundSize: '100% 100%'/*, marginLeft: '2vh' */}}></img>
+            <img src = {Py} style = {{height: '5em', width: '5em', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+          </div>
+         
         </div>
         <div className='TechSecBE'>
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Backend </h3>
           {/* <br></br> */}
-          <img src = {Node} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%' }}></img>
-          <img src = {Express} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Flask} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%' , marginLeft: '2vh'}}></img>
-          <img src = {Postgres} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {MongoDB} style = {{height: '5vh', width: '7vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Moogoose} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {NotNode} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Jest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Pytest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh'}}></img>
+          <div className='BEgrid'>
+            <img src = {Node} style = {{height: '7.5vh', width: '10vh', backgroundSize: '100% 100%' }}></img>
+            <img src = {Express} style = {{height: '7.5vh', width: '11/5vh', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+            <img src = {Flask} style = {{height: '7.5vh', width: '7.5vh', backgroundSize: '100% 100%' /*, marginLeft: '2vh'*/}}></img>
+            <img src = {Postgres} style = {{height: '7.5vh', width: '7.5vh', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+            <img src = {MongoDB}style = {{height: '7.5vh', width: '15vh', backgroundSize: '100% 100%' /*, marginLeft: '2vh'*/ }}></img>
+            <img src = {Moogoose}style = {{height: '7.5vh', width: '7.5vh', backgroundSize: '100% 100%' /*, marginLeft: '2vh' */}}></img>
+            <img src = {NotNode} style = {{height: '7.5vh', width: '11.5vh', backgroundSize: '100% 100%'/*, marginLeft: '2vh'*/ }}></img>
+            <img src = {Jest} style = {{height: '7.5vh', width: '7.5vh'/*, backgroundSize: '100% 100%', marginLeft: '2vh'*/ }}></img>
+            <img src = {Pytest} style = {{height: '7.5vh', width: '7.5vh'/*, backgroundSize: '100% 100%', marginLeft: '2vh'*/}}></img>
+          </div>
+          
         </div>
         
         <div className='TechSecFE'>
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Frontend </h3>
-          <img src = {Html} style = {{height: '6vh', width: '6vh', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
-          <img src = {Css} style = {{height: '6vh', width: '4.5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {reactImg} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {Boot} style = {{height: '5vh', width: '6vh', backgroundSize: '100% 100%', marginLeft: '2vh'}}></img>
-          <img src = {Dnd} style = {{height: '5vh', width: '7vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
-          <img src = {vitest} style = {{height: '5vh', width: '5vh', backgroundSize: '100% 100%', marginLeft: '2vh' }}></img>
+          <div className='FEgrid'>
+            <img src = {Html} style = {{height: '6vh', width: '6vh', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
+            <img src = {Css} style = {{height: '9vh', width: '6.75vh', backgroundSize: '100% 100%'}}></img>
+            <img src = {reactImg} style = {{height: '7.5vh', width: '9vh', backgroundSize: '100% 100%' }}></img>
+            <img src = {Boot} style = {{height: '7.5vh', width: '9vh', backgroundSize: '100% 100%'}}></img>
+            <img src = {Dnd} style = {{height: '7.5vh', width: '11.5vh', backgroundSize: '100% 100%' }}></img>
+            <img src = {vitest} style = {{height: '7.5vh', width: '7.5vh', backgroundSize: '100% 100%'}}></img>
+          </div>
+          
         </div>
         <div className='TechSecD'>
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}>Design/Deployment</h3>
-          <img src = {Figma} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
-          <img src = {Render} style = {{height: '2.5em', width: '5em', backgroundSize: '100% 100%' }}></img>
-          <img src = {Github} style = {{height: '2.5em', width: '4.5em', backgroundSize: '100% 100%' }}></img>
+          <div className='Dgrid'>
+            <img src = {Figma} style = {{height: '5em', width: '9em', backgroundSize: '100% 100%' }}></img>
+            <img src = {Render} style = {{height: '5em', width: '10em', backgroundSize: '100% 100%' }}></img>
+            <img src = {Github} style = {{height: '5em', width: '9em', backgroundSize: '100% 100%' }}></img>
+            <img src = {Arduino} style = {{height: '5em', width: '7em', backgroundSize: '100% 100%', marginTop: '1%' }}></img>
+          </div>
+   
+         
         </div>
         {/* <div>
         <h3 style = {{marginBottom: '0.5em'}}>Hardware</h3>

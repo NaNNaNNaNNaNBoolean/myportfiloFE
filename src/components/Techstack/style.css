@@ -1,46 +1,108 @@
 .TeckStackList{
+  --glow-color: hsl(282, 100%, 50%);
   display: grid;
   grid-template-columns: 50% 50%;
   margin: auto;
   margin-top: 2%;
+  
   /* margin-bottom: 15%; */
   /* margin-bottom: 5.5%; */
   /* min-height: 100vh; */
   /* border-left: 1em black solid; */
 }
-
-.TechSecLang{
-    /* border-left: 0.1vh rgb(220, 220, 220) solid;
-    border-right: 0.1vh rgb(220, 220, 220) solid; */
+.langgrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 2%;
+  gap: 1%;
+  margin-top: 5%;
+  /* top: 50%; */
+}
+img{
+  display: flex;
+  /* width: 70%; */
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 3%;
+}
+.TechSecLang{  
+ 
     padding: 1vh;
     border-radius: 1.5rem;
-    background-color: rgb(179, 179, 179);
+    background-color: rgba(179, 179, 179, 0.595);
+    border: solid var(--glow-color)0.1em;
     margin: 5%;
+    margin-top: 4vh;
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+}
+.BEgrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin:2%;
+  gap: 1%;
 }
 .TechSecBE{
-  /* border-left: 0.1vh rgb(220, 220, 220) solid;
-  border-right: 0.1vh rgb(220, 220, 220) solid; */
   padding: 1vh;
   border-radius: 1.5rem;
-  background-color: rgb(179, 179, 179);
+  background-color: rgba(179, 179, 179, 0.595);
+  border: solid var(--glow-color) 0.1em;
+
   margin: 5%;
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+-moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
   /* margin-bottom: 5%; */
 }
+.FEgrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  margin:2%;
+  gap: 1%;
+}
 .TechSecFE{
-  /* border-left: 0.1vh rgb(220, 220, 220) solid;
-  border-right: 0.1vh rgb(220, 220, 220) solid; */
+  
   padding: 1vh;
   border-radius: 1.5rem;
-  background-color: rgb(179, 179, 179);
+  background-color: rgba(179, 179, 179, 0.595);;
+  border: solid var(--glow-color) 0.1em;
   margin: 5%;
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+-moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+}
+
+.Dgrid{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  margin:2%;
+  gap: 1%;
 }
 .TechSecD{
   /* border-left: 0.1vh rgb(220, 220, 220) solid;
   border-right: 0.1vh rgb(220, 220, 220) solid; */
   padding: 1vh;
   border-radius: 1.5rem;
-  background-color: rgb(179, 179, 179);
+  background-color: rgba(179, 179, 179, 0.595);
+  border: solid var(--glow-color) 0.1em;
   margin: 5%;
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+-moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
+box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+  0px 0px 0.5em 0px var(--glow-color);
 }
 
 .techstacktitle {
@@ -50,6 +112,7 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  /* margin-top: ; */
   color: #fff;
   animation: pulsate 0.11s ease-in-out infinite alternate;    
 
