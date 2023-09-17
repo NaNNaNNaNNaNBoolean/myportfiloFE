@@ -55,25 +55,6 @@
     cursor: pointer; 
 }
 
- 
-.contactme{
-    /* display: grid;
-    width: 100%;
-    margin: auto;
-    margin-top: 1%;
-    justify-content: center;
-    align-items: center;*/
-
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif; 
-    margin:auto;
-    align-self: flex-end;
-    padding: 0;
-    /* max-height: 4em; */
-    /* margin: 0; */
-    border-radius:0.4em;
-    text-align: end; 
-}
 .connectwithme{
     height: 100%;
     width: 100%;
@@ -203,3 +184,47 @@
   
   }
 }
+
+
+@media only screen and (max-width: 760px) {
+
+    .backheader{
+        max-height: 2.5em;
+        width: 85%;
+        padding-top: 0;
+        padding-bottom: 1.8em;
+    }
+    .item1{
+        width: 5.7em; 
+        border-radius: 0.3em;
+        padding: 0.05em;
+        margin-top: 0vh;
+    }
+    .NeonBanner {
+        /* height: 50%; */
+        /* width: 1em; */
+        font-size: 0.6em;
+    }
+    .connectwithme{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: auto;
+        margin-top: 0;
+    }
+    .linkedinbtn{
+        min-height: 3vh;
+        min-width: 3vh;
+    }
+    .githubbtn{
+        min-height: 3vh;
+        min-width: 3vh;
+    }
+    .goToProjects{
+        padding: 1.5vh;
+        border-radius: 1.5em;
+        cursor: pointer; 
+    }
+ } 

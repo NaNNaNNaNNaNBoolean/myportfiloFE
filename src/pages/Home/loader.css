@@ -104,3 +104,17 @@
         opacity: 1;
      }
 }
+
+@media only screen and (max-width: 760px) {
+
+  .welcomeloader{
+    font-size: 5vh;
+    margin: auto;
+    margin-top: 60%;
+    margin-left: 20%;
+    font-family:'Orbitron'; 
+    font-weight: 600;
+  }
+
+} 
+

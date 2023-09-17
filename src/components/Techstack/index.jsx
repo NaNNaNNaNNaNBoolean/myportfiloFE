@@ -63,7 +63,7 @@ const Techstack = () => {
         <div className='TechSecFE'>
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Frontend </h3>
           <div className='FEgrid'>
-            <img src = {Html} style = {{height: '6vh', width: '6vh', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
+            <img src = {Html} style = {{height: '4em', width: '5em', backgroundSize: '100% 100%'/*marginLeft: '2vh'*/ }}></img>
             <img src = {Css} style = {{height: '9vh', width: '6.75vh', backgroundSize: '100% 100%'}}></img>
             <img src = {reactImg} style = {{height: '7.5vh', width: '9vh', backgroundSize: '100% 100%' }}></img>
             <img src = {Boot} style = {{height: '7.5vh', width: '9vh', backgroundSize: '100% 100%'}}></img>
