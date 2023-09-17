@@ -43,7 +43,7 @@ const ProjectSection = (props) => {
        <div className="viewport-block" ref={forwardedRef}>
             <div></div>
             <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}></div>
-            <div className='projecthighlightedinfo'>
+            <div className='projecthighlightedinfo' id = 'glitchin'style ={myStyle}>
                 <h2>{projectSec.name}</h2>
                 <h3>{ projectSec.subhead}</h3>
                 {/* <p>{ projectSec. description}</p> */}
@@ -51,8 +51,10 @@ const ProjectSection = (props) => {
             </div>
             <div></div>
        </div>
-       <button  onClick={handleClick} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
-       
+       <footer>
+            <div className='base'></div>
+            <button  onClick={handleClick} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
+       </footer>
     
     </div>
   )

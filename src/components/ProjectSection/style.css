@@ -3,25 +3,23 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    /* align-items: end; */
     margin-bottom: 0;
-    /* background-position: -500px 0; */
-    /* background-image: url('../../imgs/box.png'); */
     filter: brightness(80%);
     width: 16vh;
-    /* margin: auto; */
-    /* display: flex; */
-    transform: scale(0.98) translateZ(-20px);
+
+    /* transform: scale(0.98) translateZ(-20px); */
     padding:  2.5em;
     height: 10rem;
+    margin-bottom: -1.2vh;
     background-image: url('../../imgs/box.png');
     background-size: cover;
     background-size:100% 100%;
+    perspective: 600;
 }
 .viewport-block{
    display: grid;
    grid-template-columns: 20% 20% 40% 20%;
-   margin-bottom: 5%;
+   /* margin-bottom: 5%; */
 }
 
 .projecthighlightedinfo{
@@ -30,4 +28,18 @@
     font-size: larger;
     min-height: 30vh;
     padding: 2em;
+    margin-bottom: 0;
+    transform: perspective(600px);
 }
+
+/* .base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    width: 70%;
+    height: 1vh;
+    background-color: aqua;
+    margin-bottom: 5%;
+} */

@@ -20,6 +20,7 @@
     background-color: rgb(47, 47, 47);
     border: solid 0.1em rgb(121, 121, 121) ;
     width: 120vh;  
+    margin-top: -3vh;
     /* max-height: 4em; */
     /* margin: 0; */
     border-radius:0.4em;
@@ -80,7 +81,7 @@
     justify-content: end;
     align-items: center;
     margin: auto;
-    margin-top:-3vh;
+    /* margin-top:5vh; */
     /* background-color: rgb(55, 55, 55); */
     /* display: flex;
     width: 100%;
@@ -120,8 +121,8 @@
     margin: auto;
     /* min-width:60em; */
     /* max-width: 40em; */
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+    /* display: grid;
+    grid-template-columns: 20% 60% 20%; */
     /* display: flex; */
      /*grid-template-columns: auto auto; */
     justify-content: center;
