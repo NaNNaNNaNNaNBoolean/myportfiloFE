@@ -6,7 +6,9 @@
     margin-bottom: 0;
     filter: brightness(80%);
     width: 16vh;
-
+    perspective: 1000px;
+    transition: .3s; 
+    transform: rotateY(40deg);
     /* transform: scale(0.98) translateZ(-20px); */
     padding:  2.5em;
     height: 10rem;
@@ -14,7 +16,7 @@
     background-image: url('../../imgs/box.png');
     background-size: cover;
     background-size:100% 100%;
-    perspective: 600;
+    /* perspective: 600; */
 }
 .viewport-block{
    display: grid;
@@ -29,10 +31,10 @@
     min-height: 30vh;
     padding: 2em;
     margin-bottom: 0;
-    transform: perspective(600px);
+    perspective:600px;
 }
 
-/* .base{
+.base{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,4 +44,5 @@
     height: 1vh;
     background-color: aqua;
     margin-bottom: 5%;
-} */
+}
+

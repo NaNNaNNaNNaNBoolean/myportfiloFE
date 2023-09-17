@@ -3,12 +3,15 @@ import React, { useState, useEffect } from 'react'
 import handleViewport from 'react-in-viewport';
 import './style.css'
 import './animation.css'
+import { useNavigate } from 'react-router-dom';
 
 const ProjectSection = (props) => {
     const [aniStyle, setAniStyle] = useState(false)
     const [vis,setVis] = useState(false)
     const { inViewport, forwardedRef, enterCount } = props;
-    const handleClick = () => {
+
+    const nav = useNavigate()
+    const handleClicksec = () => {
         nav('/Projects')
     }
     const myStyle = {animationPlayState: aniStyle ? 'running' : '', display: aniStyle ? 'block' : 'none'}
@@ -20,11 +23,6 @@ const ProjectSection = (props) => {
         }else{setAniStyle(false)}
     })
    
-    // const animated = document.querySelector(".projecthighlightefitem");
-
-    // animated.onanimationend = () => {
-    //   console.log("Animation ended");
-    // };
     const [projectSec, setProjects] = useState([]);
     const [loading,setLoading] = useState(true)
   
@@ -42,7 +40,8 @@ const ProjectSection = (props) => {
     <div>
        <div className="viewport-block" ref={forwardedRef}>
             <div></div>
-            <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}></div>
+            <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}>
+            </div>
             <div className='projecthighlightedinfo' id = 'glitchin'style ={myStyle}>
                 <h2>{projectSec.name}</h2>
                 <h3>{ projectSec.subhead}</h3>
@@ -53,7 +52,7 @@ const ProjectSection = (props) => {
        </div>
        <footer>
             <div className='base'></div>
-            <button  onClick={handleClick} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
+            <button  onClick={handleClicksec} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
        </footer>
     
     </div>
