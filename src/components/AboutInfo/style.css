@@ -153,19 +153,19 @@
 
 @media only screen and (max-width: 760px) {
 
-  /* .fade-about-info-items {
+  .fade-about-info-items {
   
-    width: 80%;
-    font-size: smaller;
+    /* width: 80%;
+    font-size: smaller; */
     /* min-height: 70%; */
     /* margin-left: 1em; */
-    /* margin-right: 0; */
+    margin-right: 4em;
     /* margin-top: 25%; */
 
-  /* } */
+  }
   .me{
-    width: 20vh;
-    height: 20vh;
+    width: 25vh;
+    height: 25vh;
 
 
   }
