@@ -174,7 +174,7 @@
       /* grid-row: auto; */
   
       /* width: 100%; */
-      grid-template-columns: 55% 45%;
+      grid-template-columns: 60% 40%;
       gap: 2%;
    }
   

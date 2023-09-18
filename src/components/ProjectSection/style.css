@@ -54,3 +54,20 @@
     margin-bottom: 5%;
 }
 
+@media only screen and (max-width: 760px) {
+
+    .projecthighlighteditem{
+        margin-right: 1em;
+    }
+    
+    .projecthighlightedinfo{
+        font-size: large;
+       
+        margin-left: 1em;
+       
+        transform: perspective(50rem) rotateY(-30deg);
+    }
+    
+  
+  } 
+  
