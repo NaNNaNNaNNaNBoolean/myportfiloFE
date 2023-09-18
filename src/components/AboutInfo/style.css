@@ -159,7 +159,7 @@
     font-size: smaller; */
     /* min-height: 70%; */
     margin-left: 1em;
-    margin-right: 1em;
+    /* margin-right: 1em; */
     /* margin-top: 25%; */
 
   }
@@ -175,7 +175,7 @@
   
       /* width: 100%; */
       grid-template-columns: 58% 42%;
-      gap: 0.5em;
+      /* gap: 0.5em; */
    }
   
 
