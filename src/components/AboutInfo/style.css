@@ -167,13 +167,14 @@
     width: 20vh;
     height: 20vh;
 
+
   }
   .sectionabouteffect{
     display: grid;
     grid-row: auto;
   
     /* width: 100%; */
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 50% 50%;
     /* gap: 0; */
       /* background-image: linear-gradient(rgba(24, 1, 43, 0), rgba(0, 0, 0, 0.754)); */
       background-size:100% 100%;

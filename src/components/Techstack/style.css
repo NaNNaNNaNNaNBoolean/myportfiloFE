@@ -148,10 +148,11 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 @media only screen and (max-width: 760px) {
 
   .TeckStackList{
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
   }
   img{
     width: 20%;
+    height: 20%;
   }
 } 
 
