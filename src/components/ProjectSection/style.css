@@ -61,7 +61,7 @@
         width: 14vh;
     }
     .viewport-block{
-
+        grid-template-columns: 10% 20% 60% 10%;
         gap: 1em;
 
      }
