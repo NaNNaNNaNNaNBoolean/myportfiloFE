@@ -19,23 +19,39 @@
     
 }
 .mainbackbtn{
-    background-color: rgb(45, 45, 45);
+  --glow-color: hsl(283, 100%, 50%);
+
+  background: rgba(57, 57, 57, 0.604);
+  color: var(--glow-color);
+  font-family: "Raleway", sans-serif;
+  background: none;
     margin-top: 0;
     margin: auto;
     padding: 0.8em;
     font-size: large;
     /* width: 90%; */
+    border: 0.2em solid var(--glow-color);
     border-radius: 0.8em 0.8em 0.8em 0.8em; 
-    box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); 
+    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  animation: border-flicker 6s linear infinite; 
     cursor: pointer;
 }
 .mainbackbtn span{
-    /* height: 10%; */
-    /* width: 50%; */
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* margin: 0; */
+    float: left;
+    /* margin-right: -0.8em; */
+    font-size: x-large;
+    -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+      0 0 0.45em var(--glow-color);
+    -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+      0 0 0.45em var(--glow-color);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
+    animation: text-flicker 5s linear infinite;
     color: #fff;
     text-shadow:
       0 0 4px #fff,

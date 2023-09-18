@@ -41,6 +41,7 @@
     transform: perspective(100rem) rotateY(-30deg);
 }
 
+
 .base{
     display: flex;
     align-items: center;
@@ -51,7 +52,11 @@
     height: 1vh;
     /* background-color: rgba(0, 0, 0, 0.812); */
     /* box-shadow: 1em 1em 3em 2em black; */
-    margin-bottom: 5%;
+    margin-bottom: 6%;
+}
+.bottombase{
+    width: 70%;
+    height: 5vh;
 }
 
 @media only screen and (max-width: 760px) {

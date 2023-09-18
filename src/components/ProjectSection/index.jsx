@@ -51,7 +51,8 @@ const ProjectSection = (props) => {
        </div>
        <footer>
             <div className='base'></div>
-            <button  onClick={handleClicksec} className='goToProjects' ><span className='glowing-txt'>SEE PROJECTS</span></button> 
+            <button  onClick={handleClicksec} className='goToProjects'><span className='glowing-txt'>SEE PROJECTS</span></button> 
+            <div className='bottombase'></div>
        </footer>
     
     </div>
@@ -63,7 +64,7 @@ const ProjectSection = (props) => {
   const Component = (props) => (
     <div>
         <div style={{ height: '10vh' }}>
-        <h3>!!!!section is under development!!!</h3>
+        <h2 style={{color:'white'}}>!!!!section is under development!!!</h2>
             {/* <h2>Scroll down to make component in viewport</h2> */}
         </div>
         <ViewportBlock /*onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')*/ />
