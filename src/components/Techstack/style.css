@@ -154,5 +154,13 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     width: 20%;
     height: 20%;
   }
+  .langgrid{
+    grid-template-columns: auto auto auto auto;
+
+  }
+  .BEgrid{
+    grid-template-columns: auto auto auto auto ;
+
+  }
 } 
 
