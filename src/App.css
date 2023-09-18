@@ -255,9 +255,187 @@ body{
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .glowing-btn{
-    font-size: 1em;
+/* Mobiles */
+@media only screen and (max-width: 760px) {
+  /* HEADER */
+  .backheader {
+      max-height: 2.5em;
+      width: 85%;
+      padding-top: 0;
+      padding-bottom: 1.8em;
+  }
+  .item1{
+    /* width: 10em;  */
+    width: 80%;
+    border-radius: 0.3em;
+    padding: 0.05em;
+    margin-top: 0vh;
+}
+.NeonBanner {
+    /* height: 50%; */
+    /* width: 1em; */
+    font-size: 60%;
+}
+.connectwithme{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+    /* margin-top: ; */
+}
+.linkedinbtn{
+    min-height: 3vh;
+    min-width: 3vh;
+}
+.githubbtn{
+    min-height: 3vh;
+    min-width: 3vh;
+}
+
+  /* MAIN */
+  .fade-about-info-items {
+    
+    /* width: 80%; */
+    font-size: smaller;
+    /* min-height: 70%; */
+    margin-left: 1em;
+    /* margin-right: 1em; */
+    margin-top: 30%;
+
+  }
+  .me{
+    width: 20vh;
+    height: 20vh;
+    /* margin-right: 1em; */
+
+  }
+  .sectionabouteffect{
+      display: grid;
+      /* grid-row: auto; */
+      height: 100vh;
+      /* width: 100%; */
+      grid-template-columns: 55% 45%;
+      /* gap: 0.5em; */
+   }
+  
+   .glowing-txt{
+    font-size: small;
+    /* width: 50%; */
+    /* height: 10%; */
+   }
+  .goToProjects{
+    padding: 1.5vh;
+    border-radius: 1.5em;
+    cursor: pointer; 
+  } 
+
+  /*tech stack*/
+  .techstacksection{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
+    background-size:100% 100%;
+    margin: 0;
+    background-size: cover;
+  }
+  .TeckStackList{
+    grid-template-columns: 100%;
+  }
+  img{
+    width: 20%;
+    height: 20%;
+  }
+  .langgrid{
+    grid-template-columns: auto auto auto auto;
+
+  }
+  .BEgrid{
+    grid-template-columns: auto auto auto ;
+
+  }
+  img {
+      margin: auto;
+      margin-top: 1rem;
+  }
+  .text-box-two-container {
+      width: 80%;
+      margin-top: 1rem;
+  }
+  .text-box-two-container p{
+      padding: 1rem;
+      text-align: center;
+  }
+  /*Project SECTION */
+  .projecthighlighteditem{
+    margin-right: 1em;
+    width: 14vh;
+}
+.viewport-block{
+    grid-template-columns: 10% 20% 60% 10%;
+    gap: 1em;
+
+ }
+.projecthighlightedinfo{
+    font-size: large;
+   
+    margin-left: 1em;
+   
+    transform: perspective(50rem) rotateY(-30deg);
+  }
+}
+
+/*Tablets or small screens*/
+@media only screen and (min-width: 760px) and (max-width: 1300px) {
+  /* HEADER */
+  header {
+
+  }
+  .header {
+
+  }
+  .welcome-box {
+      width: 80%;
+  }
+  .welcome-box h1 {
+
+  }
+
+  /* MAIN */
+  main {
+      margin: 0rem;
+      margin-top: 1rem;
+      flex-direction: column;
+  }
+  .text-box-one-container {
+      width: 80%;
+      margin-top: 1rem;
+  }
+  .text-box-one-container p{
+
+  }
+  img {
+      margin: auto;
+      margin-top: 1rem;
+  }
+  .text-box-two-container {
+      width: 80%;
+      margin-top: 1rem;
+  }
+  .text-box-two-container p{
+      padding: 1rem;
+      text-align: center;
+  }
+  /* SECTION */
+  section {
+
+  }
+  .button-container {
+
+  }
+  .button-container button {
+
   }
 }
 

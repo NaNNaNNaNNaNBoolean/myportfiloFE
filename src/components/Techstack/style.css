@@ -144,23 +144,3 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   /* animation: pulsate 0.11s ease-in-out infinite alternate;     */
 }
 
-
-@media only screen and (max-width: 760px) {
-
-  .TeckStackList{
-    grid-template-columns: 100%;
-  }
-  img{
-    width: 20%;
-    height: 20%;
-  }
-  .langgrid{
-    grid-template-columns: auto auto auto auto;
-
-  }
-  .BEgrid{
-    grid-template-columns: auto auto auto auto ;
-
-  }
-} 
-
