@@ -164,8 +164,8 @@
 
   }
   .me{
-    width: 22vh;
-    height: 22vh;
+    width: 28vh;
+    height: 28vh;
 
 
   }
@@ -175,7 +175,7 @@
   
       /* width: 100%; */
       grid-template-columns: 60% 40%;
-      gap: 2%;
+      gap: 1em;
    }
   
 
