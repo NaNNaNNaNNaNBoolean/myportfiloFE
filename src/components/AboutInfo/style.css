@@ -154,19 +154,19 @@
 @media only screen and (max-width: 760px) {
 
   .fade-about-info-items {
-  
+    
     /* width: 80%;
     font-size: smaller; */
     /* min-height: 70%; */
     margin-left: 1em;
     /* margin-right: 1em; */
-    /* margin-top: 25%; */
+    margin-top: 20%;
 
   }
   .me{
     width: 25vh;
     height: 25vh;
-
+    margin-right: 1em;
 
   }
   .sectionabouteffect{
