@@ -196,7 +196,7 @@
     }
     .item1{
         /* width: 10em;  */
-        width: 80%;
+        width: 60%;
         border-radius: 0.3em;
         padding: 0.05em;
         margin-top: 0vh;
@@ -204,7 +204,7 @@
     .NeonBanner {
         /* height: 50%; */
         /* width: 1em; */
-        font-size: 80%;
+        /* font-size: 80%; */
     }
     .connectwithme{
         height: 100%;
