@@ -159,7 +159,7 @@
     font-size: smaller;
     /* min-height: 70%; */
     margin-left: 1em;
-    margin-right: 0;
+    /* margin-right: 0; */
     margin-top: 25%;
 
   }
@@ -172,9 +172,9 @@
     display: grid;
     grid-row: auto;
   
-    width: 100%;
+    /* width: 100%; */
     grid-template-columns: 55% 45%;
-    gap: 0;
+    /* gap: 0; */
       /* background-image: linear-gradient(rgba(24, 1, 43, 0), rgba(0, 0, 0, 0.754)); */
       background-size:100% 100%;
       background-size: contain;
