@@ -83,7 +83,7 @@
  .sectionabouteffect{
   display: grid;
   /* grid-row: auto; */
-
+  height: 100vh;
   width: 100%;
   grid-template-columns: 70% 30%;
   gap: 1%;
@@ -93,7 +93,7 @@
  }
 
 .techstacksection{
-  
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
   background-size:100% 100%;
@@ -102,6 +102,7 @@
 }
 
 .projectpagelink{
+  height: 100vh;
   margin: 0;
   background-image: linear-gradient(rgb(27, 0, 37), rgba(27, 0, 37, 0.867));
   /*width: 100%;
@@ -192,7 +193,7 @@
     /* width: 50%; */
     /* height: 10%; */
    }
-   .goToProjects{
+   /* .goToProjects{ */
     /* margin: auto;
     justify-content: center;
     align-items: center;
@@ -200,5 +201,5 @@
     left: 50%; */
     /* width: 0%; */
     /* height: 10%; */
-    }
+    /* } */
 } 
