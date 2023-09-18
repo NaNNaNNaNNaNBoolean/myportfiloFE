@@ -1,3 +1,6 @@
+.arrowcontainer{
+  margin-bottom:10%;
+}
 .arrows {
     width: 20vh;
     height: 10vh;
@@ -48,7 +51,17 @@
   @media only screen and (max-width: 760px) {
 
     .arrows {
+      /* width: 10vh;
+      height: 5vh; */
+      /* position: absolute; */
       left: 56%;
+      /* margin-top: 0; */
+      /* margin-left: -3em; */
+      /* bottom: 0; */
+      /* margin-bottom: 20%; */
+    }
+    .arrowcontainer{
+      margin-bottom: 20%;
     }
 
   } 

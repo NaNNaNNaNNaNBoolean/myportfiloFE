@@ -45,7 +45,7 @@ const ProjectSection = (props) => {
             <div className='projecthighlightedinfo' id = 'glitchin' style ={myStyle}>
                 <h2>{projectSec.name}</h2>
                 <h3>{ projectSec.subhead}</h3>
-                <video controls autoPlay src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
+                <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
             </div>
             <div></div>
        </div>
