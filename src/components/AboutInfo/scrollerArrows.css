@@ -1,13 +1,13 @@
-.arrowcontainer{
+/* .arrowcontainer{
   margin-bottom:10%;
-}
+} */
 .arrows {
     width: 20vh;
     height: 10vh;
     position: absolute;
     left: 50%;
     margin-left: -3em;
-    bottom: 2rem;
+    bottom: 5%;
     /* margin-bottom: 20%; */
   }
   

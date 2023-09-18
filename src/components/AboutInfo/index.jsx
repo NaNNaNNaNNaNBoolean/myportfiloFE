@@ -65,7 +65,7 @@ const AboutInfo = () => {
                             <div className='paragintro'>
                                 <Techstack />
                             </div>
-                            <div style={{marginBottom:'10%'}}>
+                            <div className='arrowcontainer'>
                             <svg className="arrows">
                                 <path class="a1" d="M0 0 L30 32 L60 0"></path>
                                 <path class="a2" d="M0 20 L30 52 L60 20"></path>
