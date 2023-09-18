@@ -213,7 +213,7 @@
         justify-content: end;
         align-items: center;
         margin: auto;
-        margin-top: 0;
+        /* margin-top: ; */
     }
     .linkedinbtn{
         min-height: 3vh;
