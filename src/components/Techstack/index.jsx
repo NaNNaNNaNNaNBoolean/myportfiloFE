@@ -63,12 +63,12 @@ const Techstack = () => {
         <div className='TechSecFE'>
           <h3 style = {{marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}> Frontend </h3>
           <div className='FEgrid'>
-            <img src = {Html} style = {{height: '5vh', width: '5vh', marginBottom:'1em' }}></img>
-            <img src = {Css} style = {{height: '5vh', width: '4vh', marginBottom:'1em'}}></img>
-            <img src = {reactImg} style = {{height: '5vh', width: '5vh' , marginBottom:'1em'}}></img>
-            <img src = {Boot} style = {{height: '5vh', width: '4vh', marginBottom:'1em'}}></img>
-            <img src = {Dnd} style = {{height: '5vh', width: '5vh', marginBottom:'1em' }}></img>
-            <img src = {vitest} style = {{height: '5vh', width: '4vh', marginBottom:'1em'}}></img>
+            <img src = {Html} style = {{height: '40%', width: '40%', marginBottom:'1em' }}></img>
+            <img src = {Css} style = {{height: '40%', width: '30%', marginBottom:'1em'}}></img>
+            <img src = {reactImg} style = {{height: '30%', width: '35%' , marginBottom:'1em'}}></img>
+            <img src = {Boot} style = {{height: '30%', width: '40%', marginBottom:'1em'}}></img>
+            <img src = {Dnd} style = {{height: '40%', width: '50%', marginBottom:'1em' }}></img>
+            <img src = {vitest} style = {{height: '50%', width: '40%', marginBottom:'1em'}}></img>
           </div>
           
         </div>
@@ -76,9 +76,9 @@ const Techstack = () => {
           <h3 style = {{marginTop:'1%',marginBottom: '0.5em', color:'rgb(65, 65, 65)'}}>Design/Deployment</h3>
           <div className='Dgrid'>
             <img src = {Figma} style = {{height: '30%', width: '40%' }}></img>
-            <img src = {Render} style = {{height: '40%', width: '60%' }}></img>
-            <img src = {Github} style = {{height: '30%', width: '45%' }}></img>
-            <img src = {Arduino} style = {{height: '30%', width: '35%' }}></img>
+            <img src = {Render} style = {{height: '40%', width: '50%' }}></img>
+            <img src = {Github} style = {{height: '30%', width: '40%' }}></img>
+            <img src = {Arduino} style = {{height: '30%', width: '30%' }}></img>
           </div>
    
          

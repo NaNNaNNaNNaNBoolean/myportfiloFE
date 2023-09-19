@@ -70,6 +70,7 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3% ;
   margin:2%;
+  
   gap: 1%;
 }
 .TechSecFE{
