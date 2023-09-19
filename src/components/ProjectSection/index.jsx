@@ -42,11 +42,15 @@ const ProjectSection = (props) => {
             <div></div>
             <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> <h2>placeholder</h2>
             </div>
-            <div className='projecthighlightedinfo' id = 'glitchin' style ={myStyle}>
+            <div className='glitchcontainer'>
+              <div className='projecthighlightedinfo' id = 'glitchin' style ={myStyle}>
                 <h2>{projectSec.name}</h2>
                 <h3>{ projectSec.subhead}</h3>
                 <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
+              </div>
+             
             </div>
+           
             <div></div>
        </div>
        <footer>
