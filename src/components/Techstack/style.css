@@ -16,8 +16,8 @@
   margin: 2%;
   gap: 1%;
   margin-top: 5%;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  /* margin-bottom: 1vh; */
+  /* padding-bottom: 0; */
   /* top: 50%; */
 }
 img{
@@ -37,7 +37,7 @@ img{
     background-color: rgba(179, 179, 179, 0.595);
     border: solid var(--glow-color)0.1em;
     margin: 2%;
-    margin-top: 4vh;
+    margin-top: 2vh;
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
     -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
