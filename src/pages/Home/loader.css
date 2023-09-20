@@ -1,4 +1,25 @@
-
+#continuesbg{
+  /* min-height: 50vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  /* height: 50%; */
+  /* width: 100%; */
+  background-image:  linear-gradient(
+    /* rgba(212, 92, 255, 0.513),  */
+    rgba(27, 0, 37, 0.867),
+    /* rgba(207, 74, 255, 0),  */
+    rgba(207, 74, 255, 0), 
+    rgba(27, 0, 37, 0.867)
+  ),url('../../imgs/homebg.webp');
+  background-repeat: no-repeat;
+  /* background: rgba(34, 34, 34, 0.543); */
+  /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */
+  /* background-size:100% 90%; */
+  /* -o-background-size: 80% 90%;
+  -webkit-background-size: 80% 90%; */
+  background-size: cover;
+}
   .welcomeloader{
     position: absolute;
     /* left: 50%; */
@@ -53,6 +74,13 @@
     z-index: 1;
     display: flex;
     margin: auto;
+    background-image:  linear-gradient(
+      /* rgba(212, 92, 255, 0.513),  */
+      rgba(27, 0, 37, 0.867),
+      /* rgba(207, 74, 255, 0),  */
+      rgba(207, 74, 255, 0), 
+      rgba(27, 0, 37, 0.867)
+    ), url('../../imgs/homebg.webp');
     background: radial-gradient(#10011b, #9198e500);
   }
  

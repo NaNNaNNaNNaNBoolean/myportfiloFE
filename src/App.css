@@ -28,19 +28,20 @@ body{
     /* position: relative; */
     height: 100%;
     width: 100%;
-    background-image:  linear-gradient(
-      /* rgba(212, 92, 255, 0.513),  */
+    /* background-image:  linear-gradient(
+     
       rgba(27, 0, 37, 0.867),
-      /* rgba(207, 74, 255, 0),  */
+    
       rgba(207, 74, 255, 0), 
       rgba(27, 0, 37, 0.867)
-    ),url('./imgs/homebg.webp');
-    background-repeat: no-repeat;
+    ),url('./imgs/homebg.webp'); */
+    background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
+    /* background-repeat: no-repeat;  */
     /* background: rgba(34, 34, 34, 0.543); */
     /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */
-    background-size:100% 100%;
-    -o-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
+    background-size:80% 90%;
+    /* -o-background-size: 80% 90%;
+    -webkit-background-size: 80% 90%; */
     background-size: cover;
     /* flex-grow: 1 */
 }
@@ -49,40 +50,14 @@ body{
 
 
 @media only screen and (max-width: 760px) {
-
+/* 
   main {
     margin: 0rem;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-  }
-  html, 
-body{
-    /* font-family: 'Proza Libre', sans-serif;
-    font-weight: 400;
-    font-size: 16px; */
-    min-height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* position: relative; */
-    height: 100%;
-    /* width: 100%; */
-    background-image:  linear-gradient(
-      /* rgba(212, 92, 255, 0.513),  */
-      rgba(27, 0, 37, 0.867),
-      /* rgba(207, 74, 255, 0),  */
-      rgba(207, 74, 255, 0), 
-      rgba(27, 0, 37, 0.867)
-    ),url('./imgs/homebg.webp');
-    background-repeat: no-repeat;
-    /* background: rgba(34, 34, 34, 0.543); */
-    /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */
-    background-size:100% 100%;
-    -o-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    background-size: cover;
-    /* flex-grow: 1 */
-}
+  } */
+  
 
   /* .TeckStackList{
     grid-template-rows: auto auto auto;
@@ -333,12 +308,7 @@ body{
 
   /*tech stack*/
   .techstacksection{
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
-    background-size:100% 100%;
-    margin: 0;
-    background-size: cover;
+    height: 170vh;
   }
   .TeckStackList{
     grid-template-columns: 100%;
@@ -398,15 +368,15 @@ body{
 }
 .item1{
 /* width: 10em;  */
-width: 80%;
+width: 70%;
 border-radius: 0.3em;
 padding: 0.05em;
 margin-top: 0vh;
 }
 .NeonBanner {
-/* height: 50%; */
+/* height: 80%; */
 /* width: 1em; */
-font-size: 60%;
+font-size: 80%;
 }
 .connectwithme{
 height: 100%;
@@ -434,13 +404,15 @@ font-size: smaller;
 /* min-height: 70%; */
 margin-left: 1em;
 /* margin-right: 1em; */
-margin-top: 30%;
+font-size: larger;
+margin-top: 20%;
 
 }
 .me{
-width: 20vh;
-height: 20vh;
-/* margin-right: 1em; */
+width: 25vh;
+height: 25vh;
+margin-left: 20%;
+margin-top: 45%;
 
 }
 .sectionabouteffect{
@@ -465,7 +437,7 @@ cursor: pointer;
 
 /*tech stack*/
 .techstacksection{
-height: 100vh;
+height: 170vh;
 width: 100%;
 background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
 background-size:100% 100%;

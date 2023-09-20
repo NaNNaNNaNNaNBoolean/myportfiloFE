@@ -18,15 +18,16 @@ const Home = () => {
     function showPage() {
         document.getElementById("loader").style.display = "none";
         document.getElementById("myloaderDiv").style.display = "block";
+        document.getElementById("continuesbg").style.backgroundSize = "100% 42%";
         setSeen(true)
     }
     }
   })
 
+
   
   return (
-    <>
-      {/* <body onLoad={myFunction()} style={{margin:"0"}}> */}
+    <div id='continuesbg'>
 
       <div id="loader" className='hidden'>
         <div className ="backloader">
@@ -68,7 +69,7 @@ const Home = () => {
       </div>
         
       {/* </body> */}
-    </>
+    </div>
 
     
     

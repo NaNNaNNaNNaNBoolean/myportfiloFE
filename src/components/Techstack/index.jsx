@@ -29,7 +29,7 @@ const Techstack = () => {
   return (
     <>
     {/* <h3>!!!Section is under development!!!</h3> */}
-    <div style={{minHeight:'100vh', marginTop:'1%'}}>
+    <div className='TScontainer'>
       <h2 className='techstacktitleback' style = {{ display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  
         <div className='TechSecLang'> 

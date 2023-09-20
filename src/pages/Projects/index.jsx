@@ -74,7 +74,7 @@ const Projects = () => {
   }
   function displayProjects() {
     return (
-      <div>
+      <div className='projectspagecontainer'>
         <div className='topbot'>
           <div className='logoproj'>
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>

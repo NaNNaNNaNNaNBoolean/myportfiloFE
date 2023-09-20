@@ -93,21 +93,18 @@
  }
 
 .techstacksection{
-  height: 100vh;
-  width: 100%;
+  height: 200vh;
+  /* width: 100%; */
   background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
-  background-size:100% 100%;
+  /* background-size:100% 100%;
   margin: 0;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .projectpagelink{
   height: 100vh;
   margin: 0;
-  background-image: linear-gradient(rgb(27, 0, 37), rgba(27, 0, 37, 0.867));
-  /*width: 100%;
-  height: 40%; */
-  /* min-height: 60vh; */
+  background-image: linear-gradient(rgba(27, 0, 37, 0), rgba(27, 0, 37, 0.867));
 }
 .fade-about-info-items {
   position: relative;
