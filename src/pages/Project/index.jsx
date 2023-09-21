@@ -83,6 +83,7 @@ const Project = () => {
                 <div className='neontitleback'>
                     <h1 className="project-title">{project.name}</h1>
                 </div>
+                <h2 className='projectsub'><b>*section is under development*</b></h2>
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
                    
