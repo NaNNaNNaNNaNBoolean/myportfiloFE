@@ -67,8 +67,6 @@
     margin-top: 0;
     width: 70%;
     height: 1vh;
-    /* background-color: rgba(0, 0, 0, 0.812); */
-    /* box-shadow: 1em 1em 3em 2em black; */
     margin-bottom: 6%;
 }
 .bottombase{
@@ -76,8 +74,8 @@
     height: 5vh;
 }
 
-.material-symbols-outlined{
-    /* font-size: xxx-large; */
-}
+/* .material-symbols-outlined{
+    font-size: xxx-large;
+} */
 
   
