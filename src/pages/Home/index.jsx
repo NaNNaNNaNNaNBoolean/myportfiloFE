@@ -14,11 +14,11 @@ const Home = () => {
 
   useEffect(()=>{
     if(seen === false){
-       myVar = setTimeout(showPage, 3000);
+       myVar = setTimeout(showPage, 6000);
     function showPage() {
         document.getElementById("loader").style.display = "none";
         document.getElementById("myloaderDiv").style.display = "block";
-        document.getElementById("continuesbg").style.backgroundSize = "100% 42%";
+        document.getElementById("continuesbg").style.backgroundSize = "100% 40%";
         setSeen(true)
     }
     }
@@ -67,11 +67,7 @@ const Home = () => {
         
         </div>
       </div>
-        
-      {/* </body> */}
     </div>
-
-    
     
   )
 }

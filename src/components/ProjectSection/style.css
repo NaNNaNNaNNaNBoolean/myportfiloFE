@@ -42,7 +42,23 @@
     transform: perspective(100rem) rotateY(-30deg);
 }
 
-
+.lightupbase{
+    position: relative;
+    background-color: rgb(110, 110, 110);
+    width: 25vh;
+    height: 2vh;
+    border-radius: 0.5em 0.5em 0 0;
+    box-shadow: inset 1em 1em 3em -1em #121212;
+    /* z-index: -1; */
+}
+.questedit{
+    /* position: relative; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
 .base{
     display: flex;
     align-items: center;
@@ -60,5 +76,8 @@
     height: 5vh;
 }
 
+.material-symbols-outlined{
+    /* font-size: xxx-large; */
+}
 
   

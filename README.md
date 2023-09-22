@@ -23,7 +23,7 @@ This was a fun project, and one to be constinulisy improved! What I really learn
     - fonts?
 4. Content
     - fix bio and include relevant details about journey into tech 
-    - 
+    - project section, ani - glitch in
 5. Projects
     - link to your project, readme ( start it up, technical, wins and challenges)
     - Add other projects to project pages
@@ -33,3 +33,5 @@ This was a fun project, and one to be constinulisy improved! What I really learn
 ## Future Features 
 - Projects 
     - Tech stack for each project
+    - Convaybelt - make it the robot arm selecter instead
+

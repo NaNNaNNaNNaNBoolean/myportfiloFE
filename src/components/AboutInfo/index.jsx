@@ -12,14 +12,14 @@ const AboutInfo = () => {
     const handleClick = () => {
       nav('/Projects')
     }
-    const { ref } = useParallax({ speed: 10 });
+    const { ref } = useParallax({ speed: 15});
 
-    useEffect(() => {
-        async function loadProjects() {
-            await fetch("https://nmfportfilobe.onrender.com/projects");
-        };
-        loadProjects();
-    },[])
+    // useEffect(() => {
+    //     async function loadProjects() {
+    //         await fetch("https://nmfportfilobe.onrender.com/projects");
+    //     };
+    //     loadProjects();
+    // },[])
 
 
         return (

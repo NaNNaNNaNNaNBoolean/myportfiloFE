@@ -48,14 +48,21 @@ const ProjectSection = (props) => {
               <div className='arm-container'style={myStyle} >
                 <div className='armpart'></div>
                 <div className='hand'>
-                  <div className='handback' style={myStyle}></div>
-                  <div className='handfront' style={myStyle}></div>
+                  <div className='handback' style={myStyle}>
+                    <div className='lowerbackhand'></div>
+                  </div>
+                  <div className='handfront' style={myStyle}>
+                  <div className='lowerfronthand'></div>
+                  </div>
                 </div>
                 
               </div>
-              <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> <h2>placeholder</h2>
-              <button onClick={handleClickDisplay} className='goToProjects2' >see more about this project</button>
+              <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> 
+              <div className='questedit'><span className="material-symbols-outlined">question_mark</span></div>
+              {/* <h2>{projectSec.name}</h2> */}
+              {/* <button onClick={handleClickDisplay} className='goToProjects2' >see more about this project</button> */}
               </div>
+              <div className='lightupbase' style={myStyle}  id='boxlightup'></div>
             </div>
          
             <div className='glitchcontainer'>
@@ -69,7 +76,9 @@ const ProjectSection = (props) => {
            
             <div></div>
        </div>
+       {/* <div className='lightupbase'></div> */}
        <footer>
+            
             <div className='base'></div>
             <button  onClick={handleClicksec} className='goToProjects'><span className='glowing-txt'>SEE PROJECTS</span></button> 
             <div className='bottombase'></div>

@@ -9,12 +9,19 @@
 #glitchin{
     opacity: 0;
     animation: glitch 3s ease infinite;
-    animation-delay: 4s;
+    animation-delay: 3.4s;
     animation-iteration-count: 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
 }
-
+#boxlightup{
+    /* box-shadow: none; */
+    animation: lightupbase 2s ease infinite;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
 @keyframes glitch{
     0% {
         opacity: 0;
@@ -34,3 +41,13 @@
     }
 }
 
+@keyframes lightupbase{
+    0%{
+        opacity: 1;
+        /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+        
+    }
+    100%{
+        filter: drop-shadow(0 -7mm 1.5em rgb(210, 63, 255));
+    }
+}
