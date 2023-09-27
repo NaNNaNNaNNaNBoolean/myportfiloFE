@@ -26,6 +26,7 @@
      display: grid; 
     margin: 0;
     color: #fff;
+    /* font-size: large; */
     text-shadow:
       0 0 4px #fff,
       0 0 10px #fff,
@@ -67,7 +68,7 @@
   
   }
 }
-.backbtn{
+/* .backbtn{
     display: grid;
     background-color: gray;
     border-radius: 1.2em;
@@ -76,9 +77,8 @@
     margin-left: 4em;
     margin-right: 4em;
     text-align: center;
-    /* grid-column: start; */
     margin-bottom: 10em; 
-}
+} */
 .projectsub{
     display: block;
     margin: 1em;
@@ -86,6 +86,7 @@
     margin-right: 10em;
     background-color: rgb(179, 179, 179);
     border-radius:0.8em;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* .projvid{
@@ -93,13 +94,13 @@
 } */
 .projectinfo{
    margin: 3em;
-   margin-top: 2em;
+   margin-top:1em;
    margin-bottom: 1em;
    font-family: Arial, Helvetica, sans-serif;
 }
 .likebtn{
     /* grid-column: end; */
-    margin-top: 2em;
+    margin-right: 0.5em;
     background: none;
     border: 0;
     padding: 1em;
@@ -109,22 +110,29 @@
     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
-
+.likesection{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 1em;
+}
 .infocontainer{
     background-color: gray;
     border-radius: 2em;
     padding: 1em;
-    margin: 4em;
+    margin: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .neontitleback{
     font-family:'Orbitron'; 
     margin:auto;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 15vh;
+    margin-right: 15vh;
     justify-content: center;
     align-self: center;
-    font-size: xx-large;
+    font-size: x-large;
     padding: 0.4em;
     /* filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30)); */
     background-color: rgb(47, 47, 47);

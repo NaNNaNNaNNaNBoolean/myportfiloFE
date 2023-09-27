@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './style.css'
+import './popup.css'
+import Project from '../../pages/Project'
  /*want to make it look cool, Like a video game or a factory line*/
 const ProjectList = (props) => {
-//  console.log( props)
   const [projects, setProjects] = useState([]);
-  const [loading,setLoading] = useState(true)
+  const [loading,setLoading] = useState(true);
+  const [clicked, setClicked] = useState(false);
+  const [projectId,setProjectId] = useState([]);
+
+  const togglePopup = (id) => {
+    setClicked(!clicked)
+    setProjectId(id)
+  }
 
   useEffect(() => {
     async function loadProjects() {
@@ -16,23 +23,58 @@ const ProjectList = (props) => {
     };
     loadProjects();
   }, [])
+ const myStyle = {display: clicked ? 'block' : 'none'}
+  const showPopup = () => {
+    // console.log(clicked)
+      if(clicked === true){
+    
+    return(
+      <>
+        <div className='overlay' style={myStyle}>  </div>
+        <div className="popup-container" style={myStyle}>
+           <div className="popup">
+            <button className="close-popup" onClick={togglePopup}>X</button>
+            <Project id ={projectId} />
+          </div>
+        </div>
+      </>
+     
+       
+  
+    )
+  }
+  }
 
 const arr = Array.from(projects)
   function displayProjectList() {
     return (
-    <div className='rowlist' {...props.style} >
+      <div>
+      <div className='rowlist' {...props.style} >
       {
-        projects.map((p,idx) => { 
+        arr.map((p) => { 
           return(
-            <div className='projectitem' key = {idx}>
-              <h3 className='clickproject'><span><Link className='linkeffect'/*style = {{color: '#fff'}}*/ to={`/projects/${p.id}`} >{p.name}</Link></span></h3>
-              <p className="subheadingdetails">{p.subhead}</p>
-          </div>
+            <> 
+              <div className='projectitem' key = {p.id}>
+                <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
+                <p className="subheadingdetails">{p.subhead}</p>
+              </div>
+              {showPopup()}
+              {/* <div className="popup-container" style={myStyle}>
+                  <div className="popup">
+                      <button className="close-popup" onClick={togglePopup}>X</button>
+                      <div className='popup-content'>
+                        <Project id ={projectId} />
+                      </div> 
+                  </div>
+              </div> */}
+            </>
           )
 
         })
       }
     </div>
+      </div>
+    
     )
   }
   return loading ? <h2 className='loadingprojectlist'><em >loading...</em></h2> : displayProjectList();

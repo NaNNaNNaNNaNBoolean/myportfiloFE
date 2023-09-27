@@ -7,7 +7,7 @@
   background-size: cover;
 } */
 .projectspagecontainer{
-  min-height: 100vh;
+  min-height: 80%;
   /* display: flex; */
   /* flex-direction: column; */
   /* position: relative; */
@@ -35,8 +35,8 @@
     margin-top: 0;
     margin: auto;
     width:95%;
-    max-height: 4em;
-    padding: 2em;
+    max-height: 3em;
+    padding: 1.5em;
     border-radius: 0 0 0.8em 0.8em;
     box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); 
     
@@ -48,9 +48,9 @@
   color: var(--glow-color);
   font-family: "Raleway", sans-serif;
   background: none;
-    margin-top: 0;
+    /* margin-top: -10%; */
     margin: auto;
-    padding: 0.8em;
+    padding: 0.6em;
     font-size: large;
     /* width: 90%; */
     border: 0.2em solid var(--glow-color);
@@ -68,7 +68,7 @@
 .mainbackbtn span{
     float: left;
     /* margin-right: -0.8em; */
-    font-size: x-large;
+    font-size: larger;
     -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
       0 0 0.45em var(--glow-color);
     -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
@@ -96,7 +96,8 @@
     filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30));
     background-color: rgb(47, 47, 47);
     border: solid 0.1em rgb(121, 121, 121) ;
-    width: 14.5em;  
+    width: 14.5em; 
+    margin-top: -1%; 
     /* max-height: 4em; */
     /* margin: 0; */
     border-radius:0.4em;
@@ -105,12 +106,12 @@
 }
 
 .projectpageBanner {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: auto;
     color: #fff;
     animation: pulsate 0.11s ease-in-out infinite alternate;    
 
@@ -174,7 +175,7 @@
     gap: 0.1em;
     background-color: gray;
     min-width: 100%;
-    min-height: 20vh;
+    min-height: 15vh;
     /* padding: 2em 0 2em 0; */
     position: absolute;
     /* position: relative; */
@@ -182,6 +183,7 @@
     bottom: 0;
     align-items: center;
     justify-content: center;
+    /* z-index: 40; */
 
 }
 .Controls{
@@ -190,7 +192,7 @@
     bottom: 0; 
 
     width: 60%;
-    height: 25vh;
+    height: 20vh;
     background-color: rgb(76, 76, 76);
     /* margin-bottom: 4em; */
     border-radius:2em 2em 0 0; 
@@ -203,18 +205,22 @@
     justify-content: space-around;
     /* align-items: center; */
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 60% 30% 10%;
 }
 
 .list {
     position: relative;
-    margin-top: 8em;
+    margin-top: 3.5em;
     width: 5em;
     height: 10em; 
     animation: slide-right-click 0.25s linear forwards;
     animation-play-state:paused;
     animation-duration: 3s;
+    z-index: 10;
     /* overflow: hidden; */
+}
+.CB-contianer2{
+  margin-top: 18em;
 }
 
 @keyframes slide-right-click {
@@ -242,18 +248,6 @@
     margin-right: 35em;
 }
 
-.Controlsback{
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 5%;
-    /* margin: auto; */
-    border: none;
-    background-color: #ffffff00;
-    cursor: pointer;
-
-}
 .movedisplay{
     margin: auto;
     background-color: rgb(47, 47, 47);
@@ -272,7 +266,10 @@
     /* max-width: 25em;   */
     /* margin: auto; */
     /* margin-top: 3em; */
-    top: 35%;
+    top: 30%;
+    left: 5%;
+    width: 90%;
+    /* left: 5%; */
     height: 7vh;
     border-radius:1em;
     justify-content: center;
@@ -300,11 +297,11 @@
       0 0 10px rgb(179, 0, 255),
       0 0 15px rgb(179, 0, 255);
 }
-#scroll-container {
+/* #scroll-container {
     border: 3px solid black;
     border-radius: 5px;
     overflow: hidden;
-  }
+  } */
   /*----Scrolling text for message board-----------------*/
   #scrolltext {
     /* animation properties */
@@ -342,19 +339,73 @@
     }
   }  
   /*---------------------------------------------------------~*/
-.Controlsforward{
-    position: relative;
-    display: flex;
-    margin: 10%;
-    justify-content: flex-start;
+  .controlscontainer{
+    margin: auto;
+    margin-top: 8%;
+    justify-content: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .leftandright{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+    grid-template-columns: auto auto;
+    gap: 30%;
+  }
+  .ControlsLeft{
+    margin: auto;
+    /* margin-right: 60%; */
+    margin-left: -30%;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+  }
+  .ControlsUp{
+    margin: auto;
+    border: none;
+    background-color: #ffffff00;
+    margin-bottom: -15%;
+    cursor: pointer;
+  }
+  .ControlsDown{
+    margin: auto;
+    border: none;
+    background-color: #ffffff00;
+    cursor: pointer;
+  }
+.ControlsRight{
+    /* position: relative; */
+    /* display: flex; */
+    /* margin: 5%; */
+    /* justify-content: flex-start; */
     align-items: center;
-    /* margin: auto; */
+    margin: auto;
     border: none;
     background-color: #ffffff00;
     cursor: pointer;
 }
 .material-symbols-outlined{
     font-size: xxx-large;
+}
+.projectitem.focus {
+  /* border: 0.2em solid #ff5454; */
+  filter: drop-shadow(0 0 0.75rem rgb(145, 36, 255));
+}
+.selectorbtn{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  background-color: #878787;
+  padding: 2em;
+  margin-top: 50%;
+  border-radius: 3.5em;
+  margin-left: 0;
+  /* left: 10%; */
+  cursor: pointer;
 }
 
 /* .footer{

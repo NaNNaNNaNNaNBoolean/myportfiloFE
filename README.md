@@ -18,20 +18,20 @@ This was a fun project, and one to be constinulisy improved! What I really learn
 1. Moblie verison 
 2. Finish convaybelt
 3. Styling
-    - a bit cluttered, clean and modern UI but keep the soul of it, neon factory vibesss
     - change favicon
     - fonts?
 4. Content
     - fix bio and include relevant details about journey into tech 
     - project section, ani - glitch in
 5. Projects
-    - link to your project, readme ( start it up, technical, wins and challenges)
     - Add other projects to project pages
 6. Add SR notes
 7. Other lil changes
 
 ## Future Features 
 - Projects 
+    - link to your project, readme ( start it up, technical, wins and challenges)
     - Tech stack for each project
     - Convaybelt - make it the robot arm selecter instead
+    - Add other projects to project pages
 

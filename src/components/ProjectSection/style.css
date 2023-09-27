@@ -39,7 +39,7 @@
     /* margin-bottom: 0; */
     border: solid purple 0.1rem;
     border-radius: 2em;
-    transform: perspective(100rem) rotateY(-30deg);
+    transform: perspective(110rem) rotateY(-30deg);
 }
 
 .lightupbase{

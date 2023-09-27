@@ -4,7 +4,7 @@
     border-radius:0.5em;
     padding: 0.2rem;
     margin-top: 0.5em;
-    width: 10em;
+    width: 100%;
     box-shadow: 0 0 0.5em #161616;
     font-family:'arial'; 
   }
@@ -23,17 +23,18 @@
   }
   .clickproject{
     margin-top: 1em;
-    padding: 0.3rem;
+    padding: 0.23rem;
     background-color: rgb(98, 98, 98);
     border-radius:0.5em;
     box-shadow: 0 0 0.5em #161616;
   }
-  .clickproject span {
+  .clickproject button {
     background-color: rgb(40, 40, 40);
     padding: 0.2em;
     text-align: center;
     height: 100%;
     width: 100%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     border-radius:0.5em;
@@ -52,28 +53,42 @@
     cursor: pointer;
   }
 
-  .linkeffect:hover {
+  button:hover {
     color: rgb(255, 255, 255);
   }
-  
+  .wrapperdiv{
+    /* padding: 10em 10em 14em 10em */
+    border:1px solid #000000;
+    width: 100%;
+    height: 70px; 
+  }
   .rowlist{
-      display: flex;
+      /* display: flex; */
+      display: grid;
+      /* grid-column: auto auto; */
+      grid-template-columns: auto auto auto auto auto auto auto ;
+      gap: 9em;
       position: relative;
-      flex-direction: row;
+      /* flex-direction: row; */
       animation: slide-left 0.25s linear;
       animation-play-state:running;
       animation-duration: 3s;
+      width: 100%;
   }
 
   .projectitem{
+    /* position: relative; */
     padding:  2.5em;
     padding-top: 1.5em;
-    /* width: 10em; */
+    width: 100%;
     height: 10em;
     margin-left: 3em;
+    
     background-image: url('../../imgs/box.png');
-    background-size: cover;
+    /* background-size: cover; */
     background-size:100% 100%;
+    object-fit: scale-down;
+    overflow: hidden;
 
 }
 

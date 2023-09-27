@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './style.css'
 
-const Project = () => {
+const Project = (id) => {
   const [loading, setLoading] = useState(false);
   const [project, setProject] = useState({});
-  const { id } = useParams()
-
-  
+//   const { id } = useParams()
     async function like(id,value) {
         const options = {
             method: "PATCH",
@@ -34,10 +32,11 @@ const Project = () => {
     useEffect(() => {
         setLoading(true);
         async function loadProject() {
-            const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id}`);
+            const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id.id}`);
             const data = await response.json();
             setProject(data);
             setLoading(false);
+            // console.log(id.id)
         };
 
         loadProject();
@@ -64,9 +63,10 @@ const Project = () => {
     
     const imgOrVid= () => {
         if(project.img === null){
-        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="100%" height="100%"></video>
+        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="60%" height="60%" style={{display:'flex',margin:'auto', justifyContent:'center', alignItems: 'center'}}></video>
     }else{ return <div className='projimg' style={myStyle}></div>}
     }
+    
     const $this = project.description
     const formatedText = project.description.replace(/<br\s*\\?>/g, '\r\n\.<br>')
     const finishedText = formatedText.split(/[\r\n]+/).map(line => <div>{line}</div>)
@@ -79,23 +79,22 @@ const Project = () => {
     // $('span').html($('span').text().replace(/\.\s/g, '.<br>'))}
     function displayProject() {
         return (
-            <div className="project-container">
+            <div className="popup-content">
                 <div className='neontitleback'>
                     <h1 className="project-title">{project.name}</h1>
                 </div>
-                <h2 className='projectsub'><b>*section is under development*</b></h2>
+                {/* <h2 className='projectsub'><b>*section is under development*</b></h2> */}
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
                    
-                    <p id = 'text'className='projectinfo' ><span>{finishedText}</span></p>
-                   
+                    <div id = 'text'className='projectinfo' ><div>{finishedText}</div></div>
                     {imgOrVid()}
                     <div className='likesection'>
                         <button className='likebtn' onClick={() => like(id, 1)}></button>
-                        <span className="likes-counter"> {project.likes} </span>
+                        <div className="likes-counter"> {project.likes} </div>
                     </div>   
                 </div>
-                <Link className = "backbtn" to="/projects"> Back </Link>
+                {/* <Link className = "backbtn" to="/projects"> Back </Link> */}
                 
             </div>
         ) 
