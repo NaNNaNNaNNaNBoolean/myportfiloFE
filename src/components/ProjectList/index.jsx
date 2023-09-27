@@ -23,26 +23,22 @@ const ProjectList = (props) => {
     };
     loadProjects();
   }, [])
- const myStyle = {display: clicked ? 'block' : 'none'}
+ const myStyleList = {display: clicked ? 'block' : 'none'}
   const showPopup = () => {
     // console.log(clicked)
       if(clicked === true){
-    
-    return(
-      <>
-        <div className='overlay' style={myStyle}>  </div>
-        <div className="popup-container" style={myStyle}>
-           <div className="popup">
-            <button className="close-popup" onClick={togglePopup}>X</button>
-            <Project id ={projectId} />
+      return(
+        <>
+          <div className='overlay' style={myStyleList}>  </div>
+          <div className="popup-container" style={myStyleList}>
+            <div className="popup">
+              <button className="close-popup" onClick={togglePopup}>X</button>
+              <Project id ={projectId} />
+            </div>
           </div>
-        </div>
-      </>
-     
-       
-  
-    )
-  }
+        </>
+      )
+    } 
   }
 
 const arr = Array.from(projects)

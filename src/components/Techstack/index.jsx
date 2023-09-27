@@ -23,6 +23,7 @@ import Cplusplus from '../../imgs/code/C++.png'
 import Csharp from '../../imgs/code/cSharp.png'
 import Gdscript from '../../imgs/code/gdscript.png'
 import Arduino from '../../imgs/code/Arduino.png'
+import jq from '../../imgs/code/jq.png'
 import './style.css'
 
 const Techstack = () => {
@@ -69,6 +70,7 @@ const Techstack = () => {
             <img src = {Boot} style = {{height: '30%', width: '40%', marginBottom:'1em'}}></img>
             <img src = {Dnd} style = {{height: '40%', width: '50%', marginBottom:'1em' }}></img>
             <img src = {vitest} style = {{height: '50%', width: '40%', marginBottom:'1em'}}></img>
+            <img src = {jq} style = {{height: '50%', width: '40%', marginBottom:'1em'}}></img>
           </div>
           
         </div>

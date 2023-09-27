@@ -73,7 +73,7 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 }
 .FEgrid{
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3% ;
+  grid-template-columns: 25% 25% 25% 25%;
   margin:2%;
   
   gap: 1%;
