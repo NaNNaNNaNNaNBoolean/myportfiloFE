@@ -25,7 +25,7 @@ const Home = () => {
     }, [])
 
   useEffect(()=>{
-    if(loading === false){
+    // if(loading === false){
        myVar = setTimeout(showPage, 6000);
     function showPage() {
         document.getElementById("loader").style.display = "none";
@@ -33,7 +33,7 @@ const Home = () => {
         document.getElementById("continuesbg").style.backgroundSize = "100% 40%";
         setSeen(true)
     }
-    }
+    // }
   })
 
   const displayloader = () => {
