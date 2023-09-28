@@ -5,6 +5,7 @@ import {ConvayBelt, ProjectList} from '../../components'
 import Project from '../Project'
 import $ from 'jquery';
 // import {}
+import './arm.css'
 
 const Projects = () => {
   // const [onClickActive, setClickActive] = useState(false);
@@ -25,6 +26,8 @@ const Projects = () => {
   const handleLogoclick = () => {
     nav('/')
   }
+
+  
   // document.getElementsByClassName
   // function handleUp() {
   //   //Check if there is another link above, if no, go to bottom
@@ -115,7 +118,7 @@ const Projects = () => {
     }
   }
   // default needs some work
-      if ($(".projectitem").length === 0) {
+    if ($(".projectitem").length === 0) {
       console.log($(".projectitem").length )
       $(".projectitem").first().addClass("focus")
     }
@@ -184,6 +187,8 @@ const Projects = () => {
     animationPlayState: style ? 'running' : '', 
     animation: LeftRight ? 'slide-left-click 3s linear forwards' : ''
   }
+  const robotStyle = {animationPlayState: clicked ? 'running' : '', display: clicked ? 'block' : 'none'}
+
   const myStyleList = {display: clicked ? 'block' : 'none'}
 
   const showPopup = () => {
@@ -212,8 +217,26 @@ const Projects = () => {
           return(
             <> 
               <div className='projectitem' key = {p.id} id ={p.id}>
-                <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
+              {/* <div className='projarm-container' style={robotStyle}>
+                <div className='projarmpart' style={robotStyle}></div>
+                <div className='projhand'>
+                  <div className='projhandback'>
+                    <div className='projlowerbackhand'></div>
+                  </div>
+                  <div className='projhandfront'>
+                  <div className='projlowerfronthand'></div>
+                  </div>
+                </div>
+                
+              </div> */}
+                <div className='liltagsticker'>
+                <div /*className='projectitem'*/>
+                  {/* <p className='plabel'>P</p> */}
+                  <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
+                </div>
                 <p className="subheadingdetails">{p.subhead}</p>
+                </div>
+             
               </div>
               {showPopup()}
             </>

@@ -51,8 +51,15 @@ const arr = Array.from(projects)
           return(
             <> 
               <div className='projectitem' key = {p.id}>
-                <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
-                <p className="subheadingdetails">{p.subhead}</p>
+                <div className='liltagsticker'>
+                  <div className='packagelabel'>
+                    <p className='plabel' >P</p>
+                    <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
+                  </div>
+                 
+                  <p className="subheadingdetails">{p.subhead}</p>
+                </div>
+               
               </div>
               {showPopup()}
               {/* <div className="popup-container" style={myStyle}>

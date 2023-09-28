@@ -1,12 +1,14 @@
 .subheadingdetails{
-    background-color: rgb(232, 232, 232);
+    /* background-color: rgb(232, 232, 232); */
     text-align: center;
-    border-radius:0.5em;
+    border:none;
     padding: 0.2rem;
     margin-top: 0.5em;
-    width: 100%;
-    box-shadow: 0 0 0.5em #161616;
+    /* width: 100%; */
+    /* box-shadow: 0 0 0.5em #161616; */
     font-family:'arial'; 
+    color: rgb(254, 247, 255) ;
+    -webkit-text-stroke:#000000 0.03em;
   }
 
   .loadingprojectlist{
@@ -21,30 +23,43 @@
     font-family:'Orbitron'; 
     
   }
-  .clickproject{
-    margin-top: 1em;
-    padding: 0.23rem;
-    background-color: rgb(98, 98, 98);
-    border-radius:0.5em;
-    box-shadow: 0 0 0.5em #161616;
+  /* .packagelabel{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: #161616 solid 0.1em;
+    
+    border-radius:  0.5em 0.5em 0 0;
   }
-  .clickproject button {
-    background-color: rgb(40, 40, 40);
-    padding: 0.2em;
+  .plabel{
     text-align: center;
-    height: 100%;
-    width: 100%;
+    padding: 0.4em;
+    border: #161616 solid 0.1em;
+    border-radius:  0.5em 0 0 0;
+    /* display: flex;
     margin: auto;
     justify-content: center;
-    align-items: center;
-    border-radius:0.5em;
+    align-items: center; */
+  /*} */
+
+  .clickproject button {
+    background-color: rgb(40, 40, 40);
+    padding: 0.6em;
+    padding-top: 0.5em;
+    text-align: center;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius:0.8em;
+    border: rgb(124, 124, 124) 0.3em solid;
     font-family:'Orbitron'; 
+    font-size: 80%;
     display: flex;
     box-shadow: inset 0 0 1em #161616;
+    filter: drop-shadow(0 0 0.1em #161616);
     text-shadow:
-    0 0 4px #fff,
-    0 0 10px #fff,
-    0 0 2px #fff,
+    0 0 4px #ffffff,
+    0 0 10px #ffffff,
+    0 0 2px #ffffff,
     0 0 4px rgb(179, 0, 255),
     0 0 8px rgb(179, 0, 255),
     0 0 9px rgb(179, 0, 255),
@@ -66,9 +81,10 @@
       /* display: flex; */
       display: grid;
       /* grid-column: auto auto; */
-      grid-template-columns: auto auto auto auto auto auto auto ;
-      gap: 9em;
+      grid-template-columns: auto auto auto auto auto auto;
+      gap: 3em;
       position: relative;
+      top: 1em;
       /* flex-direction: row; */
       animation: slide-left 0.25s linear;
       animation-play-state:running;
@@ -80,10 +96,10 @@
     /* position: relative; */
     padding:  2.5em;
     padding-top: 1.5em;
-    width: 100%;
+    width: 9em;
     height: 10em;
     margin-left: 3em;
-    
+    font-weight: bolder;
     background-image: url('../../imgs/box.png');
     /* background-size: cover; */
     background-size:100% 100%;
@@ -91,7 +107,14 @@
     overflow: hidden;
 
 }
-
+/* .liltagsticker{
+  width: 10em;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  background-color: rgb(232, 232, 232);
+} */
 @keyframes slide-left {
     from {
         transform: translateX(1000%);

@@ -205,7 +205,7 @@
     justify-content: space-around;
     /* align-items: center; */
     display: grid;
-    grid-template-columns: 60% 30% 10%;
+    grid-template-columns: 55% 25% 20%;
 }
 
 .list {
@@ -220,7 +220,8 @@
     /* overflow: hidden; */
 }
 .CB-contianer2{
-  margin-top: 18em;
+  margin-top: 12.5em;
+
 }
 
 @keyframes slide-right-click {
@@ -251,7 +252,7 @@
 .movedisplay{
     margin: auto;
     background-color: rgb(47, 47, 47);
-    width: 95%;  
+    width: 97%;  
     height: 80%;
     border-radius:0.8em;
     /* position: absolute; */
@@ -401,7 +402,7 @@
   align-items: center;
   background-color: #878787;
   padding: 2em;
-  margin-top: 50%;
+  margin-top: 25%;
   border-radius: 3.5em;
   margin-left: 0;
   /* left: 10%; */

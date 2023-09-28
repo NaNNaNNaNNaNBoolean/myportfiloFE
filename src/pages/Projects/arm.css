@@ -1,0 +1,170 @@
+.dropdownani{
+    display: grid;
+    margin: auto;
+    margin-bottom: 0;
+    grid-template-columns: auto;
+}
+
+.projarm-container{
+ /* display: flex; */
+ position: relative;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ z-index: 1;
+ /* margin-bottom: -2.8em; */
+   
+ animation: dropdowndropoff 6s ease infinite;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform-style: preserve-3d;
+    
+}
+.projarmpart{
+    background-color: gray;
+    width: 0.9em;
+    /* height: 18em; */
+    margin-left:23%
+}
+
+.projhand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.projhandback{
+    background-color: rgb(68, 68, 68);
+    width: 0.8em;
+    height: 3em;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-top: -14%;
+    animation: dropoffback 6s ease ;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+
+}
+.projlowerbackhand{
+    position: relative;
+    background-color: rgb(68, 68, 68);
+    width: 0.8em;
+    height: 3em;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-top: 0%;
+    transform: translateZ(-10em);
+    z-index: -20;
+    animation: letgoback 6s ease;
+}
+.projhandfront{
+    background-color: rgb(117, 117, 117);
+    width: 0.8em;
+    height: 3em;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-top: -14%;
+    animation: dropofffront 6s ease;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.projlowerfronthand{
+    background-color: rgb(117, 117, 117);
+    width: 0.8em;
+    height: 3em;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-top: 0%;
+    z-index: inherit;
+    animation: letgofront 6s ease;
+}
+
+@keyframes letgofront {
+    0% {
+        transform: rotate(90deg) translateY(1.1em) translateX(1.5em);
+    }
+    50%{
+        transform: rotate(90deg) translateY(1.1em) translateX(1.5em);
+        opacity: 1;
+    }
+    60%{
+        transform: rotate(90deg) translateY(1.6em) translateX(1.1em);
+    }
+    80%{
+        transform: rotate(90deg) translateY(0) translateX(1.5em);
+    }
+    100%{
+    }
+    
+}
+@keyframes letgoback {
+    0% {
+        transform: rotate(90deg) translateY(-1.1em) translateX(1.1em);
+    }
+    50%{
+        transform: rotate(90deg) translateY(-1.6em) translateX(1.3em);
+        opacity: 1;
+    }
+    60%{
+        transform: rotate(90deg) translateY(-1.6em) translateX(1.1em);
+    }
+    80%{
+        transform: rotate(90deg) translateY(0) translateX(1.5em);
+    }
+    100%{
+        /* transform: rotate(0) translateY(-1em) translateX(-1em); */
+    }
+    
+}
+
+@keyframes dropdowndropoff{
+    0% {
+        opacity: 0;
+        transform: translateY(-100em)
+    }
+    50% { 
+        transform: translateY(0); 
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-50em);
+    }
+}
+@keyframes dropoffback {
+    0% {
+        transform: rotate(90deg) translateY(1.05em) translateX(-1em);
+    }
+    50%{
+        transform: rotate(90deg) translateY(1.05em) translateX(-1em);
+        opacity: 1;
+    }
+    55%{
+        transform: rotate(110deg) translateY(1.05em) translateX(-1em);
+    }
+    80%{
+        transform: rotate(0deg) translateY(0) translateX(0);
+    }
+    100%{
+    }
+}
+@keyframes dropofffront {
+    0% {
+        transform: rotate(-90deg) translateY(1.05em) translateX(1em);
+    }
+    50%{
+        transform: rotate(-90deg) translateY(1.05em) translateX(1em);
+        opacity: 1;
+    }
+    55%{
+        transform: rotate(-110deg) translateY(1.05em) translateX(1em);
+    }
+    80%{
+        transform: rotate(0deg) translateY(0) translateX(0);
+    }
+    100%{
+    }
+}

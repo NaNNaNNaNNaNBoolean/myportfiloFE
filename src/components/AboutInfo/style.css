@@ -96,7 +96,8 @@
   margin-top: 10%;
   height: 100vh;
   /* width: 100%; */
-  background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
+  /* background-image: linear-gradient(rgba(234, 177, 255, 0.867), rgb(52, 19, 63)); */
+  background-image: linear-gradient(rgba(25, 5, 40, 0.987),rgb(113, 64, 131), rgb(48, 18, 58));
   /* background-size:100% 100%;
   margin: 0;
   background-size: cover; */

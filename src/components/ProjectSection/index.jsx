@@ -19,6 +19,7 @@ const ProjectSection = (props) => {
       nav('/projects/9')
     }
     const myStyle = {animationPlayState: aniStyle ? 'running' : '', display: aniStyle ? 'block' : 'none'}
+    const invisableblock = {display: aniStyle ? 'none' : 'block', height:'100vh'}
     useEffect(()=>{
          if(inViewport){
          setAniStyle(true)
@@ -44,6 +45,7 @@ const ProjectSection = (props) => {
     <div>
        <div className="viewport-block" ref={forwardedRef}>
             <div></div>
+            <div style ={invisableblock}></div>
             <div className='dropdownani' >
               <div className='arm-container'style={myStyle} >
                 <div className='armpart'></div>
@@ -91,11 +93,13 @@ const ProjectSection = (props) => {
 
     
   const Component = (props) => (
+    // const invisableblock = {display: aniStyle ? 'none' : 'block', height:'100vh'}
     <div>
         <div style={{ height: '10vh' }}>
         <h2 style={{color:'white'}}>!!!!section is under development!!!</h2>
             {/* <h2>Scroll down to make component in viewport</h2> */}
         </div>
+
         <ViewportBlock /*onEnterViewport={() => console.log('enter')} onLeaveViewport={() => console.log('leave')*/ />
     </div>
 )
