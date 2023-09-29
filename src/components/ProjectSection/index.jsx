@@ -102,7 +102,10 @@ const ProjectSection = (props) => {
     // const invisableblock = {display: aniStyle ? 'none' : 'block', height:'100vh'}
     <div>
         <div style={{ height: '10vh' }}>
-        <h2 style={{color:'white'}}>!!!!section is under development!!!</h2>
+          <div className='projectsectitleback'>
+             <h2 className='projectsectitle'>PROJECTS</h2>
+          </div>
+       
             {/* <h2>Scroll down to make component in viewport</h2> */}
         </div>
 
