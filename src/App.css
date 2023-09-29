@@ -35,7 +35,7 @@ body{
       rgba(207, 74, 255, 0), 
       rgba(27, 0, 37, 0.867)
     ),url('./imgs/homebg.webp'); */
-    background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
+    background-image: linear-gradient(rgb(24, 0, 32), rgb(27, 0, 37));
     /* background-repeat: no-repeat;  */
     /* background: rgba(34, 34, 34, 0.543); */
     /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */

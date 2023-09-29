@@ -9,11 +9,19 @@
 #glitchin{
     opacity: 0;
     animation: glitch 3s ease infinite;
-    animation-delay: 3.4s;
+    animation-delay: 3s;
     animation-iteration-count: 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
 }
+#boppingtime{
+    opacity: 0;
+    animation: bopping 3s ease-in infinite;
+    animation-delay: 4.2s;
+    /* animation-iteration-count: 1; */
+    animation-play-state: paused;
+}
+
 #boxlightup{
     /* box-shadow: none; */
     animation: lightupbase 2s ease infinite;
@@ -51,3 +59,88 @@
         filter: drop-shadow(0 -7mm 1.5em rgb(210, 63, 255));
     }
 }
+
+.holographicProjector {
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    width: 50vh;
+    height: 0.5vh;
+    margin: 0 11vh 0 24vh;
+    /* margin-bottom: 0; */
+    background-color: rgba(136, 0, 255, 0.35);
+    border-radius: 100%;
+    filter: blur(0.08em);
+    transform: perspective(4em) rotateX(-20deg);
+    /* transform-style: preserve-3d; */
+    animation: holographic 1.5s infinite alternate;
+    transition-timing-function: ease-in;
+    /* transition: 5s; */
+    animation-play-state: paused;
+    animation-delay: 3s;
+
+    /* backface-visibility: hidden; */
+  }
+  .holographicProjector:after {
+    left: -1em;
+    right: -1em;
+    content: "";
+    height: 10vh;
+    background-color: rgba(136, 0, 255, 0.5);
+    border-radius: 100%;
+    filter: blur(2.5px);
+  }
+
+@keyframes bopping {
+    0% {
+        opacity: 1;
+        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+    } 
+    50%{
+        opacity: 1;
+        transform: translateY(-2em) perspective(110rem) rotateY(-30deg)
+    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+    }
+}
+
+@keyframes holographic {
+from {
+    opacity: 1;
+    box-shadow: 0 -75px 5px rgba(136, 0, 255, 0.15), 
+                0 -1px 2px rgba(136, 0, 255, 0.5), 
+                0 -45px 5px rgba(136, 0, 255, 0.15), 
+                0 -2px 3px rgba(136, 0, 255, 0.5), 
+                0 -3px 4px rgba(136, 0, 255, 0.5), 
+                0 -4px 6px rgba(136, 0, 255, 0.5), 
+                0 -5px 10px rgba(136, 0, 255, 0.75), 
+                0 -7px 20px rgba(136, 0, 255, 0.75), 
+                0 -10px 30px rgba(136, 0, 255, 0.75), 
+                0 -15px 40px rgba(136, 0, 255, 0.75), 
+                0 -25px 50px rgba(136, 0, 255, 0.75), 
+                0 -35px 60px rgba(136, 0, 255, 0.85), 
+                0 -45px 70px rgba(136, 0, 255, 0.95), 
+                0 -65px 80px #80f, 0 -75px 90px #80f;
+}
+to {
+    opacity: 1;
+    box-shadow: 0 -1px 5px rgba(136, 0, 255, 0.15), 
+                0 -1px 2px rgba(136, 0, 255, 0.5), 
+                0 -1px 5px rgba(136, 0, 255, 0.15), 
+                0 -2px 3px rgba(136, 0, 255, 0.5), 
+                0 -3px 4px rgba(136, 0, 255, 0.5), 
+                0 -4px 6px rgba(136, 0, 255, 0.5), 
+                0 -5px 7px rgba(136, 0, 255, 0.75), 
+                0 -7px 10px rgba(136, 0, 255, 0.75), 
+                0 -10px 15px rgba(136, 0, 255, 0.75), 
+                0 -15px 20px rgba(136, 0, 255, 0.75), 
+                0 -25px 25px rgba(136, 0, 255, 0.75), 
+                0 -35px 30px rgba(136, 0, 255, 0.85), 
+                0 -45px 35px rgba(136, 0, 255, 0.95), 
+                0 -65px 40px #80f, 0 -75px 50px #80f;
+}
+}
+  

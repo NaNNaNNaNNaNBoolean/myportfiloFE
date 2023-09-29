@@ -10,6 +10,7 @@ const ProjectSection = (props) => {
     const [aniStyle, setAniStyle] = useState(false)
     const [vis,setVis] = useState(false)
     const { inViewport, forwardedRef, enterCount } = props;
+    const [loading, setLoading] = useState(true)
 
     const nav = useNavigate()
     const handleClicksec = () => {
@@ -29,17 +30,26 @@ const ProjectSection = (props) => {
     })
    
     const [projectSec, setProjects] = useState([]);
-    const [loading,setLoading] = useState(true)
   
     useEffect(() => {
       async function loadProjects() {
           const response = await fetch("https://nmfportfilobe.onrender.com/projects/9");
           const data = await response.json();
           setProjects(data);
-        //   setLoading(false);
+          setLoading(false);
       };
       loadProjects();
     }, [])
+
+    const displayprojectfloat = () => {
+      return(
+        <div className='projecthighlightedinfo' id = 'boppingtime' style ={myStyle}>
+        <h2>{projectSec.name}</h2>
+        <h3>{ projectSec.subhead}</h3>
+        <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
+      </div>
+      )
+    }
     
   return (
     <div>
@@ -60,20 +70,16 @@ const ProjectSection = (props) => {
                 
               </div>
               <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> 
-              <div className='questedit'><span className="material-symbols-outlined">question_mark</span></div>
+              {/* <div className='questedit'><span className="material-symbols-outlined">question_mark</span></div> */}
               {/* <h2>{projectSec.name}</h2> */}
               {/* <button onClick={handleClickDisplay} className='goToProjects2' >see more about this project</button> */}
               </div>
               <div className='lightupbase' style={myStyle}  id='boxlightup'></div>
             </div>
          
-            <div className='glitchcontainer'>
-              <div className='projecthighlightedinfo' id = 'glitchin' style ={myStyle}>
-                <h2>{projectSec.name}</h2>
-                <h3>{ projectSec.subhead}</h3>
-                <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
-              </div>
-              
+            <div className='glitchcontainer' id = 'glitchin' style ={myStyle}>
+              {loading ? <h2 className='loadingprojectlist' style={{color: 'aliceblue'}}><em >loading...</em></h2> : displayprojectfloat()}
+              <div className='holographicProjector'style={myStyle}></div>
             </div>
            
             <div></div>
