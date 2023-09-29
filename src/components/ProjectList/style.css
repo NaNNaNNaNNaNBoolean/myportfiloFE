@@ -23,23 +23,6 @@
     font-family:'Orbitron'; 
     
   }
-  /* .packagelabel{
-    display: grid;
-    grid-template-columns: auto auto;
-    border: #161616 solid 0.1em;
-    
-    border-radius:  0.5em 0.5em 0 0;
-  }
-  .plabel{
-    text-align: center;
-    padding: 0.4em;
-    border: #161616 solid 0.1em;
-    border-radius:  0.5em 0 0 0;
-    /* display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center; */
-  /*} */
 
   .clickproject button {
     background-color: rgb(40, 40, 40);
@@ -47,6 +30,7 @@
     padding-top: 0.5em;
     text-align: center;
     margin: auto;
+    margin-top: 5%;
     /* justify-content: center;
     align-items: center; */
     border-radius:0.8em;
@@ -100,6 +84,7 @@
     height: 10em;
     margin-left: 3em;
     font-weight: bolder;
+    filter: brightness(90%);
     background-image: url('../../imgs/box.png');
     /* background-size: cover; */
     background-size:100% 100%;
@@ -107,14 +92,7 @@
     overflow: hidden;
 
 }
-/* .liltagsticker{
-  width: 10em;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.5em;
-  background-color: rgb(232, 232, 232);
-} */
+
 @keyframes slide-left {
     from {
         transform: translateX(1000%);
