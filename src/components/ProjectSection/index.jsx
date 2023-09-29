@@ -71,7 +71,7 @@ const ProjectSection = (props) => {
               </div>
               <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> 
               {/* <div className='questedit'><span className="material-symbols-outlined">question_mark</span></div> */}
-              {/* <h2>{projectSec.name}</h2> */}
+              <h2 style={{marginTop: '10%', color: 'aliceblue', fontFamily:'Orbitron', fontWeight: 'bold'}}>{projectSec.name}</h2>
               {/* <button onClick={handleClickDisplay} className='goToProjects2' >see more about this project</button> */}
               </div>
               <div className='lightupbase' style={myStyle}  id='boxlightup'></div>
