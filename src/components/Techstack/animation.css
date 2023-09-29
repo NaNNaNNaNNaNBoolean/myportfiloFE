@@ -1,0 +1,31 @@
+#moveALittleLeft{
+    animation: rolloverLeft 4s infinite alternate ease ;
+}
+#moveALittleRight{
+    animation: rolloverRight 3.8s infinite alternate ease ;
+}
+
+@keyframes rolloverLeft {
+    0% {
+        transform: translateY(-1em) perspective(110rem) rotateY(30deg)
+    } 
+    50%{
+        transform: translateY(-2em) perspective(110rem) rotateY(30deg)
+    
+    }
+    100%{
+        transform: translateY(-1em) perspective(110rem) rotateY(30deg)
+    }
+}
+@keyframes rolloverRight {
+    0% {
+        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+    } 
+    50%{
+        transform: translateY(-2em) perspective(110rem) rotateY(-30deg)
+    
+    }
+    100%{
+        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+    }
+}

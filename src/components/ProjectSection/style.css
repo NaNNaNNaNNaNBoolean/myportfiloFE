@@ -111,12 +111,12 @@
     margin-top: 0;
     width: 70%;
     height: 1vh;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
 }
-.bottombase{
+/* .bottombase{
     width: 70%;
     height: 5vh;
-}
+} */
 .glitchcontainer{
     display: grid;
     margin: auto;

@@ -29,7 +29,7 @@ const AboutInfo = () => {
                          <div className='fade-about-info-items'>
                             <p>Hi! I'm Nicole.</p>
                             <p>I have a <b>MEng in Electronic Engineering</b> and a passion for programming! I love trying out random ideas and experimenting with my code. I'm all about continuous improvement! I'm currently teaching myself GoLang. </p>
-                            <p>I also love to draw, binge movies, play boardgames and as well as playing video games, I'm also developing my own! </p>
+                            {/* <p>I also love to draw, binge movies, play boardgames and as well as playing video games, I'm also developing my own! </p> */}
                             <br></br>
                             <p>I will be slowly adding my projects here as I develop this page further.</p>
                             {/*During my time at La Fosse Academy, I gained and improved my skills in Javascript, Python, and SQL/noSQL. At university, where I got my MEng in Electronic Engineering, I gained proficiency in C++ and C#. This training course was a nice way to further improve my coding skills in new languages, as I am all about continuous improvement and I love learning new skills. And that's what I did, I learnt about server side and client side, deploying RESTful APIs in both Node.js and Flask, testing in both, using Pytest and Jest, using both SQL databases and NoSQL databases and creating engaging client side pages in React.js. I found it quite fun and easy to learn, I was a quick study achieving over 90% in all my assessments. 

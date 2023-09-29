@@ -25,6 +25,7 @@ import Gdscript from '../../imgs/code/gdscript.png'
 import Arduino from '../../imgs/code/Arduino.png'
 import jq from '../../imgs/code/jq.png'
 import './style.css'
+import './animation.css'
 
 const Techstack = () => {
   return (
@@ -33,7 +34,7 @@ const Techstack = () => {
     <div className='TScontainer'>
       <h2 className='techstacktitleback' style = {{ display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  
-        <div className='TechSecLang'> 
+        <div className='TechSecLang' id = 'moveALittleLeft'> 
           <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Languages </h3>
           <div className='langgrid'>
              <img src = {Cplusplus} style = {{height: '5vh', width: '6vh', marginBottom:'1em' }}></img>
@@ -44,7 +45,7 @@ const Techstack = () => {
           </div>
         </div>
        
-        <div className='TechSecBE'>
+        <div className='TechSecBE' id = 'moveALittleRight'>
           <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Backend </h3>
           {/* <br></br> */}
           <div className='BEgrid'>
@@ -63,7 +64,7 @@ const Techstack = () => {
           </div>
           
         </div>
-        <div className='TechSecFE'>
+        <div className='TechSecFE' id = 'moveALittleLeft'>
           <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Frontend </h3>
           <div className='FEgrid'>
             <img src = {Html} style = {{height: '40%', width: '40%', marginBottom:'1em' }}></img>
@@ -76,7 +77,7 @@ const Techstack = () => {
           </div>
           
         </div>
-        <div className='TechSecD'>
+        <div className='TechSecD'id = 'moveALittleRight'>
           <h3 style = {{marginTop:'1%',marginBottom: '0.5em', color:'#fff'}}>Design/Deployment</h3>
           <div className='Dgrid'>
             <img src = {Figma} style = {{height: '30%', width: '40%' }}></img>

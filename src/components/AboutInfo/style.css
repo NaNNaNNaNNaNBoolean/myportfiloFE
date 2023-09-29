@@ -137,11 +137,11 @@
 
 .fade-about-info-items-2 {
   position: relative;
-  opacity: 0;
+  /* opacity: 0;
   animation-name: fadein;
   animation-duration: 3000ms;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
   /* background: rgba(173, 173, 173, 0.597); */
   align-items: center;
   margin: auto;
