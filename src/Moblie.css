@@ -1,0 +1,428 @@
+/* Mobiles */
+@media only screen and (max-width: 760px) {
+    /* HEADER */
+  .backheader {
+    max-height: 1.5em;
+    /* margin-left: 1%; */
+    width: 80%;
+    padding-top: 0;
+    padding-bottom: 1.8em;
+  }   
+  .item1{
+      /* width: 10em;  */
+      width: 95%;
+      border-radius: 0.3em;
+      padding: 0.05em;
+      margin-top: 0vh;
+  }
+  .linkedinbtn{
+      min-height: 2.8vh;
+      min-width: 2.8vh;
+  }
+  .githubbtn{
+      min-height: 2.8vh;
+      min-width: 2.8vh;
+  }
+  
+    /* MAIN */
+    .fade-about-info-items {
+      
+      /* width: 80%; */
+      font-size: smaller;
+      /* min-height: 70%; */
+      margin-left: 1em;
+      /* margin-right: 1em; */
+      margin-top: 45%;
+
+  
+    }
+    .imglinks{
+      margin: auto;
+      margin-top: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10%;
+    }
+    .me{
+      width: 20vh;
+      height: 20vh;
+      margin-top: 0;
+      
+   
+      /* margin-right: 1em; */
+  
+    }
+    .sectionabouteffect{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 51% 49%;
+        gap: 5%;
+     }
+    
+     .glowing-txt{
+      font-size: small;
+      /* width: 50%; */
+      /* height: 10%; */
+     }
+    .goToProjects{
+      padding: 1.5vh;
+      border-radius: 1.5em;
+      cursor: pointer; 
+    } 
+  
+    .arrows {
+    width: 10vh;
+    height: 15vh;
+    position: absolute;
+    left: 55%;
+    /* margin-left: 3em; */
+    bottom: -5%;
+    /* margin-bottom: 20%; */
+    }
+    .arrows path {
+        stroke-width: 0.2em;  
+      }
+      
+    /*tech stack*/
+    .techstacksection{
+      height: 250vh;
+    }
+    .techstacktitle {
+        /* margin-top: ; */
+        font-size: xx-large;
+      }
+      
+      .techstacktitleback{
+        width: 40vh;  
+        /* max-height: 4em; */
+        margin-top: 5%;
+        border-radius:0.4em;
+
+      }
+      
+    .TeckStackList{
+      grid-template-columns: 100%;
+      gap: 1.2em;
+      margin-top: 20%;
+    }
+    /* img{
+      width: 20%;
+      height: 20%;
+    } */
+    .langgrid{
+      grid-template-columns: auto auto auto auto;
+  
+    }
+    .BEgrid{
+      grid-template-columns: auto auto auto ;
+  
+    }
+    img {
+        margin: auto;
+        margin-top: 1rem;
+            height: 80%;
+      width: 80%;
+    }
+    .text-box-two-container {
+        width: 80%;
+        margin-top: 1rem;
+    }
+    .text-box-two-container p{
+        padding: 1rem;
+        text-align: center;
+    }
+    /*Project SECTION */
+    .projecthighlighteditem{
+      margin-right: 1em;
+      width: 14vh;
+  }
+    
+  .projectsectitleback{
+    width: 40vh;  
+  }
+
+  .projectsectitle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* margin-top: ; */
+    font-size: xx-large;
+
+  }
+
+ .projecthighlighteditem{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 18vh;
+        /* padding:  2.5em; */
+        height: 18vh;
+        margin-bottom: -1.2vh;
+        margin-right: 0;
+
+    }
+    .viewport-block{
+       grid-template-columns: 10% 20% 60% 10%;
+    }  
+    .projecthighlightedinfo{
+        font-size: smaller;
+        min-height: 30vh;
+        padding: 2em;
+        margin-left: 0;
+        margin-bottom: 15vh;
+        border-radius: 2em;
+        transform: perspective(110rem) rotateY(-30deg);
+    }
+    .lightupbase{
+        width: 18vh;
+        height: 2vh;
+    }
+    .textonboxbit{
+        font-size: small;
+        margin-top: 20%;
+        margin-left:20%;
+        text-align: center;
+        width: 50%;
+    }
+    .glitchcontainer{
+        display: grid;
+        margin: auto;
+        width: 40vh;
+        margin-bottom: 0;
+        grid-template-columns: auto;
+    }
+    .holographicProjector {
+        width: 20vh;
+        height: 1.5vh;
+        margin: 0 11vh 0 24vh;
+        left: -25%;
+    }
+}
+  
+  /*Tablets or small screens*/
+  @media only screen and (min-width: 760px) and (max-width: 1300px) {
+
+  /* HOME */
+  .backheader {
+    max-height: 2.5em;
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 1.8em;
+  }
+  .item1{
+  /* width: 10em;  */
+  width: 70%;
+  border-radius: 0.3em;
+  padding: 0.05em;
+  margin-top: 0vh;
+  }
+  .NeonBanner {
+  /* height: 80%; */
+  /* width: 1em; */
+  font-size: 80%;
+  }
+  .connectwithme{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: auto;
+  /* margin-top: ; */
+  }
+  .linkedinbtn{
+  min-height: 3vh;
+  min-width: 3vh;
+  }
+  .githubbtn{
+  min-height: 3vh;
+  min-width: 3vh;
+  }
+  
+  /* ABOUT SECTION */
+  .fade-about-info-items {
+  
+  /* width: 80%; */
+  font-size: smaller;
+  /* min-height: 70%; */
+  margin-left: 1em;
+  /* margin-right: 1em; */
+  font-size: larger;
+  margin-top: 20%;
+  
+  }
+  .me{
+  width: 25vh;
+  height: 25vh;
+  margin-left: 20%;
+  margin-top: 45%;
+  
+  }
+  .sectionabouteffect{
+    display: grid;
+    /* grid-row: auto; */
+    height: 100vh;
+    /* width: 100%; */
+    grid-template-columns: 55% 45%;
+    /* gap: 0.5em; */
+  }
+  
+  .glowing-txt{
+  font-size: small;
+  /* width: 50%; */
+  /* height: 10%; */
+  }
+  .goToProjects{
+  padding: 1.5vh;
+  border-radius: 1.5em;
+  cursor: pointer; 
+  } 
+  
+  /*tech stack*/
+  .techstacksection{
+  height: 170vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(27, 0, 37, 0.867), rgb(27, 0, 37));
+  background-size:100% 100%;
+  margin: 0;
+  background-size: cover;
+  }
+  .TeckStackList{
+  grid-template-columns: 100%;
+  }
+  img{
+  width: 20%;
+  height: 20%;
+  }
+  .langgrid{
+  grid-template-columns: auto auto auto auto;
+  
+  }
+  .BEgrid{
+  grid-template-columns: auto auto auto ;
+  
+  }
+  img {
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .text-box-two-container {
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .text-box-two-container p{
+    padding: 1rem;
+    text-align: center;
+  }
+  /*Project SECTION */
+  .projecthighlighteditem{
+  margin-right: 1em;
+  width: 14vh;
+  }
+  .viewport-block{
+  grid-template-columns: 10% 20% 60% 10%;
+  gap: 1em;
+  
+  }
+  .projecthighlightedinfo{
+  font-size: large;
+  
+  margin-left: 1em;
+  
+  transform: perspective(50rem) rotateY(-30deg);
+  }
+  
+}
+  
+  
+  /*----------------------------------------------------------*/
+  
+  /* html.has-scroll-smooth {
+    overflow: hidden; 
+  }
+  
+  html.has-scroll-dragging {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  }
+  
+  .has-scroll-smooth body {
+    overflow: hidden; 
+  }
+  
+  .has-scroll-smooth [data-scroll-container] {
+    min-height: 100vh; 
+  }
+  
+  [data-scroll-direction="horizontal"] [data-scroll-container] {
+    height: 100vh;
+    display: inline-block;
+    white-space: nowrap; 
+  }
+  
+  [data-scroll-direction="horizontal"] [data-scroll-section] {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 100%; 
+  }
+  
+  .c-scrollbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 11px;
+    height: 100%;
+    transform-origin: center right;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0; 
+  }
+  
+    .c-scrollbar:hover {
+      transform: scaleX(1.45); 
+  }
+  
+    .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+      opacity: 1; 
+  }
+  
+  [data-scroll-direction="horizontal"] .c-scrollbar {
+      width: 100%;
+      height: 10px;
+      top: auto;
+      bottom: 0;
+      transform: scaleY(1); 
+  }
+  
+  [data-scroll-direction="horizontal"] .c-scrollbar:hover {
+        transform: scaleY(1.3); 
+  }
+  
+  .c-scrollbar_thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    width: 7px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: -webkit-grab;
+    cursor: grab; 
+  }
+    .has-scroll-dragging .c-scrollbar_thumb {
+      cursor: -webkit-grabbing;
+      cursor: grabbing; 
+  }
+    [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+      right: auto;
+      bottom: 0; 
+  }  */
+  
