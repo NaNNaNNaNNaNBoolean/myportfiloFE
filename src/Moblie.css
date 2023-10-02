@@ -435,6 +435,67 @@
         margin: 0 11vh 0 24vh;
         left: -25%;
     }
+ /*convay page*/
+ .projectitem{
+    /* position: relative; */
+    padding:  0;
+    padding-top: 1em;
+    width: 15vh;
+    height: 13vh;
+    margin-left: 1em;
+    font-weight: bolder;
+
+}
+.subheadingdetails{
+    text-align: center;
+    font-size: x-small;
+    border:none;
+    padding: 0.2rem;
+    margin-top: 0.5em;
+  }
+
+  .loadingprojectlist{
+    display: flex;
+    margin: auto;
+    margin-left: 1300%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: xx-large;
+    color: rgb(235, 198, 255);
+    font-family:'Orbitron'; 
+    
+  }
+
+  .clickproject button {
+    padding: 0.6em;
+    padding-top: 0.5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+
+    font-size: 50%;
+
+
+  }
+
+
+  .rowlist{
+      /* display: flex; */
+      display: grid;
+      /* grid-column: auto auto; */
+      grid-template-columns: auto auto auto auto auto auto;
+      gap: 0.3em;
+      position: relative;
+      top: 10vh;
+      /* flex-direction: row; */
+      animation: slide-left 0.25s linear;
+      animation-play-state:running;
+      animation-duration: 3s;
+      width: 100%;
+  }
+
+  
   
 }
   
