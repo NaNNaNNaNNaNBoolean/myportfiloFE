@@ -109,10 +109,7 @@
     height: 1vh;
     margin-bottom: 3%;
 }
-/* .bottombase{
-    width: 70%;
-    height: 5vh;
-} */
+
 .glitchcontainer{
     display: grid;
     margin: auto;
@@ -120,9 +117,5 @@
     margin-bottom: 0;
     grid-template-columns: auto;
 }
-
-/* .material-symbols-outlined{
-    font-size: xxx-large;
-} */
 
   
