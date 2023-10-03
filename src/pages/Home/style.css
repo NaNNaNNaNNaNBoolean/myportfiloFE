@@ -186,7 +186,7 @@
 }
 
 
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
     .backheader{
         max-height: 2.5em;
@@ -195,15 +195,12 @@
         padding-bottom: 1.8em;
     }
     .item1{
-        /* width: 10em;  */
         width: 80%;
         border-radius: 0.3em;
         padding: 0.05em;
         margin-top: 0vh;
     }
     .NeonBanner {
-        /* height: 50%; */
-        /* width: 1em; */
         font-size: 60%;
     }
     .connectwithme{
@@ -213,7 +210,6 @@
         justify-content: end;
         align-items: center;
         margin: auto;
-        /* margin-top: ; */
     }
     .linkedinbtn{
         min-height: 3vh;
@@ -229,4 +225,4 @@
         cursor: pointer; 
     }
     
- } 
+ }  */
