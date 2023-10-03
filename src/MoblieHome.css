@@ -262,7 +262,7 @@
           animation: slide-left 0.25s linear;
           animation-play-state:running;
           animation-duration: 3s;
-          width: 100%;
+          width: 50%;
       }
     
     /* .list{
@@ -395,13 +395,25 @@
   gap: 1em;
   
   }
-  .projecthighlightedinfo{
+  .projecthighlighteditem{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 18vh;
+    /* padding:  2.5em; */
+    height: 18vh;
+    margin-bottom: -1.2vh;
+    margin-right: 0;
+
+}
+  /* .projecthighlightedinfo{
   font-size: large;
   
   margin-left: 1em;
   
   transform: perspective(50rem) rotateY(-30deg);
-  }
+  } */
   .projecthighlightedinfo{
     font-size: smaller;
     min-height: 30vh;

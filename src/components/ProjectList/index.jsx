@@ -53,7 +53,7 @@ const arr = Array.from(projects)
               <div className='projectitem' key = {p.id}>
                 <div className='liltagsticker'>
                   <div className='packagelabel'>
-                    <p className='plabel' >P</p>
+                    {/* <p className='plabel' >P</p> */}
                     <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
                   </div>
                  

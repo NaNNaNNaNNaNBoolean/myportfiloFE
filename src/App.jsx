@@ -4,7 +4,9 @@ import React from 'react'
 import * as Pages from './pages'
 import { NavBar } from './components'
 import './App.css'
-import './Moblie.css'
+import './MoblieHome.css'
+import './MoblieList.css'
+import './MobliePopup.css'
 
 function App() {
 

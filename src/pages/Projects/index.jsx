@@ -281,6 +281,9 @@ const Projects = () => {
         <div className='CB-contianer2'>
           <ConvayBelt />
         </div>
+        <div className='CB-contianer3'>
+          <ConvayBelt />
+        </div>
         </div>
         <div className='footer'>
           <footer className='Controllerarea'>
