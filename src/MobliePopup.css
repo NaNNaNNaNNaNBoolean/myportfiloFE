@@ -1,6 +1,9 @@
 /* Mobiles */
 @media only screen and (max-width: 760px) {
 
+  /* .popup-container{
+    overflow: scroll;
+  } */
 .projectsub{
     margin: 1vh;
     margin-left: 2vh;
@@ -53,7 +56,53 @@
   
   /*Tablets or small screens*/
   @media only screen and (min-width: 760px) and (max-width: 1300px) {
- 
+    .projectsub{
+      margin: 1vh;
+      margin-left: 2vh;
+      margin-right: 2vh;
+      border-radius:0.8em;
+     
+  }
+  
+  .projectinfo{
+     margin: 0.5vh;
+     margin-top:1vh;
+     margin-bottom: 1em;
+  }
+  .likebtn{
+      /* grid-column: end; */
+      margin-right: 0.5em;
+      background: none;
+      border: 0;
+      padding: 1em;
+      display: inline-block;
+      width: 0.3em;
+      /* aspect-ratio: 1; */
+  
+  }
+  .likesection{
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      margin-top: 1em;
+  }
+  .infocontainer{
+      border-radius: 2em;
+      padding: 1em;
+      margin: 0.5vh;
+      margin-bottom: 1em;
+  }
+  
+  .neontitleback{
+      font-family:'Orbitron'; 
+      margin:auto;
+      margin-left: 5vh;
+      margin-right: 5vh;
+    
+      font-size: medium;
+      padding: 0.4em;
+      border-radius:0.8em;
+  }
 } 
 
   
