@@ -1,20 +1,24 @@
 /* Mobiles */
 @media only screen and (max-width: 760px) {
     /* HEADER */
-  .backheader {
-    max-height: 1.5em;
-    /* margin-left: 1%; */
-    width: 80%;
-    padding-top: 0;
-    padding-bottom: 1.8em;
-  }   
-  .item1{
-      /* width: 10em;  */
-      width: 95%;
-      border-radius: 0.3em;
-      padding: 0.05em;
-      margin-top: 0vh;
-  }
+    .continuesbg{
+      /* background-size: 100% 100%; */
+      background-size: cover;
+    }
+    .backheader {
+      max-height: 1.5em;
+      /* margin-left: 1%; */
+      width: 80%;
+      padding-top: 0;
+      padding-bottom: 1.8em;
+    }   
+    .item1{
+        /* width: 10em;  */
+        width: 95%;
+        border-radius: 0.3em;
+        padding: 0.05em;
+        margin-top: 0vh;
+    }
   .linkedinbtn{
       min-height: 2.8vh;
       min-width: 2.8vh;
@@ -275,17 +279,21 @@
 
   /* HOME */
   .backheader {
-    max-height: 2.5em;
-    width: 85%;
+    max-height: 1.5em;
+    /* margin-left: 1%; */
+    width: 80%;
     padding-top: 0;
     padding-bottom: 1.8em;
-  }
+  }   
   .item1{
-  /* width: 10em;  */
-  width: 70%;
-  border-radius: 0.3em;
-  padding: 0.05em;
-  margin-top: 0vh;
+      /* width: 10em;  */
+      width: 95%;
+      border-radius: 0.3em;
+      padding: 0.05em;
+      margin-top: 0vh;
+  }
+  .continuesbg{
+    background-size: 100% 100%;
   }
   .NeonBanner {
   /* height: 80%; */

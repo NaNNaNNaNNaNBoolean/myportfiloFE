@@ -18,7 +18,7 @@ const Home = () => {
     function showPage() {
         document.getElementById("loader").style.display = "none";
         document.getElementById("myloaderDiv").style.display = "block";
-        document.getElementById("continuesbg").style.backgroundSize = "100% 40%";
+        document.getElementById("continuesbg").style.backgroundSize = "contain";
         setSeen(true)
     }
     }
