@@ -118,14 +118,11 @@ const Projects = () => {
     }
   }
   // default needs some work
-    if ($(".projectitem").length === 0) {
-      console.log($(".projectitem").length )
+    if ($(".projectitem").length === 1) {
+      // console.log($(".projectitem").length )
       $(".projectitem").first().addClass("focus")
     }
   
-
-
-  // let transformStart = '-10%'
   // const handleNext = () => {
   //   if (LeftRight === false){
   //    setStyle(true)
