@@ -145,6 +145,7 @@
     height: 2.2em;
     border-radius:0.8em;
     position: absolute;
+
     top: 20%;   
     left: 4%;
     box-shadow: inset 0 0 1em #161616;
@@ -173,7 +174,7 @@
 .Controllerarea{
     margin-top: 1em;
     gap: 0.1em;
-    background-color: gray;
+    /* background-color: gray; */
     min-width: 100%;
     min-height: 10vh;
     /* padding: 2em 0 2em 0; */
@@ -190,13 +191,19 @@
     
     position:absolute;
     bottom: 0; 
-
+    --glow-color: hsl(283, 100%, 50%);
+    color: var(--glow-color);
+    border: 0.2em solid var(--glow-color);
+    border-bottom: 0;
     width: 60%;
-    height: 15vh;
-    background-color: rgb(76, 76, 76);
+    height: 20vh;
+    /* background-color: rgb(76, 76, 76); */
     /* margin-bottom: 4em; */
     border-radius:2em 2em 0 0; 
-    text-align: center;
+    text-align: center; 
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  /* animation: border-flicker 6s linear infinite;  */
   
     /* position: absolute; */
     /* top: -15%;
@@ -351,7 +358,7 @@
   .leftandright{
     display: grid;
     margin: auto;
-    margin-top: -15%;
+    margin-top: -5%;
     justify-content: center;
     align-self: center;
     grid-template-columns: auto auto;
@@ -391,19 +398,40 @@
 }
 .material-symbols-outlined{
     font-size: xxx-large;
+    /* color: #878787; */
+    --glow-color: hsl(283, 100%, 50%);
+
+    /* background: rgba(57, 57, 57, 0.604); */
+    color: var(--glow-color);
+    filter: drop-shadow(0 0 0.65rem rgb(145, 36, 255));
 }
 .projectitem.focus {
   /* border: 0.2em solid #ff5454; */
   filter: drop-shadow(0 0 0.75rem rgb(145, 36, 255));
 }
 .selectorbtn{
+  --glow-color: hsl(283, 100%, 50%);
+  color: var(--glow-color);
+  background: none;
+    /* margin-top: -10%; */
+    margin: auto;
+    padding: 0.6em;
+    font-size: large;
+    border: 0.2em solid var(--glow-color);
+    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+    cursor: pointer;
   display: flex;
   justify-content: center;
   margin: auto;
   align-items: center;
-  background-color: #878787;
   padding: 2em;
-  margin-top: 20%;
+  margin-top: 18%;
   border-radius: 3.5em;
   margin-left: 0;
   /* left: 10%; */
