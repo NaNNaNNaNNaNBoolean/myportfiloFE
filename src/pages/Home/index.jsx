@@ -36,7 +36,7 @@ const Home = () => {
       </div>
 
       <div style={{display:"none"}} id="myloaderDiv" className="animate-bottom">
-        <div className='grid.container'>
+        <div >
         <div className='backheader'>
           <div className='connectwithme'> 
             <button className='linkedinbtn' onClick={(e) => {e.preventDefault(); window.open('https://www.linkedin.com/in/nicole-french-a52840173/');}}></button>

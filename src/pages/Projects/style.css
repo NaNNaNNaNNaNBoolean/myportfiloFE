@@ -31,14 +31,14 @@
 }
 
 .topbot{
-    background-color: rgb(104, 104, 104);
+    /* background-color: rgb(104, 104, 104); */
     margin-top: 0;
     margin: auto;
     width:95%;
     max-height: 3em;
     padding: 1.5em;
     border-radius: 0 0 0.8em 0.8em;
-    box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); 
+    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79);  */
     
 }
 .mainbackbtn{
@@ -97,7 +97,7 @@
     background-color: rgb(47, 47, 47);
     border: solid 0.1em rgb(121, 121, 121) ;
     width: 14.5em; 
-    margin-top: -1%; 
+    margin-top: -3%; 
     /* max-height: 4em; */
     /* margin: 0; */
     border-radius:0.4em;
@@ -175,7 +175,7 @@
     gap: 0.1em;
     background-color: gray;
     min-width: 100%;
-    min-height: 15vh;
+    min-height: 10vh;
     /* padding: 2em 0 2em 0; */
     position: absolute;
     /* position: relative; */
@@ -192,7 +192,7 @@
     bottom: 0; 
 
     width: 60%;
-    height: 20vh;
+    height: 15vh;
     background-color: rgb(76, 76, 76);
     /* margin-bottom: 4em; */
     border-radius:2em 2em 0 0; 
@@ -351,6 +351,7 @@
   .leftandright{
     display: grid;
     margin: auto;
+    margin-top: -15%;
     justify-content: center;
     align-self: center;
     grid-template-columns: auto auto;
@@ -402,7 +403,7 @@
   align-items: center;
   background-color: #878787;
   padding: 2em;
-  margin-top: 25%;
+  margin-top: 20%;
   border-radius: 3.5em;
   margin-left: 0;
   /* left: 10%; */

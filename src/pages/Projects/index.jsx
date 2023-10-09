@@ -262,7 +262,7 @@ const Projects = () => {
         <div className='topbot'>
           <div className='logoproj'>
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
-            <p><b>*under developement*</b></p>
+            <p style={{color:'aliceblue'}}><b>*under developement*</b></p>
             <div className='projectpageheader' id ='bouncein'>
               <h1 className='projectpageBanner'>PROJECTS</h1>
             </div> 
