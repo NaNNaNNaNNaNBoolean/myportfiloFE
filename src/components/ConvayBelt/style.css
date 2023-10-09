@@ -8,7 +8,7 @@
     animation: roll 0.25s infinite linear;
     margin-top: 3.1em;
     animation-play-state:running;
-    
+    filter: drop-shadow(0 0 0.3rem rgb(143, 20, 220));
    }
   @keyframes roll {
     100% {
