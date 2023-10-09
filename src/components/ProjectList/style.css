@@ -68,7 +68,7 @@
       grid-template-columns: auto auto auto auto auto auto;
       gap: 3em;
       position: relative;
-      top: 1em;
+      top: 0.4em;
       /* flex-direction: row; */
       animation: slide-left 0.25s linear;
       animation-play-state:running;
@@ -85,7 +85,8 @@
     margin-left: 3em;
     font-weight: bolder;
     filter: brightness(90%);
-    background-image: url('../../imgs/box.png');
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
+    background-image: url('../../imgs/box.PNG');
     /* background-size: cover; */
     background-size:100% 100%;
     object-fit: scale-down;

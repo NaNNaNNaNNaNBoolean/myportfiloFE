@@ -1,6 +1,6 @@
 .convaybelt {
-    height: 5em;
-    color: #373737;
+    height: 4em;
+    color: #2b2b2b;
     background: linear-gradient(90deg, currentColor 95%, hsla(0, 0%, 7%, 0) 0) 0 0%,  
     linear-gradient(-90deg, currentColor 90%, hsla(0, 0%, 7%, 0) 0) 50%;
     background-size: 10px calc(100% / 2);
@@ -8,6 +8,7 @@
     animation: roll 0.25s infinite linear;
     margin-top: 3.1em;
     animation-play-state:running;
+    
    }
   @keyframes roll {
     100% {

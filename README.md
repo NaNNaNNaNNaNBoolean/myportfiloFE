@@ -23,4 +23,5 @@
 
 This was a fun project, and one to be constinulisy improved! What I really learnt during this project was less about what I had already knew but the CSS/animation skills I had developed to create a wonderful app.
 
+This project will continuously added to and improved, many future features to be implemeneted :)
 
