@@ -407,7 +407,7 @@
 }
 .projectitem.focus {
   /* border: 0.2em solid #ff5454; */
-  filter: drop-shadow(0 0 0.75rem rgb(145, 36, 255));
+  filter: drop-shadow(0 0 1rem rgb(145, 36, 255));
 }
 .selectorbtn{
   --glow-color: hsl(283, 100%, 50%);
