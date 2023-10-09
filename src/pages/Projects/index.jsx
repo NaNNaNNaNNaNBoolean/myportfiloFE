@@ -117,12 +117,12 @@ const Projects = () => {
       //   .focus();
     }
   }
-  // default needs some work
-    if ($(".projectitem").length === 1) {
-      // console.log($(".projectitem").length )
-      $(".projectitem").first().addClass("focus")
-    }
   
+  if ($(".selected").length === 0) {
+    $(".projectitem")
+      .first()
+      .addClass("focus");
+  }
   // const handleNext = () => {
   //   if (LeftRight === false){
   //    setStyle(true)

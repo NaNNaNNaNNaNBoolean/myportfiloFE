@@ -83,8 +83,10 @@
     display: block;
     margin: 1em;
     margin-left: 10em;
+    /* color: aliceblue; */
+    /* font-size: 00; */
     margin-right: 10em;
-    background-color: rgb(179, 179, 179);
+    /* background-color: rgb(179, 179, 179); */
     border-radius:0.8em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -96,6 +98,7 @@
    margin: 3em;
    margin-top:1em;
    margin-bottom: 1em;
+   text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
 .likebtn{
@@ -117,19 +120,33 @@
     margin-top: 1em;
 }
 .infocontainer{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.376);
     border-radius: 2em;
     padding: 1em;
     margin: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
+    --glow-color: hsl(283, 100%, 50%);
+    /* background: #0000; */
+    /* background: rgba(57, 57, 57, 0.604); */
+    color: aliceblue;
+    /* font-family: "Raleway", sans-serif; */
+    /* background: none; */
+      margin: auto;
+      /* padding: 0.6em; */
+      border: 0 solid var(--glow-color);
+      /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
+      -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+      0px 0px 0.2em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.2em 0px var(--glow-color),
+      0px 0px 0.3em 0px var(--glow-color);
 }
 
 .neontitleback{
     font-family:'Orbitron'; 
     margin:auto;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 35vh;
+    margin-right: 35vh;
     justify-content: center;
     align-self: center;
     font-size: x-large;

@@ -63,7 +63,7 @@ const Project = (id) => {
     
     const imgOrVid= () => {
         if(project.img === null){
-        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="60%" height="60%" style={{display:'flex',margin:'auto', justifyContent:'center', alignItems: 'center'}}></video>
+        return  <video className='projvid' controls autoPlay src={project.video} type="video/mp4" width="50%" height="50%" style={{display:'flex',margin:'auto', justifyContent:'center', alignItems: 'center'}}></video>
     }else{ return <div className='projimg' style={myStyle}></div>}
     }
     
