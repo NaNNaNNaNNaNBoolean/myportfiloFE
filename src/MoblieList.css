@@ -194,10 +194,9 @@ font-size: x-small;
   border-radius: 2.2em;
   width: 80%;
   z-index: 220;
-  /* margin-bottom: 0; */
   }
   
-  .popup .close-popup {
+  /* .popup .close-popup {
 
     border-radius: 2em;
     border: none;
@@ -209,7 +208,7 @@ font-size: x-small;
     float: right;
 		padding: 10px;
 		cursor: pointer;
-  }
+  } */
 
   
   
