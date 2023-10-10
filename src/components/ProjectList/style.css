@@ -86,7 +86,7 @@
     font-weight: bolder;
     filter: brightness(90%);
     /* filter: drop-shadow(0 0 0.75rem crimson); */
-    background-image: url('../../imgs/box.PNG');
+    background-image: url('../../imgs/box.png');
     /* background-size: cover; */
     background-size:100% 100%;
     object-fit: scale-down;
