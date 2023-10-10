@@ -1,9 +1,15 @@
 /* Mobiles */
 @media only screen and (max-width: 760px) {
     /* HEADER */
+    html,body{
+      width: 100vw;
+
+      background-size:80% 90%;
+      /* background-size: cover; */
+    }
     .continuesbg{
       /* background-size: 100% 100%; */
-      background-size: cover;
+      background-size: contain;
     }
     .backheader {
       max-height: 1.5em;
@@ -231,6 +237,10 @@
   /*Tablets or small screens*/
   @media only screen and (min-width: 760px) and (max-width: 1300px) {
 
+    html,body{
+      width: 100vw;
+      background-size:80% 90%;
+    }
   /* HOME */
   .backheader {
     max-height: 1.5em;
@@ -247,7 +257,8 @@
       margin-top: 0vh;
   }
   .continuesbg{
-    background-size: 100% 100%;
+    background-size: cover;
+    /* background-size: 100% 100%; */
   }
   .NeonBanner {
   /* height: 80%; */
