@@ -19,7 +19,7 @@
     filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30));
     background-color: rgb(47, 47, 47);
     border: solid 0.1em rgb(121, 121, 121) ;
-    width: 20em;  
+    width: 22em;  
     margin-top: -3vh;
     /* max-height: 4em; */
     /* margin: 0; */
@@ -113,6 +113,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 0.08em;
     margin: 0;
     color: #fff;
     animation: pulsate 0.11s ease-in-out infinite alternate;    

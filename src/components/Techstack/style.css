@@ -122,6 +122,7 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   justify-content: center;
   align-items: center;
   margin: 0;
+  letter-spacing: 0.05em;
   /* margin-top: ; */
   font-size: xxx-large;
   color: #fff;
