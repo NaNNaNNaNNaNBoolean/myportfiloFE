@@ -48,11 +48,9 @@
   color: var(--glow-color);
   font-family: "Raleway", sans-serif;
   background: none;
-    /* margin-top: -10%; */
     margin: auto;
     padding: 0.6em;
     font-size: large;
-    /* width: 90%; */
     border: 0.2em solid var(--glow-color);
     border-radius: 0.8em 0.8em 0.8em 0.8em; 
     /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
@@ -62,29 +60,20 @@
     0px 0px 0.5em 0px var(--glow-color);
   box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
-  animation: border-flicker 6s linear infinite; 
+  animation: border-flicker 8s linear infinite; 
     cursor: pointer;
 }
+
 .mainbackbtn span{
     float: left;
     /* margin-right: -0.8em; */
-    font-size: larger;
+    font-size: x-large;
     -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
       0 0 0.45em var(--glow-color);
     -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
       0 0 0.45em var(--glow-color);
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-    animation: text-flicker 5s linear infinite;
-    color: #fff;
-    text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 2px #fff,
-      0 0 4px rgb(179, 0, 255),
-      0 0 8px rgb(179, 0, 255),
-      0 0 9px rgb(179, 0, 255),
-      0 0 10px rgb(179, 0, 255),
-      0 0 15px rgb(179, 0, 255);
+    animation: text-flicker 7s linear infinite;
 }
 
 .projectpageheader{
@@ -263,6 +252,7 @@
     width: 97%;  
     height: 80%;
     border-radius:0.8em;
+    border: 0.2rem solid var(--glow-color) ;
     /* position: absolute; */
     /* top: 20%;   
     left: 4%; */
@@ -270,8 +260,10 @@
     overflow: hidden;
 }
 .messageboard{
+  --glow-color: hsl(283, 100%, 50%);
     position: relative;
-    background-color: rgb(133, 133, 133);
+    background-color: rgba(133, 133, 133, 0);
+    border: 0.2rem solid var(--glow-color);
     /* max-width: 25em;   */
     /* margin: auto; */
     /* margin-top: 3em; */

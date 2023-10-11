@@ -82,8 +82,9 @@
     min-width: 5vh;
     /* width: 30%; */
     /* height: 40%; */
+    border: none;
     filter: drop-shadow(0 0 0.5rem rgb(172, 17, 255));
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    /* border-radius: 0.5em 0.5em 0.5em 0.5em; */
     cursor: pointer;
 }
 .githubbtn{
