@@ -117,54 +117,13 @@ const Projects = () => {
       //   .focus();
     }
   }
-  
+
   if ($(".selected").length === 0) {
     $(".projectitem")
       .first()
       .addClass("focus");
   }
-  // const handleNext = () => {
-  //   if (LeftRight === false){
-  //    setStyle(true)
-  //     setLeftRight(false)
-  //     setClickbtn(true)
-  //  }
-  //  else {
-  //    setStyle(false)
-  //    setLeftRight(false)
-  //    setClickbtn(false)
-  //  }
-  // }
-  // const handleBack = () => {
-  //  if(LeftRight === false){
-  //     setLeftRight(true)
-  //    setStyle(true)
-  //     setClickbtn(true)
-  //   }else {
-  //    setStyle(false)
-  //    setLeftRight(true)
-  //    setClickbtn(false)
-  //   }
 
-  // }
-  // useEffect(()=> {
-  //   if(LeftRight === false && clickedbtn === true){
-  //      setStyle(true)
-  //      setLeftRight(false)
-  //     //  setClickbtn(false)
-  //    }
-  //    else if(LeftRight === true && clickedbtn === true){
-  //        setLeftRight(true)
-  //        setStyle(true)
-  //       //  setClickbtn(false)
-  //       //  setClickbtn(true)
-  //     }
-  //     //  else{
-  //     //    setStyle(false)
-  //     //    setLeftRight(false)
-  //     //    setClickbtn(false)
-  //     //  }
-  // })
   useEffect(() => {
     async function loadProjects() {
         const response = await fetch("https://nmfportfilobe.onrender.com/projects");
@@ -231,7 +190,7 @@ const Projects = () => {
                   {/* <p className='plabel'>P</p> */}
                   <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
                 </div>
-                <p className="subheadingdetails">{p.subhead}</p>
+                {/* <p className="subheadingdetails">{p.subhead}</p> */}
                 </div>
              
               </div>
@@ -248,7 +207,7 @@ const Projects = () => {
   }
   const messagemove = () => {
     if(clickedbtn === false){
-      return (<p>HI THERE, USE THE ARROW KEYS TO SELECT A PROJECT, OR JUST CLICK IT</p>)
+      return (<p>USE THE ARROW KEYS OR CLICK TO VIEW A PROJECT</p>)
     }else{
       if(LeftRight === false){
         return (<p> FORWARD </p>)
@@ -262,7 +221,6 @@ const Projects = () => {
         <div className='topbot'>
           <div className='logoproj'>
             <button className='mainbackbtn' onClick={handleLogoclick}><span>Back</span></button>
-            <p style={{color:'aliceblue'}}><b>*under developement*</b></p>
             <div className='projectpageheader' id ='bouncein'>
               <h1 className='projectpageBanner'>PROJECTS</h1>
             </div> 

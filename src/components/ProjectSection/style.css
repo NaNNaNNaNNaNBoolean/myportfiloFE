@@ -41,12 +41,15 @@
 
 
 .textonboxbit{
-    margin-top: 10%;
+ 
     margin: auto;
+    margin-top: 25%;
     text-align: center;
-     color: aliceblue; 
-     font-family: Orbitron; 
-     font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue; 
+    font-family: Orbitron; 
+    font-weight: bold;
 }
 .projecthighlighteditem{
     /* display: flex; */
@@ -55,13 +58,13 @@
     align-items: center;
     margin-bottom: 0;
     filter: brightness(80%);
-    width: 16vh;
+    width: 12.2rem;
     /* perspective: 1000px; */
     /* transition: .3s;  */
     /* transform: rotateY(40deg); */
     /* transform: scale(0.98) translateZ(-20px); */
-    padding:  2.5em;
-    height: 10rem;
+    padding:  0.8em;
+    height: 13.2rem;
     margin-bottom: -1.2vh;
     margin-right: 0;
     background-image: url('../../imgs/box.png');

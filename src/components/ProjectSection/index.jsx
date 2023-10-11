@@ -16,9 +16,9 @@ const ProjectSection = (props) => {
     const handleClicksec = () => {
         nav('/Projects')
     }
-    const handleClickDisplay =() => {
-      nav('/projects/9')
-    }
+    // const handleClickDisplay =() => {
+    //   nav('/projects/9')
+    // }
     const myStyle = {animationPlayState: aniStyle ? 'running' : '', display: aniStyle ? 'block' : 'none'}
     const invisableblock = {display: aniStyle ? 'none' : 'block', height:'100vh'}
     useEffect(()=>{
@@ -71,7 +71,7 @@ const ProjectSection = (props) => {
               </div>
               <div className='projecthighlighteditem' id='bounceinbox' style ={myStyle}> 
               {/* <div className='questedit'><span className="material-symbols-outlined">question_mark</span></div> */}
-              <h2 className='textonboxbit' >{projectSec.name}</h2>
+              <h2 className='textonboxbit' >SPOTLIGHTED PROJECT</h2>
               {/* <button onClick={handleClickDisplay} className='goToProjects2' >see more about this project</button> */}
               </div>
               <div className='lightupbase' style={myStyle}  id='boxlightup'></div>

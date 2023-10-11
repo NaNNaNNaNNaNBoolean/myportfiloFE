@@ -92,6 +92,7 @@
     margin: auto;
     align-self: flex-end;
     font-size: xx-large;
+    letter-spacing: 0.1em;
     padding: 0;
     filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30));
     background-color: rgb(47, 47, 47);
@@ -116,14 +117,14 @@
     animation: pulsate 0.11s ease-in-out infinite alternate;    
 
     text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
       0 0 2px #fff,
+      0 0 7px #fff,
+      0 0 1px #fff,
+      0 0 2px rgb(179, 0, 255),
       0 0 4px rgb(179, 0, 255),
-      0 0 8px rgb(179, 0, 255),
-      0 0 9px rgb(179, 0, 255),
-      0 0 10px rgb(179, 0, 255),
-      0 0 15px rgb(179, 0, 255);
+      0 0 4px rgb(179, 0, 255),
+      0 0 5px rgb(179, 0, 255),
+      0 0 8px rgb(179, 0, 255);
 }
 
 .leval{
@@ -296,14 +297,14 @@
     margin: 0;
     color: #fff;
     text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
       0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 1px #fff,
+      0 0 2px rgb(179, 0, 255),
       0 0 4px rgb(179, 0, 255),
-      0 0 8px rgb(179, 0, 255),
-      0 0 9px rgb(179, 0, 255),
-      0 0 10px rgb(179, 0, 255),
-      0 0 15px rgb(179, 0, 255);
+      0 0 4px rgb(179, 0, 255),
+      0 0 5px rgb(179, 0, 255),
+      0 0 7px rgb(179, 0, 255);
 }
 /* #scroll-container {
     border: 3px solid black;
@@ -316,10 +317,10 @@
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    
-    -moz-animation: notice-animation 6s linear infinite;
-    -webkit-animation: notice-animation 6s linear infinite;
-    animation: notice-animation 6s linear infinite;
+    letter-spacing: 0.125em;
+    -moz-animation: notice-animation 9s linear infinite;
+    -webkit-animation: notice-animation 9s linear infinite;
+    animation: notice-animation 9s linear infinite;
   }
   
   /* for Firefox */
@@ -407,7 +408,7 @@
 }
 .projectitem.focus {
   /* border: 0.2em solid #ff5454; */
-  filter: drop-shadow(0 0 1rem rgb(145, 36, 255));
+  filter: drop-shadow(0 0 2.5rem rgb(247, 240, 255));
 }
 .selectorbtn{
   --glow-color: hsl(283, 100%, 50%);

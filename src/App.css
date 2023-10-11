@@ -88,9 +88,8 @@ body{
 /*----------------------------------------------*/
 
 
-.glowing-txt {
+/* .glowing-txt {
   float: left;
-  /* margin-right: -0.8em; */
   font-size: xx-large;
   -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
     0 0 0.45em var(--glow-color);
@@ -98,11 +97,7 @@ body{
     0 0 0.45em var(--glow-color);
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
   animation: text-flicker 5s linear infinite;
-}
-.faulty-letter {
-  opacity: 0.5;
-  animation: faulty-flicker 3s linear infinite;
-}
+} */
 
 .goToProjects:hover {
   color: rgba(0, 0, 0, 0.8);

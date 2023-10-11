@@ -57,7 +57,7 @@ const arr = Array.from(projects)
                     <h3 className='clickproject' ><button onClick={() => togglePopup(p.id)} >{p.name}</button></h3>
                   </div>
                  
-                  <p className="subheadingdetails">{p.subhead}</p>
+                  {/* <p className="subheadingdetails">{p.subhead}</p> */}
                 </div>
                
               </div>
