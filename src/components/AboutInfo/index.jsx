@@ -29,7 +29,7 @@ const AboutInfo = () => {
                          <div className='fade-about-info-items'>
                             <p>Hi! I'm Nicole.</p>
                             <br></br>
-                           <p> A passion for tech, self-development and the creative arts. I strive to be a part of something that will help me further myself and my skills as well as also have a meaningful impact on the world around, in whatever form that may take. Since graduating, with my MEng in Electronic Engineering, I have recently completed a 12 week training course with La Fosse Academy expanding my technical knowledge and further improving my skill sets when it comes to software development, espeically with Full Stack! One thing I love to do when I code is trying out random ideas and experimenting with them to see how I can make it come to life! I'm all about continuous improvement!</p>
+                           <p> With a passion for tech, self-development and the creative arts. I strive to be a part of something that will help me further myself and my skills as well as also have a meaningful impact on the world around, in whatever form that may take. Since graduating, with my MEng in Electronic Engineering, I have recently completed a 12 week training course with La Fosse Academy expanding my technical knowledge and further improving my skill sets when it comes to software development, espeically with Full Stack! One thing I love to do when I code is trying out random ideas and experimenting with them to see how I can make it come to life! I'm all about continuous improvement!</p>
                             <br></br>
                             <p>This portfolio will continue to be an on going project as my skills develop and I add more features to this page to showcase that :)</p>
                             {/*During my time at La Fosse Academy, I gained and improved my skills in Javascript, Python, and SQL/noSQL. At university, where I got my MEng in Electronic Engineering, I gained proficiency in C++ and C#. This training course was a nice way to further improve my coding skills in new languages, as I am all about continuous improvement and I love learning new skills. And that's what I did, I learnt about server side and client side, deploying RESTful APIs in both Node.js and Flask, testing in both, using Pytest and Jest, using both SQL databases and NoSQL databases and creating engaging client side pages in React.js. I found it quite fun and easy to learn, I was a quick study achieving over 90% in all my assessments. 
@@ -38,7 +38,7 @@ const AboutInfo = () => {
                             {/* <p><b>Notice: </b> <u>Development on this  has been paused for this current week due to me being on hoilday :)</u> </p> */}
                             <br></br>
                             <p><b>*Currently working on the moblie verison of this site*</b></p>
-                            <p><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p>
+                            <p style={{ color:'#B026FF'}}><b>*Also, please be patient, the API is run on a free render host so takes a few minutes to start up*</b></p>
                             <br></br>
                             <button  onClick={handleClick} className='goToProjects'><span className='glowing-txt'>SEE PROJECTS</span></button>
                         </div>
