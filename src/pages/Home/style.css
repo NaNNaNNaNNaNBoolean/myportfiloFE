@@ -76,11 +76,13 @@
     background-image: url('../../imgs/linkedinlogo.png');
     background-size: cover;
     background-size: contain;
+    background-color: rgba(240, 248, 255, 0);
     margin: 0.5em;
     min-height: 5vh;
     min-width: 5vh;
     /* width: 30%; */
     /* height: 40%; */
+    filter: drop-shadow(0 0 0.5rem rgb(172, 17, 255));
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     cursor: pointer;
 }
@@ -88,10 +90,13 @@
     background-image: url('../../imgs/githublogo.png');
     background-size: cover;
     background-size: contain;
+    background-color: rgba(240, 248, 255, 0);
     min-height: 5vh;
     min-width: 5vh;
     margin: 0.5em;
+    border: none;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
+    filter: drop-shadow(0 0 0.5rem rgb(172, 17, 255));
     /* margin: auto; */
     /* width: 30%; */
     height: 30%;
