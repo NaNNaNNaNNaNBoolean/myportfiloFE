@@ -18,12 +18,11 @@
     opacity: 0;
     animation: bopping 3s ease-in infinite;
     animation-delay: 4.2s;
-    /* animation-iteration-count: 1; */
     animation-play-state: paused;
 }
 
 #boxlightup{
-    /* box-shadow: none; */
+
     animation: lightupbase 2s ease infinite;
     animation-delay: 2.5s;
     animation-iteration-count: 1;
@@ -67,19 +66,14 @@
     width: 50vh;
     height: 0.5vh;
     margin: 0 11vh 0 24vh;
-    /* margin-bottom: 0; */
     background-color: rgba(136, 0, 255, 0.35);
     border-radius: 100%;
     filter: blur(0.08em);
     transform: perspective(4em) rotateX(-20deg);
-    /* transform-style: preserve-3d; */
     animation: holographic 1.5s infinite alternate;
     transition-timing-function: ease-in;
-    /* transition: 5s; */
     animation-play-state: paused;
     animation-delay: 3s;
-
-    /* backface-visibility: hidden; */
   }
   .holographicProjector:after {
     left: -1em;

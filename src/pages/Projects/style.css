@@ -1,44 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 
-/* html,body{
-  background-size:100% 100%;
-    -o-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-  background-size: cover;
-} */
+
 .projectspagecontainer{
   min-height: 80%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* position: relative; */
-  /* height: 100%;
-  width: 100%;
-  text-align: center; */
   background-image:  linear-gradient(
-      /* rgba(212, 92, 255, 0.513),  */
+ 
       rgba(27, 0, 37, 0.867),
-      /* rgba(207, 74, 255, 0),  */
       rgba(207, 74, 255, 0), 
       rgba(27, 0, 37, 0.867)
     ),url('../../imgs/homebg.webp');
     background-repeat: no-repeat;
-    /* background: rgba(34, 34, 34, 0.543); */
-    /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */
-    /* background-size:80% 90%;
-     -o-background-size: 80% 90%;
-    -webkit-background-size: 80% 90%; */
     background-size: cover;
 }
 
 .topbot{
-    /* background-color: rgb(104, 104, 104); */
+  
     margin-top: 0;
     margin: auto;
     width:95%;
     max-height: 3em;
     padding: 1.5em;
     border-radius: 0 0 0.8em 0.8em;
-    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79);  */
     
 }
 .mainbackbtn{
@@ -53,7 +35,6 @@
     font-size: large;
     border: 0.2em solid var(--glow-color);
     border-radius: 0.8em 0.8em 0.8em 0.8em; 
-    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
   -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -66,7 +47,6 @@
 
 .mainbackbtn span{
     float: left;
-    /* margin-right: -0.8em; */
     font-size: x-large;
     -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
       0 0 0.45em var(--glow-color);
@@ -88,16 +68,12 @@
     border: solid 0.1em rgb(121, 121, 121) ;
     width: 14.5em; 
     margin-top: -3%; 
-    /* max-height: 4em; */
-    /* margin: 0; */
     border-radius:0.4em;
     text-align: center;
-    /* animation: pulsate 0.11s ease-in-out infinite alternate;     */
+
 }
 
 .projectpageBanner {
-    /* height: 100%;
-    width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +93,6 @@
 }
 
 .leval{
-    /* padding: 0em; */
     background-color: rgb(133, 133, 133);
     max-width: 25em;  
     margin-top: 1em;
@@ -164,17 +139,13 @@
 .Controllerarea{
     margin-top: 1em;
     gap: 0.1em;
-    /* background-color: gray; */
     min-width: 100%;
     min-height: 10vh;
-    /* padding: 2em 0 2em 0; */
     position: absolute;
-    /* position: relative; */
     display: flex;
     bottom: 0;
     align-items: center;
     justify-content: center;
-    /* z-index: 40; */
 
 }
 .Controls{
@@ -187,20 +158,11 @@
     border-bottom: 0;
     width: 60%;
     height: 20vh;
-    /* background-color: rgb(76, 76, 76); */
-    /* margin-bottom: 4em; */
     border-radius:2em 2em 0 0; 
     text-align: center; 
-  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
-  /* animation: border-flicker 6s linear infinite;  */
-  
-    /* position: absolute; */
-    /* top: -15%;
-    left: 20%;
-    right: 20%; */
     justify-content: space-around;
-    /* align-items: center; */
     display: grid;
     grid-template-columns: 55% 25% 20%;
 }
@@ -214,7 +176,6 @@
     animation-play-state:paused;
     animation-duration: 3s;
     z-index: 10;
-    /* overflow: hidden; */
 }
 .CB-contianer2{
   margin-top: 12.5em;
@@ -253,9 +214,6 @@
     height: 80%;
     border-radius:0.8em;
     border: 0.2rem solid var(--glow-color) ;
-    /* position: absolute; */
-    /* top: 20%;   
-    left: 4%; */
     box-shadow: inset 0 0 1em #161616;
     overflow: hidden;
 }
@@ -264,19 +222,14 @@
     position: relative;
     background-color: rgba(133, 133, 133, 0);
     border: 0.2rem solid var(--glow-color);
-    /* max-width: 25em;   */
-    /* margin: auto; */
-    /* margin-top: 3em; */
     top: 30%;
     left: 5%;
     width: 90%;
-    /* left: 5%; */
     height: 7vh;
     border-radius:1em;
     justify-content: center;
     align-items: center;
     display: flex;
-    /* position: relative; */
     box-shadow: 0 0 1em #393939;
 }
 .messageboard p{
@@ -298,11 +251,6 @@
       0 0 5px rgb(179, 0, 255),
       0 0 7px rgb(179, 0, 255);
 }
-/* #scroll-container {
-    border: 3px solid black;
-    border-radius: 5px;
-    overflow: hidden;
-  } */
   /*----Scrolling text for message board-----------------*/
   #scrolltext {
     /* animation properties */
@@ -359,7 +307,6 @@
   }
   .ControlsLeft{
     margin: auto;
-    /* margin-right: 60%; */
     margin-left: -30%;
     border: none;
     background-color: #ffffff00;
@@ -399,19 +346,17 @@
     filter: drop-shadow(0 0 0.65rem rgb(145, 36, 255));
 }
 .projectitem.focus {
-  /* border: 0.2em solid #ff5454; */
   filter: drop-shadow(0 0 2.5rem rgb(247, 240, 255));
 }
 .selectorbtn{
   --glow-color: hsl(283, 100%, 50%);
   color: var(--glow-color);
   background: none;
-    /* margin-top: -10%; */
     margin: auto;
     padding: 0.6em;
     font-size: large;
     border: 0.2em solid var(--glow-color);
-    /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
+
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
   -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -431,12 +376,7 @@
   cursor: pointer;
 }
 
-/* .footer{
-    position: relative;
-    bottom: 0;
-} */
 .CB-contianer3{
   display: none;
-  /* margin-top: 13.5vh; */
 }
 

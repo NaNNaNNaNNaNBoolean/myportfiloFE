@@ -8,11 +8,7 @@
   grid-template-columns: 25% 25% 25% 25%;
   margin: auto;
   margin-top: 5%;
-  
-  /* margin-bottom: 25%; */
-  /* margin-bottom: 5.5%; */
-  /* min-height: 100vh; */
-  /* border-left: 1em black solid; */
+ 
 }
 .langgrid{
   display: grid;
@@ -20,9 +16,7 @@
   margin: 2%;
   gap: 1%;
   margin-top: 5%;
-  /* margin-bottom: 1vh; */
-  /* padding-bottom: 0; */
-  /* top: 50%; */
+
 }
 img{
   display: flex;
@@ -38,11 +32,9 @@ img{
  
     padding: 1vh;
     border-radius: 1.5rem;
-    /* color: #fff; */
-    /* background-color: rgba(209, 209, 209, 0.782); */
     border: solid var(--glow-color)0.1em;
     margin: 2%;
-    /* margin-top: 2vh; */
+
     -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
     -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -60,7 +52,7 @@ img{
 .TechSecBE{
   padding: 1vh;
   border-radius: 1.5rem;
-  /* background-color: rgba(230, 219, 237, 0.692); */
+
   border: solid var(--glow-color) 0.1em;
 
   margin: 2%;
@@ -70,7 +62,6 @@ img{
   0px 0px 0.5em 0px var(--glow-color);
 box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   0px 0px 0.5em 0px var(--glow-color);
-  /* margin-bottom: 5%; */
 }
 .FEgrid{
   display: grid;
@@ -83,7 +74,6 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   
   padding: 1vh;
   border-radius: 1.5rem;
-  /* background-color: rgba(209, 209, 209, 0.782); */
   border: solid var(--glow-color) 0.1em;
   margin: 2%;
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -101,11 +91,9 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   gap: 1%;
 }
 .TechSecD{
-  /* border-left: 0.1vh rgb(220, 220, 220) solid;
-  border-right: 0.1vh rgb(220, 220, 220) solid; */
+
   padding: 1vh;
   border-radius: 1.5rem;
-  /* background-color: rgba(209, 209, 209, 0.782); */
   border: solid var(--glow-color) 0.1em;
   margin: 2%;
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
@@ -150,11 +138,10 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
   background-color: rgb(47, 47, 47);
   border: solid 0.1em rgb(121, 121, 121) ;
   width: 12.5em;  
-  /* max-height: 4em; */
+
   margin-top: 5%;
   border-radius:0.4em;
   text-align: center;
-  /* animation: pulsate 0.11s ease-in-out infinite alternate;     */
 }
 
 

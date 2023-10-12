@@ -38,10 +38,9 @@
       0 0 15px rgb(179, 0, 255);
   }
 
-  @keyframes pulsate {
+@keyframes pulsate {
     
     100% {
-  
         text-shadow:
         0 0 4px #fff,
         0 0 11px #fff,
@@ -51,11 +50,9 @@
         0 0 90px rgb(179, 0, 255),
         0 0 100px rgb(179, 0, 255),
         0 0 150px rgb(179, 0, 255);
-    
     }
     
     0% {
-  
       text-shadow:
       0 0 4px #fff,
       0 0 10px #fff,
@@ -65,24 +62,18 @@
       0 0 80px rgb(179, 0, 255),
       0 0 94px rgb(179, 0, 255),
       0 0 140px rgb(179, 0, 255);
-  
-  }
+    }
 }
 .projectsub{
     display: block;
     margin: 1em;
     margin-left: 10em;
-    /* color: aliceblue; */
-    /* font-size: 00; */
     margin-right: 10em;
-    /* background-color: rgb(179, 179, 179); */
     border-radius:0.8em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* .projvid{
-    width: 100%;
-} */
+
 .projectinfo{
    margin: 3em;
    margin-top:1em;
@@ -91,14 +82,12 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 .likebtn{
-    /* grid-column: end; */
     margin-right: 0.5em;
     background: none;
     border: 0;
     padding: 1em;
     display: inline-block;
     width: 0.3em;
-    /* aspect-ratio: 1; */
     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
@@ -116,17 +105,11 @@
     margin-top: 1em;
     margin-bottom: 1em;
     --glow-color: hsl(283, 100%, 50%);
-    /* background: #0000; */
-    /* background: rgba(57, 57, 57, 0.604); */
     color: aliceblue;
-    /* font-family: "Raleway", sans-serif; */
-    /* background: none; */
-      margin: auto;
-      /* padding: 0.6em; */
-      border: 0 solid var(--glow-color);
-      /* box-shadow: 0px 15px 10px -15px rgb(59, 0, 79); */
-      -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.2em 0px var(--glow-color);
+    margin: auto;
+    border: 0 solid var(--glow-color);
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.2em 0px var(--glow-color);
     box-shadow: inset 0px 0px 0.2em 0px var(--glow-color),
       0px 0px 0.3em 0px var(--glow-color);
 }
@@ -140,7 +123,6 @@
     align-self: center;
     font-size: x-large;
     padding: 0.4em;
-    /* filter: drop-shadow( 0 -0 0.5rem rgb(22, 0, 30)); */
     background-color: rgb(47, 47, 47);
     border: solid 0.2em rgb(121, 121, 121) ;
     border-radius:0.8em;

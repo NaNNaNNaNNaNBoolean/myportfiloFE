@@ -30,7 +30,6 @@ import './animation.css'
 const Techstack = () => {
   return (
     <>
-    {/* <h3>!!!Section is under development!!!</h3> */}
     <div className='TScontainer'>
       <h2 className='techstacktitleback' style = {{ display: 'flex', justifyContent: 'center'}}> <span className='techstacktitle'>TECH STACK</span></h2>
       <div className='TeckStackList'>  
@@ -47,14 +46,13 @@ const Techstack = () => {
        
         <div className='TechSecBE' id = 'moveALittleRight'>
           <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Backend </h3>
-          {/* <br></br> */}
+  
           <div className='BEgrid'>
             <img src = {Node} style = {{height: '4vh', width: '8vh', marginBottom:'1em'}}></img>
             <img src = {NotNode} style = {{height: '4vh', width: '9vh', marginBottom:'1em' }}></img>
          
             <img src = {Flask} style = {{height: '5vh', width: '5vh', marginBottom:'1em'}}></img>
             <img src = {Postgres} style = {{height: '5vh', width: '7vh', marginBottom:'1em'}}></img>
-            {/* <img src = {Express} style = {{height: '4vh', width: '8vh', marginBottom:'1em'}}></img> */}
             <p style={{margin:'auto', justifyContent:'center',alignContent:'center', color: '#26282A', display: 'flex'}}>Express</p>
             <img src = {MongoDB}style = {{height: '4vh', width: '10vh' , marginBottom:'1em'}}></img>
             <img src = {Moogoose}style = {{height: '5vh', width: '7vh', marginBottom:'1em'}}></img>

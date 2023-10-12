@@ -1,113 +1,69 @@
-
-  .me{
+/*image of me*/
+.me{
     background-image: url('../../imgs/Nicole_French.png');
     width: 45vh;
     min-width: 10vh;
-    /* min-height: 15vh; */
     height: 45vh;
     min-height: 10vh;
-    /* min-height: 100%; */
     background-size: cover;
-    /* height: 20em; */
     border-radius: 2em;
     display: flex;
     margin: auto;
     margin-top: 19vh;
     margin-right: 24vh;
-    /* margin-bottom: 5%; */
     justify-content: center;
     align-items: center;
     border: 0.1em solid rgb(19, 19, 19);
     box-shadow: -1px -1px 1em rgba(213, 114, 255, 0.452);
-  }
+}
 
- .paragintro{
-  /* padding: 1rem;
-  margin: 1rem; */
-  text-align: center;
- }
-
+/*button to projects*/
  .goToProjects {
   --glow-color: hsl(283, 100%, 50%);
 
   background: rgba(57, 57, 57, 0.604);
-
-  /* position: relative; */
   color: var(--glow-color);
   cursor: pointer;
-  /* padding: 0.35em 1em; */
   border: 0.1em solid var(--glow-color);
   border-radius: 0.1em;
   background: none;
-  /* perspective: 2em; */
   font-family: "Raleway", sans-serif;
-  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-    0px 0px 0.5em 0px var(--glow-color);
-  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-    0px 0px 0.5em 0px var(--glow-color);
-  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-    0px 0px 0.5em 0px var(--glow-color);
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
   animation: border-flicker 4s linear infinite;
 }
 .glowing-txt {
   float: left;
-  /* margin-right: -0.8em; */
   font-size: xx-large;
-  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
-    0 0 0.45em var(--glow-color);
-  -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
-    0 0 0.45em var(--glow-color);
+  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
+  -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
   animation: text-flicker 5s linear infinite;
 }
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+@keyframes fadein {
+  0% {
+    opacity: 0;
   }
-  .grid-container-about{
-    /* display: grid;
-    grid-row: auto; */
-    /* grid-template-columns: 70% 30%; */
-    /* gap: 1%; */
-    /* border:2em; */
-    /* padding-top: 2%; */
-    /* grid-co */
-    margin: 0;
+  100% {
+    opacity: 1;
   }
+}
+
+/*about info */
+.grid-container-about{
+  margin: 0;
+}
 
  .sectionabouteffect{
   display: grid;
-  /* grid-row: auto; */
   height: 131vh;
   width: 100%;
   grid-template-columns: 70% 30%;
   gap: 1%;
-    /* background-image: linear-gradient(rgba(24, 1, 43, 0), rgba(0, 0, 0, 0.754)); */
-    background-size:100% 100%;
-    background-size: contain;
+  /* background-size:100% 100%; */
+  background-size: contain;
  }
-
-.techstacksection{
-  margin-top: 5%;
-  height: 100vh;
-  /* width: 100%; */
-  /* background-image: linear-gradient(rgba(234, 177, 255, 0.867), rgb(52, 19, 63)); */
-  background-image: linear-gradient(rgb(25, 5, 40),rgb(113, 64, 131), rgba(48, 18, 58, 0));
-  /* background-size:100% 100%;
-  margin: 0;
-  background-size: cover; */
-}
-
-.projectpagelink{
-  height: 100vh;
-  margin: 0;
-  /* background-image: linear-gradient(rgba(27, 0, 37, 0), rgba(27, 0, 37, 0.867)); */
-}
 .fade-about-info-items {
   position: relative;
   opacity: 0;
@@ -115,13 +71,9 @@
   animation-duration: 3000ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  /* background-color: rgba(227, 227, 227, 0.307); */
-
-  /* display: flex; */
   align-items: center;
   margin: auto;
   margin-top: 11%;
-  /* height: 60vh; */
   width: 90%;
   min-height: 70%;
   padding: 4%;
@@ -129,23 +81,19 @@
   text-align: start;
   margin-bottom: 10%;
   color: rgb(251, 239, 255);
-  /* border-radius: 4em; */
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
-  /* box-shadow: 1em 1em 1em rgb(67, 67, 67); */
 }
-
+ /*tech stack section*/
+.techstacksection{
+  margin-top: 5%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(25, 5, 40),rgb(113, 64, 131), rgba(48, 18, 58, 0));
+}
 .fade-about-info-items-2 {
   position: relative;
-  /* opacity: 0;
-  animation-name: fadein;
-  animation-duration: 3000ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
-  /* background: rgba(173, 173, 173, 0.597); */
   align-items: center;
   margin: auto;
-  /* margin-top: 1%; */
   width: 80%;
   min-height: 70%;
   padding: 1em;
@@ -154,9 +102,11 @@
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  
-  /* display: flex; */
-  /* box-shadow: 1em 1em 1em rgba(67, 67, 67, 0.446); */
-  
 }
+/*project section home page*/
+.projectpagelink{
+  height: 100vh;
+  margin: 0;
+}
+
 
