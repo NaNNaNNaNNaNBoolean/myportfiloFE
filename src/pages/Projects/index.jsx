@@ -173,7 +173,7 @@ const Projects = () => {
   const arr = Array.from(projects)
   function displayProjectList() {
     return (
-      <div>
+      <>
       <div className='rowlist' >
       {
         arr.map((p) => { 
@@ -208,7 +208,7 @@ const Projects = () => {
         })
       }
     </div>
-      </div>
+      </>
     
     )
   }

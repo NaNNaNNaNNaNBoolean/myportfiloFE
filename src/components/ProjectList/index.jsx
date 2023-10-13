@@ -44,7 +44,7 @@ const ProjectList = (props) => {
 const arr = Array.from(projects)
   function displayProjectList() {
     return (
-      <div>
+
       <div className='rowlist' {...props.style} >
       {
         arr.map((p) => { 
@@ -76,7 +76,6 @@ const arr = Array.from(projects)
         })
       }
     </div>
-      </div>
     
     )
   }
