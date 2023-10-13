@@ -55,10 +55,10 @@
     align-items: center;
     margin-bottom: 0;
     filter: brightness(80%);
-    width: 12.2rem;
+    width: 12vw;
 
     padding:  0.8em;
-    height: 13.2rem;
+    height: 25vh;
     margin-bottom: -1.2vh;
     margin-right: 0;
     background-image: url('../../imgs/box.png');
@@ -90,7 +90,7 @@
 .lightupbase{
     position: relative;
     background-color: rgb(110, 110, 110);
-    width: 25vh;
+    width: 13.6vw;
     height: 2vh;
     border-radius: 0.5em 0.5em 0 0;
     box-shadow: inset 1em 1em 3em -1em #121212;
