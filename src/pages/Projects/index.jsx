@@ -75,19 +75,19 @@ const Projects = () => {
         .removeClass("focus")
         .next(".projectitem")
         .addClass("focus");
-      // $(".projectitem.focus div")
-      //   .first()
-      //   .addClass("selected")
-      //   .focus();
+      $(".projectitem.focus div")
+        .first()
+        .addClass("selected")
+        // .focus();
     } else {
       $(".focus")
         .removeClass("focus");
       $(".projectitem")
         .first()
         .addClass("focus");
-      // $(".projectitem div")
-      //   .first()
-      //   .addClass("selected")
+      $(".projectitem div")
+        .first()
+        .addClass("selected")
       //   .focus();
     }
   }
@@ -118,13 +118,20 @@ const Projects = () => {
     }
   }
 
-  if ($(".selected").length === 0) {
-    $(".projectitem")
-      .first()
-      .addClass("focus");
-  }
 
+    // if ($(".selected").length === 0) {
+    // $(".projectitem")
+    //   .first()
+    //   .addClass("focus");
+    // }
+    if ($(".selected").length === 0) {
+          $(".projectitem")
+            .first()
+            .addClass("focus");
+          }
   useEffect(() => {
+    
+   
     async function loadProjects() {
         const response = await fetch("https://nmfportfilobe.onrender.com/projects");
         const data = await response.json();
