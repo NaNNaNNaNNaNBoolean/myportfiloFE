@@ -12,13 +12,9 @@
 .popup-container {
   display: none;
   position: fixed;
-
-  top: -80%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  width: 220vh;
+  margin: auto;
+  margin-top: -110%;
+  width: 100vw;
   height: 100vh;
 
   z-index: 200;
