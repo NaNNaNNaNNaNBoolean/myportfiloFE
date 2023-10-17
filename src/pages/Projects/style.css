@@ -352,6 +352,7 @@
   color: var(--glow-color);
   background: none;
     margin: auto;
+    font-weight: bold;
     padding: 0.6em;
     font-size: large;
     border: 0.2em solid var(--glow-color);

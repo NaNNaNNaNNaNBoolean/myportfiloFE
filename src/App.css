@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-/* #root{
-  background-color: rgb(85, 85, 85);
-  background-image: url('./imgs/homebg.png');
-  background-size: cover;
-} */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,85 +15,13 @@
 }
 html, 
 body{
-    /* font-family: 'Proza Libre', sans-serif;
-    font-weight: 400;
-    font-size: 16px; */
     min-height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* position: relative; */
     height: 100%;
     width: 100%;
-    /* background-image:  linear-gradient(
-     
-      rgba(27, 0, 37, 0.867),
-    
-      rgba(207, 74, 255, 0), 
-      rgba(27, 0, 37, 0.867)
-    ),url('./imgs/homebg.webp'); */
     background-image: linear-gradient(rgb(24, 0, 32), rgb(27, 0, 37));
-    /* background-repeat: no-repeat;  */
-    /* background: rgba(34, 34, 34, 0.543); */
-    /* box-shadow: inset 0 0 0 100% rgba(0,0,0,1); */
     background-size:80% 90%;
-    /* -o-background-size: 80% 90%;
-    -webkit-background-size: 80% 90%; */
     background-size: cover;
-    /* flex-grow: 1 */
 }
-
-
-
-
-@media only screen and (max-width: 760px) {
-/* 
-  main {
-    margin: 0rem;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-  } */
-  
-
-  /* .TeckStackList{
-    grid-template-rows: auto auto auto;
-  }*/
-} 
-/*----home page scrolling-------------------------------------------------------*/
-
-/* section { */
-  /* min-height: 50vh; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-/* } */
-
-/* #stick {
-  background-color: rgb(71, 14, 64);
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-/* .footer {
-  background-color: whitesmoke;
-  color: seagreen;
-} */
-
-/*----------------------------------------------*/
-
-
-/* .glowing-txt {
-  float: left;
-  font-size: xx-large;
-  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
-    0 0 0.45em var(--glow-color);
-  -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
-    0 0 0.45em var(--glow-color);
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-  animation: text-flicker 5s linear infinite;
-} */
 
 .goToProjects:hover {
   color: rgba(0, 0, 0, 0.8);
