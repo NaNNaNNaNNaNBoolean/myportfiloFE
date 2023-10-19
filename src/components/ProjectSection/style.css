@@ -56,7 +56,6 @@
     margin-bottom: 0;
     filter: brightness(80%);
     width: 12vw;
-
     padding:  0.8em;
     height: 25vh;
     margin-bottom: -1.2vh;
@@ -81,7 +80,7 @@
     font-size: larger;
     min-height: 30vh;
     padding: 2em;
-    margin-left: 0;
+    margin: auto;
     margin-bottom: 5vh;
     border-radius: 2em;
     transform: perspective(110rem) rotateY(-30deg);
@@ -109,7 +108,7 @@
 .glitchcontainer{
     display: grid;
     margin: auto;
-    width: 50em;
+    width: 28vw;
     margin-bottom: 0;
     grid-template-columns: auto;
 }

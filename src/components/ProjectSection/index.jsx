@@ -44,10 +44,10 @@ const ProjectSection = (props) => {
     const displayprojectfloat = () => {
       return(
         <div className='projecthighlightedinfo' id = 'boppingtime' style ={myStyle}>
-        <h2>{projectSec.name}</h2>
-        <h3>{ projectSec.subhead}</h3>
-        <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
-      </div>
+          <h2>{projectSec.name}</h2>
+          <h3>{ projectSec.subhead}</h3>
+          <video controls src={projectSec.video} type="video/mp4" style={{display: 'flex',width: '100%', padding:'1vh'}}></video>
+        </div>
       )
     }
     

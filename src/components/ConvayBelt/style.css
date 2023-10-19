@@ -1,5 +1,5 @@
 .convaybelt {
-    height: 4em;
+    height: 6vh;
     color: #2b2b2b;
     background: linear-gradient(90deg, currentColor 95%, hsla(0, 0%, 7%, 0) 0) 0 0%,  
     linear-gradient(-90deg, currentColor 90%, hsla(0, 0%, 7%, 0) 0) 50%;

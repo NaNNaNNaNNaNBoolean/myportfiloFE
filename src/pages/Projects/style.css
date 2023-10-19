@@ -168,16 +168,16 @@
 
 .list {
     position: relative;
-    margin-top: 3.5em;
+    margin-top: 6vh;
     width: 5em;
-    height: 10em; 
+    height: 18vh; 
     animation: slide-right-click 0.25s linear forwards;
     animation-play-state:paused;
     animation-duration: 3s;
     z-index: 10;
 }
 .CB-contianer2{
-  margin-top: 12.5em;
+  margin-top: 22vh;
 
 }
 
