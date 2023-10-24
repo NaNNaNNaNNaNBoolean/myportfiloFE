@@ -74,11 +74,11 @@
       /* position: relative; */
       margin: auto;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       top: 0.4em;
       animation: slide-left 0.25s linear;
       animation-play-state:running;
-      animation-duration: 3s;
+      animation-duration: 5s;
       width: 100vw;
   }
 
@@ -88,10 +88,10 @@
     width: 8vw;
     height: 18vh;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
     align-items: center;
-    margin-left: 2vh;
+    /* margin-left: 2vh; */
     font-weight: bolder;
     filter: brightness(90%);
     background-image: url('../../imgs/box.png');
@@ -103,10 +103,10 @@
 
 @keyframes slide-left {
     from {
-        transform: translateX(1000%);
+        transform: translateX(100%);
 
       }
       to {
-        transform: translateX(-5%);
+        transform: translateX(-1%);
       }
 }
