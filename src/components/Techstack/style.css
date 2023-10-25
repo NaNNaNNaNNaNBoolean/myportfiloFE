@@ -4,8 +4,10 @@
 }
 .TeckStackList{
   --glow-color: hsl(282, 100%, 43%);
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-grow: 3; */
+  /* grid-template-columns: 25% 25% 25% 25%; */
   margin: auto;
   margin-top: 5%;
  
@@ -47,12 +49,12 @@ img{
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   margin:2%;
-  gap: 1%;
+  /* gap: 1%; */
 }
 .TechSecBE{
   padding: 1vh;
   border-radius: 1.5rem;
-
+  
   border: solid var(--glow-color) 0.1em;
 
   margin: 2%;
@@ -65,9 +67,8 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 }
 .FEgrid{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   margin:2%;
-  
   gap: 1%;
 }
 .TechSecFE{
@@ -87,11 +88,16 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 .Dgrid{
   display: grid;
   grid-template-columns: 50% 50% ;
+  margin: auto;
   margin:2%;
   gap: 1%;
+  margin-top: 25%;
+  margin-bottom: 30%;
+  /* justify-content: center;
+  align-self: center; */
 }
 .TechSecD{
-
+  
   padding: 1vh;
   border-radius: 1.5rem;
   border: solid var(--glow-color) 0.1em;
