@@ -183,12 +183,13 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        width: 22vh;
+        /* text-align: center; */
+        width: 30vw;
         padding:  0;
-        height: 23vh;
-        margin-bottom: -1.2vh;
-        margin-right: 1em;
+        height: 16vh;
+        margin-bottom: -1.1vh;
+        /* margin-right: 1em; */
+
 
     }
     .viewport-block{
@@ -198,7 +199,7 @@
         font-size: smaller;
         min-height: 30vh;
         padding: 2em;
-        margin-left: 0;
+        margin-left: -2vw;
         margin-bottom: 15vh;
         border-radius: 2em;
         transform: perspective(110rem) rotateY(-30deg);
@@ -208,9 +209,12 @@
         height: 2vh;
     }
     .textonboxbit{
-        font-size: small;
-
-        margin-top: 20%;
+        font-size: xx-small;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
         /* margin-left:10%; */
         text-align: center;
         width: 50%;
@@ -218,8 +222,10 @@
     .glitchcontainer{
         display: grid;
         margin: auto;
+        font-size: smaller;
         width: 40vh;
         margin-bottom: 0;
+        margin-left: -2vw;
         grid-template-columns: auto;
     }
     .holographicProjector {
@@ -393,7 +399,7 @@
       /* justify-content: center;
       align-items: center; */
       width: 15vw;
-        min-width: 20vw;
+        /* min-width: 20vw; */
         height: 2vh;
     }
     .textonboxbit{
