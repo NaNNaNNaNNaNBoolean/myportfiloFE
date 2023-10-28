@@ -390,7 +390,10 @@
     transform: perspective(110rem) rotateY(-30deg);
   }
     .lightupbase{
-        width: 18vh;
+      /* justify-content: center;
+      align-items: center; */
+      width: 15vw;
+        min-width: 20vw;
         height: 2vh;
     }
     .textonboxbit{

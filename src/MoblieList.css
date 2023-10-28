@@ -59,7 +59,7 @@
           /* animation: slide-left 0.25s linear;
           animation-play-state:running;
           animation-duration: 3s; */
-          width: 50%;
+          /* width: 50%; */
       }
       .convaybelt{
         margin: 0;
@@ -233,18 +233,19 @@ font-size: x-small;
 
 
   .rowlist{
-      /* display: flex; */
-      display: grid;
+      display: flex;
+      /* display: grid; */
       /* grid-column: auto auto; */
-      grid-template-columns: auto auto auto;
+      /* grid-template-columns: auto auto auto; */
+      flex-wrap: wrap;
       gap: 0.3em;
-      position: relative;
-      top: 10vh;
-      /* flex-direction: row; */
+      /* position: relative; */
+      /* top: 18vh;
+      flex-direction: row;
       animation: slide-left 0.25s linear;
       animation-play-state:running;
       animation-duration: 3s;
-      width: 100%;
+      width: 100%; */
   }
   .convaybelt{
     margin: 0;
