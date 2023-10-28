@@ -97,6 +97,7 @@
 
   .material-symbols-outlined{
       font-size: x-large;
+      font-weight: bolder;
   }
 
   .selectorbtn{
@@ -105,7 +106,7 @@
     margin: auto;
     align-items: center;
     padding: 2vh;
-    margin-top: 63%;
+    margin-top: 6.3vh;
     border-radius: 15vh;
     font-size: smaller;
     margin-left: 0;
@@ -122,6 +123,9 @@
     grid-template-columns: 55% 25% 20%;
     /* padding: 0.2rem; */
 }
+.leftandright{
+  gap: 20%;
+}
 .notice{
     margin-left: 35vh;
     margin-right: 35vh;
@@ -129,11 +133,16 @@
 
 .movedisplay{
 
-  width: 97%;  
+  width: 95%;  
   height: 90%;
   border-radius:0.8em;
 }
 
+.messageboard{
+  border: 0.1rem;
+  top: 6.3vh;
+
+}
 .messageboard p{
 font-size: x-small;
 }
