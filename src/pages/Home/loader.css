@@ -8,13 +8,9 @@
   background-size: cover;
 }
   .welcomeloader{
-    position: absolute;
     z-index: 2;
     font-size: 20vh;
     margin: auto;
-    margin-top: 15%;
-    margin-left: 24%;
-    margin-right: 24%;
     font-family:'Orbitron'; 
     font-weight: 600;
     display: flex;
