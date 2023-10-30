@@ -1,9 +1,9 @@
 #continuesbg{
-  background-image:  linear-gradient(
+  /* background-image:  linear-gradient(
     rgba(27, 0, 37, 0.867),
     rgba(207, 74, 255, 0), 
     rgba(27, 0, 37, 0.867)
-  ),url('../../imgs/homebg.webp');
+  ),url('../../imgs/homebg.webp'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -48,11 +48,11 @@
     z-index: 1;
     display: flex;
     margin: auto;
-    background-image:  linear-gradient(
+    /* background-image:  linear-gradient(
       rgba(27, 0, 37, 0.867),
       rgba(207, 74, 255, 0), 
       rgba(27, 0, 37, 0.867)
-    ), url('../../imgs/homebg.webp');
+    ), url('../../imgs/homebg.webp'); */
     background: radial-gradient(#10011b, #9198e500);
   }
  

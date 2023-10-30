@@ -6,7 +6,8 @@ import './style.css'
 const Project = (id) => {
   const [loading, setLoading] = useState(false);
   const [project, setProject] = useState({});
-//   const { id } = useParams()
+  const [likeNumber, setLikeNumber] = useState()
+
     async function like(id,value) {
         const options = {
             method: "PATCH",
@@ -17,18 +18,12 @@ const Project = (id) => {
             })
         }
         const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id}`, options);
-        const data = await response.json();
-
-        async function loadProject() {
-            const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id}`);
-            const data = await response.json();
-            setProject(data);
-            setLoading(false);
-        };
-
-        loadProject();
+        // const data = 
+        await response.json();
+        // console.log(data)
+        
+        setLikeNumber(likeNumber + 1)
     }   
-
     useEffect(() => {
         setLoading(true);
         async function loadProject() {
@@ -36,12 +31,14 @@ const Project = (id) => {
             const data = await response.json();
             setProject(data);
             setLoading(false);
-            // console.log(id.id)
+            setLikeNumber(data.likes)
         };
-
         loadProject();
+        
+    }, []) 
+   
 
-    }, [])
+
     if(project.img === undefined){
         return null
     }
@@ -90,8 +87,8 @@ const Project = (id) => {
                     <div id = 'text'className='projectinfo' ><div>{finishedText}</div></div>
                     {imgOrVid()}
                     <div className='likesection'>
-                        <button className='likebtn' onClick={() => like(id, 1)}></button>
-                        <div className="likes-counter"> {project.likes} </div>
+                        <button className='likebtn' onClick={() => (like(id.id, 1))}></button>
+                        <div className="likes-counter"> {likeNumber} </div>
                     </div>   
                 </div>
                 {/* <Link className = "backbtn" to="/projects"> Back </Link> */}

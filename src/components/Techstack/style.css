@@ -14,16 +14,16 @@
 }
 .langgrid{
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  margin: 2%;
-  gap: 1%;
-  margin-top: 5%;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  gap: 0.5vw;
+  margin-top: 15%;
 
 }
 img{
   display: flex;
   /* width: 10%; */
-  width: 0;
+  width: 80%;
   min-height:3.5em;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@ img{
 .BEgrid{
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  margin:2%;
+  margin:auto;
   /* gap: 1%; */
 }
 .TechSecBE{
@@ -67,8 +67,8 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 }
 .FEgrid{
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  margin:2%;
+  grid-template-columns: auto auto auto;
+  margin:auto;
   gap: 1%;
 }
 .TechSecFE{
@@ -87,10 +87,10 @@ box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
 
 .Dgrid{
   display: grid;
-  grid-template-columns: 50% 50% ;
+  grid-template-columns: auto auto;
   margin: auto;
-  margin:2%;
-  gap: 1%;
+  /* margin:2%; */
+  /* gap: 1%; */
   margin-top: 25%;
   margin-bottom: 30%;
 }

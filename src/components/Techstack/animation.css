@@ -7,25 +7,25 @@
 
 @keyframes rolloverLeft {
     0% {
-        transform: translateY(-1em) perspective(110rem) rotateY(30deg)
+        transform: translateY(-1em) perspective(110rem) rotateY(20deg)
     } 
     50%{
-        transform: translateY(-2em) perspective(110rem) rotateY(30deg)
+        transform: translateY(-2em) perspective(110rem) rotateY(20deg)
     
     }
     100%{
-        transform: translateY(-1em) perspective(110rem) rotateY(30deg)
+        transform: translateY(-1em) perspective(110rem) rotateY(20deg)
     }
 }
 @keyframes rolloverRight {
     0% {
-        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+        transform: translateY(-1em) perspective(110rem) rotateY(-20deg)
     } 
     50%{
-        transform: translateY(-2em) perspective(110rem) rotateY(-30deg)
+        transform: translateY(-2em) perspective(110rem) rotateY(-20deg)
     
     }
     100%{
-        transform: translateY(-1em) perspective(110rem) rotateY(-30deg)
+        transform: translateY(-1em) perspective(110rem) rotateY(-20deg)
     }
 }
