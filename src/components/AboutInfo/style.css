@@ -88,7 +88,7 @@
 .techstacksection{
   margin-top: 5%;
   height: 100vh;
-  background-image: linear-gradient(rgb(25, 5, 40),rgb(113, 64, 131), rgba(48, 18, 58, 0));
+  background-image: linear-gradient(rgba(25, 5, 40, 0),rgb(113, 64, 131), rgba(48, 18, 58, 0));
 }
 .fade-about-info-items-2 {
   position: relative;
