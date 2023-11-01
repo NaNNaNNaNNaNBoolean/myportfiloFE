@@ -2,15 +2,15 @@
 .me{
     background-image: url('../../imgs/Nicole_French.png');
     width: 45vh;
-    min-width: 10vh;
+    /* min-width: 10vh; */
     height: 45vh;
-    min-height: 10vh;
+    /* min-height: 10vh; */
     background-size: cover;
     border-radius: 2em;
     display: flex;
     margin: auto;
     margin-top: 19vh;
-    margin-right: 24vh;
+    /* margin-right: 24vh; */
     justify-content: center;
     align-items: center;
     border: 0.1em solid rgb(19, 19, 19);
