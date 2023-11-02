@@ -106,8 +106,8 @@
   .welcomeloader{
     font-size: 5vh;
     margin: auto;
-    margin-top: 60%;
-    margin-left: 20%;
+    /* margin-top: 60%;
+    margin-left: 20%; */
     font-family:'Orbitron'; 
     font-weight: 600;
   }

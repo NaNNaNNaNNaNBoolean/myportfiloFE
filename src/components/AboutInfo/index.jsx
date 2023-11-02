@@ -18,7 +18,7 @@ const AboutInfo = () => {
     return (
         <> 
             <section className='sectionabouteffect' ref={ref} style={{margin:'0'}}>
-                    <div className='fade-about-info-items'>
+                <div className='fade-about-info-items'>
                     <p> With a passion for tech, self-development and the creative arts. I strive to be a part of something that will help me further myself and my skills as well as also having a meaningful impact on the world around. I'm all about continuous improvement! I'm always trying out random ideas and experimenting with my code to see how I can make it come to life!  </p>
                     <br></br>
                     <p>Since graduating, with my MEng in Electronic Engineering, I have completed a 12 week intensive training course with La Fosse Academy expanding my technical knowledge and further improving my skill sets when it comes to software development!</p>
@@ -34,10 +34,9 @@ const AboutInfo = () => {
                     <br></br>
                     <button  onClick={handleClick} className='goToProjects'><span className='glowing-txt'>SEE PROJECTS</span></button>
                 </div>
-                <div className='imglinks' >
-                    <div className='me'></div>
-                    {/* <button onClick={handleClick} className='goToProjects'><span>See Projects</span></button> */}
-                </div>
+                
+                <div className='me'></div>
+    
                 <div className='arrowcontainer'>
                     <svg id='techarrows' className="arrows">
                         <path class="a1" d="M0 0 L30 32 L60 0"></path>
