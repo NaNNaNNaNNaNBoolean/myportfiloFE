@@ -60,7 +60,7 @@
     height: 25vh;
     min-height: 5rem;
     margin-bottom: -1.2vh;
-    margin-right: 0;
+    /* margin-right: 0; */
     background-image: url('../../imgs/box.png');
     background-size: cover;
     background-size:100% 100%;
