@@ -146,13 +146,16 @@
     /* .langgrid{
       margin-top: 50%;
     } */
-    .TechSecLang h3{
+    /* .TechSecLang h3{
       font-size: smaller;
-    }
+    } */
 
     #techarrows{
       /* margin: auto; */
       margin-top: -10%;
+    }
+    .TechSecFE h3{
+      font-size: larger;
     }
     .TechSecD h3{
       font-size: smaller;
@@ -351,21 +354,21 @@
   margin: 0;
   background-size: cover;
   }
-  .TeckStackList{
+  /* .TeckStackList{
   grid-template-columns: 100%;
-  }
+  } */
   img{
   width: 20%;
   height: 20%;
   }
-  .langgrid{
+  /* .langgrid{
   grid-template-columns: auto auto auto auto;
   
   }
   .BEgrid{
   grid-template-columns: auto auto auto ;
   
-  }
+  } */
   
   #techarrows{
     margin: auto;
