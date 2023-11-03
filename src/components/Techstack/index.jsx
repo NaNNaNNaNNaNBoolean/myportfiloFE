@@ -45,7 +45,7 @@ const Techstack = () => {
         </div>
        
         <div className='TechSecBE' id = 'moveALittleRight'>
-          <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Backend Tools </h3>
+          <h3 style = {{marginBottom: '0.5em', color:'#fff'}}> Backend </h3>
   
           <div className='BEgrid'>
             <img src = {Node} style = {{height: '4vh', width: '7vw', marginBottom:'1em'}}></img>
@@ -63,7 +63,7 @@ const Techstack = () => {
           
         </div>
         <div className='TechSecFE' id = 'moveALittleLeft'>
-          <h3 style = {{marginBottom: '0.5em', color:'#fff'}}>    Frontend Tools    </h3>
+          <h3 style = {{marginBottom: '0.5em', color:'#fff'}}>    Frontend    </h3>
           <div className='FEgrid'>
             <img src = {Html} style = {{height: '4vh', width: '4vw', marginBottom:'1em' }}></img>
             <img src = {Css} style = {{height: '4vh', width: '3vw', marginBottom:'1em'}}></img>

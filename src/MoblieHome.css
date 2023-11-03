@@ -133,7 +133,11 @@
       }
       
     .TeckStackList{
+      margin: auto;
       margin-top: 20%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      /* grid-template-columns: auto auto; */
       gap:0vh;
     }
     /* img{
@@ -154,9 +158,9 @@
       /* margin: auto; */
       margin-top: -10%;
     }
-    .TechSecFE h3{
+    /* .TechSecFE h3{
       font-size: medium;
-    }
+    } */
     .TechSecD h3{
       font-size: smaller;
     }
