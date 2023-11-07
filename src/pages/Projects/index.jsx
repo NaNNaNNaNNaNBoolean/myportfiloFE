@@ -118,7 +118,6 @@ const Projects = () => {
     }
   }
 
-
     // if ($(".selected").length === 0) {
     // $(".projectitem")
     //   .first()
@@ -150,7 +149,7 @@ const Projects = () => {
     animationPlayState: style ? 'running' : '', 
     animation: LeftRight ? 'slide-left-click 3s linear forwards' : ''
   }
-  const robotStyle = {animationPlayState: clicked ? 'running' : '', display: clicked ? 'block' : 'none'}
+  // const robotStyle = {animationPlayState: clicked ? 'running' : '', display: clicked ? 'block' : 'none'}
 
   const myStyleList = {display: clicked ? 'block' : 'none'}
 

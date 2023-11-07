@@ -130,3 +130,6 @@
     text-align: center;
     animation: pulsate 0.11s ease-in-out infinite alternate;  
 }
+.likes-counter{
+    background-color: rgba(72, 72, 72, 0.948);
+}

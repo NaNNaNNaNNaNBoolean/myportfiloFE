@@ -7,8 +7,8 @@ const Project = (id) => {
   const [loading, setLoading] = useState(false);
   const [project, setProject] = useState({});
   const [likeNumber, setLikeNumber] = useState()
-
-    async function like(id,value) {
+       
+      async function like(id,value) {
         const options = {
             method: "PATCH",
             headers: { 'Content-Type': 'application/json' },    
@@ -17,27 +17,23 @@ const Project = (id) => {
                 project_likes: value
             })
         }
-        const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id}`, options);
-        // const data = 
-        await response.json();
-        // console.log(data)
+        const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id}`, options)
+        const body = await response.json()
+        setLikeNumber(body.likes)
+      }     
         
-        setLikeNumber(likeNumber + 1)
-    }   
-    useEffect(() => {
-        setLoading(true);
-        async function loadProject() {
-            const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id.id}`);
-            const data = await response.json();
-            setProject(data);
-            setLoading(false);
-            setLikeNumber(data.likes)
-        };
-        loadProject();
-        
-    }, []) 
-   
-
+  useEffect(() => {
+    setLoading(true);  
+    async function loadProject() {
+        const response = await fetch(`https://nmfportfilobe.onrender.com/projects/${id.id}`);
+        const data = await response.json();
+        setProject(data);
+        setLikeNumber(data.likes);
+        setLoading(false);
+    };
+    loadProject();
+       
+  },[]) 
 
     if(project.img === undefined){
         return null
@@ -49,13 +45,9 @@ const Project = (id) => {
         alignItems: 'center',
         justifyContent: 'center',
         margin: 'auto',
-        // width: '20em',
         width: '40%',
-        // maxHeight: '20em',
         minHeight: '20em',
-        backgroundSize: '100% 100%',
-        // backgroundSize: 'cover'
-     
+        backgroundSize: '100% 100%'
     };
     
     const imgOrVid= () => {
@@ -64,15 +56,13 @@ const Project = (id) => {
     }else{ return <div className='projimg' style={myStyle}></div>}
     }
     
-    const $this = project.description
+    // const $this = project.description
     const formatedText = project.description.replace(/<br\s*\\?>/g, '\r\n\.<br>')
     const finishedText = formatedText.split(/[\r\n]+/).map(line => <div>{line}</div>)
      //.html($this.text().replace(/\.\s/g, '.<br>'))
     // var newText = document.getElementById('text')
     // newText.html(newText.text().replace(/\.\s/g, '.<br>'));
-
     //.replace(/<br\s*\\?>/g, "\r\n");
-
     // $('span').html($('span').text().replace(/\.\s/g, '.<br>'))}
     function displayProject() {
         return (
@@ -80,18 +70,16 @@ const Project = (id) => {
                 <div className='neontitleback'>
                     <h1 className="project-title">{project.name}</h1>
                 </div>
-                {/* <h2 className='projectsub'><b>*section is under development*</b></h2> */}
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
                    
                     <div id = 'text'className='projectinfo' ><div>{finishedText}</div></div>
                     {imgOrVid()}
                     <div className='likesection'>
-                        <button className='likebtn' onClick={() => (like(id.id, 1))}></button>
+                        <button className='likebtn' onClick={() =>like(id.id, 1)} ></button>
                         <div className="likes-counter"> {likeNumber} </div>
                     </div>   
                 </div>
-                {/* <Link className = "backbtn" to="/projects"> Back </Link> */}
                 
             </div>
         ) 

@@ -16,7 +16,6 @@
   margin-top: -110%;
   width: 100vw;
   height: 100vh;
-
   z-index: 200;
   }
 
@@ -25,7 +24,7 @@
   padding: 2em;
   border-radius: 2.2em;
   width: 80%;
-  z-index: 220;
+  z-index: 200;
   
   --glow-color: hsl(283, 100%, 50%);
 
