@@ -23,18 +23,18 @@
     /*like button*/
     .likebtn{
         margin-right: 0.5em;
-        background: none;
+        /* background: none;
         border: 0;
         padding: 1em;
         display: inline-block;
-        width: 0.3em;
+        width: 0.3em; */
     }
-    .likesection{
+    /* .likesection{
         display: flex;
         margin: auto;
         justify-content: center;
         margin-top: 1em;
-    }
+    } */
     
     /*title */
     .neontitleback{
@@ -78,20 +78,20 @@
   .likebtn{
       /* grid-column: end; */
       margin-right: 0.5em;
-      background: none;
+      /* background: none;
       border: 0;
       padding: 1em;
       display: inline-block;
-      width: 0.3em;
+      width: 0.3em; */
       /* aspect-ratio: 1; */
   
   }
-  .likesection{
+  /* .likesection{
       display: flex;
       margin: auto;
       justify-content: center;
       margin-top: 1em;
-  }
+  } */
 
    /*title */
   .neontitleback{

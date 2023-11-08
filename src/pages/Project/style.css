@@ -82,11 +82,14 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 .likebtn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
     margin-right: 0.5em;
     background: none;
     border: 0;
     padding: 1em;
-    display: inline-block;
     width: 0.3em;
     border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
@@ -95,8 +98,20 @@
 .likesection{
     display: flex;
     margin: auto;
-    justify-content: center;
-    margin-top: 1em;
+    justify-content: flex-end;
+    margin-right: 2%;
+
+}
+.likecontainershape{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1%;
+  --glow-color: hsl(283, 100%, 50%);
+  background-color: #434343;
+  color: var(--glow-color);
+  border: 0.1rem solid var(--glow-color);
+  border-radius: 1rem;
+  box-shadow: inset 0px 0px 0.2em 0px var(--glow-color),0px 0px 0.2em 0px var(--glow-color); 
 }
 .infocontainer{
     background-color: rgba(86, 86, 86, 0.127);
@@ -131,5 +146,11 @@
     animation: pulsate 0.11s ease-in-out infinite alternate;  
 }
 .likes-counter{
-    background-color: rgba(72, 72, 72, 0.948);
+    /* margin: auto; */
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(200, 72, 255);
+    background-color: #434343;
 }

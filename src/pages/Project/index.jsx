@@ -72,13 +72,16 @@ const Project = (id) => {
                 </div>
                 <h2 className='projectsub'>{project.subhead}</h2>
                 <div className='infocontainer'>
-                   
+                   <div className='likesection' >
+                    <div className='likecontainershape'>
+                         <button className='likebtn' onClick={() =>like(id.id, 1)} ></button>
+                        <div className="likes-counter"> {likeNumber} </div>
+                    </div>
+                       
+                    </div>   
                     <div id = 'text'className='projectinfo' ><div>{finishedText}</div></div>
                     {imgOrVid()}
-                    <div className='likesection'>
-                        <button className='likebtn' onClick={() =>like(id.id, 1)} ></button>
-                        <div className="likes-counter"> {likeNumber} </div>
-                    </div>   
+                    
                 </div>
                 
             </div>
